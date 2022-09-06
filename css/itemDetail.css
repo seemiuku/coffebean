@@ -1,0 +1,130 @@
+*{
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+.itemDetail{
+    margin-top: 50px;
+}
+.item {
+    height: 550px;
+}
+.imgbox{
+    margin-top: 30px;
+}
+.itemImg {
+    text-align: center;
+    width: 350px;
+    height: 350px;
+    border: 1px solid rgb(184, 184, 184);
+    margin-top: 10px;
+}
+.itemImg img{
+    width: 100%;
+    height: 100%;
+}
+.itemSubImg {
+    width: 350px;
+    border: 1px solid rgb(184, 184, 184);
+    padding: 10px;
+}
+.itemSubImg img {
+    width: 70px;
+}
+ul {
+    list-style: none;
+}
+li {
+    display: inline-block;
+}
+.itemTable{
+    width: 100%;
+    height : 420px;
+}
+.itemTable table {
+    width: 100%;
+    height: 100%;
+}
+.itemTable th {
+    font-size: 20px;
+}
+.itemTable td, th {
+    border-bottom: 1px solid gray;
+    padding-left: 10px;
+}
+.itemTable td:nth-child(1){
+    width: 40%;
+    color: rgb(100, 100, 100);
+    
+}
+.itemTable tr:nth-child(6), .itemTable tr:nth-child(5){
+    background-color: rgb(240, 240, 240);
+}
+.count {
+    border: 1px solid gray;
+    padding: 5px;
+    background-color: white;
+}
+.itemTableBtn {
+    width: 100%;
+}
+.itemTableBtn input:nth-child(1){
+    background-color: rgb(77, 77, 252);
+    color: white;
+    width: 49%;
+    height: 50px;
+}
+.itemTableBtn input:nth-child(2){
+    background-color:chocolate;
+    color: white;
+    width: 49%;
+    height: 50px;
+}
+.nav-item {
+    margin: 0;
+}
+.nav-tabs{
+    justify-content: center;
+}
+.nav-item a{
+    color: black;
+}
+.nav-item a:visited{
+    color: black;
+}
+.nav-item a:hover{
+    color:chocolate;
+}
+.reviewTable, .QnATable{
+    width: 100%;
+    text-align: center;
+}
+.reviewTable th, .QnATable th {
+    text-align: left;
+}
+.reviewTable td:nth-child(1), .QnATable td:nth-child(1) {
+    width: 10%;
+}
+.reviewTable td:nth-child(3), .QnATable td:nth-child(3){
+    width: 15%;
+}
+.reviewTable td:nth-child(4), .QnATable td:nth-child(4){
+    width: 15%;
+}
+.QnATable td:nth-child(5) {
+    width: 10%;
+}
+.reviewTable th, .QnATable th{
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+.reviewTable td, .QnATable td{
+    border-bottom: 1px solid rgb(190, 190, 190);
+    padding: 10px;
+}
+.detailTap, .review, .itemQnA{
+    margin-bottom: 300px;
+}
