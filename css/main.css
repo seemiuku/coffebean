@@ -1,3 +1,4 @@
+
 *{
     /* border: 1px solid red; */
     margin: 0 auto;
@@ -75,4 +76,5 @@ h2 {
 .mainInfo a:visited {
     text-decoration: none;
     color: black;
+
 }
