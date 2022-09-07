@@ -3,13 +3,6 @@
     margin: 0 auto;
     padding: 0;
 }
-a{
-    text-decoration: none;
-    color: black;
-}
-.main {
-    margin-top: 30px;
-}
 .carousel-item img {
     height: 350px;
 }
@@ -45,14 +38,6 @@ h2 {
     border: 1px solid rgb(156, 156, 156);
     border-radius: 5px;
 }
-.BestPlus a, .NewPlus a {
-    text-decoration: none;
-    color: black;
-}
-.BestPlus a:hover, .NewPlus a:hover {
-    text-decoration: none;
-    color:chocolate;
-}
 #carouselExampleSlidesOnly {
     border: 1px solid rgb(189, 189, 189);
 }
@@ -60,19 +45,11 @@ h2 {
     border: 1px solid rgb(189, 189, 189);
 }
 .mainInfo1, .mainInfo2, .mainInfo3, .mainInfo4 {
-    text-align: center;
-    padding: 20px;
+    margin: 20px;
 }
 .mainInfo1, .mainInfo2, .mainInfo3 {
     border-right: 1px dashed rgb(206, 206, 206);
 }
 .mainInfo span {
     font-size: 14px;
-}
-.mainInfo a:hover{
-    text-decoration: none;
-}
-.mainInfo a:visited {
-    text-decoration: none;
-    color: black;
 }
