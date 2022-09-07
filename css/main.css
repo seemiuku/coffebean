@@ -1,6 +1,6 @@
 
 *{
-    /* border: 1px solid red; */
+    border: 1px solid red;
     margin: 0 auto;
     padding: 0;
 }
@@ -19,6 +19,31 @@ a{
 }
 h2 {
     text-align: center;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.3s ease;
+}
+.overlayIn{
+    margin-top: 60px;
+}
+.mainBestItem{
+    padding: 10px;
+}
+.mainBestItem1:hover .overlay{
+    opacity: 0.8;
+    background-color:rgb(218, 216, 216);
+}
+.mainNewItem1:hover .overlay{
+    opacity: 0.8;
+    background-color:rgb(218, 216, 216);
 }
 .mainBestTitle, .mainNewTitle {
     text-align: center;
@@ -70,11 +95,19 @@ h2 {
 .mainInfo span {
     font-size: 14px;
 }
+.mainInfo a{
+    text-decoration: none;
+    color: black;
+}
 .mainInfo a:hover{
     text-decoration: none;
+    color: black;
 }
 .mainInfo a:visited {
     text-decoration: none;
     color: black;
-
+}
+.mainInfo1 img {
+    width: 30px;
+    height: 30px;
 }
