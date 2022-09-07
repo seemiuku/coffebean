@@ -66,4 +66,9 @@
 }
 .ibox1 img{
   width: 150px;
+  
+}
+.ibox1{
+  display: flex;
+  justify-content:flex-start;
 }
