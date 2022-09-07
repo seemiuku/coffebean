@@ -28,8 +28,9 @@ html {
 }
 .itemSubImg {
     width: 350px;
+}
+.itemSubImg li {
     border: 1px solid rgb(184, 184, 184);
-    padding: 10px;
 }
 .itemSubImg img {
     width: 70px;
@@ -97,6 +98,23 @@ li {
 }
 .nav-item a:hover{
     color:chocolate;
+}
+.accordionBoard a{
+    text-decoration: none;
+    color: black;
+}
+.accordionBoard a:hover{
+    text-decoration: none;
+    color: black;
+}
+.accordionBoard a:visited{
+    text-decoration: none;
+    color: black;
+}
+.accordionBoardBody {
+    color: chocolate;
+    padding-top: 15px;
+    border: 1px solid rgb(202, 202, 202);
 }
 .reviewTable, .QnATable{
     width: 100%;

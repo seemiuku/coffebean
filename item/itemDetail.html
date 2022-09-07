@@ -59,7 +59,7 @@
             </div>
         </div><br><br>
         <div class="container">
-            <ul class="nav nav-tabs">
+            <ul class="nav nav-tabs" id="goDetail">
                 <li class="nav-item">
                   <a class="nav-link active" href="#goDetail">상품상세설명</a>
                 </li>
@@ -71,13 +71,13 @@
                 </li>
             </ul>
         </div><br>
-        <div class="container detailTap" id="goDetail">
+        <div class="container detailTap">
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p><br>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p><br>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div><br><br><br>
         <div class="container">
-            <ul class="nav nav-tabs">
+            <ul class="nav nav-tabs" id="goReview">
                 <li class="nav-item">
                   <a class="nav-link" href="#goDetail">상품상세설명</a>
                 </li>
@@ -89,27 +89,65 @@
                 </li>
             </ul>
         </div><br>
-        <div class="container review" id="goReview">  
+        <div class="container review">  
             <table class="reviewTable">
                 <tr>
                     <th colspan="5">상품후기</th>
                 </tr>
                 <tr>
                     <td>#</td>
-                    <td>상품후기1111</td>
+                    <td>
+                        <div class="accordionBoard" id="accordion" role="tablist" aria-multiselectable="true">      
+                            <div class="accordionBoard accordionBoardDefault">        
+                                <div class="accordionBoardHeading" role="tab">          
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false">           
+                                        상품후기1111         
+                                    </a>        
+                                </div>        
+                                <div id="collapse1" class="accordionBoardCollapse collapse" role="tabpanel">          
+                                    <div class="accordionBoardBody">            
+                                        <p>후기1</p>          
+                                        <p>사지마세요</p>
+                                        <p>1234</p>
+                                        <p>5678</p>
+                                        <p>1111</p>
+                                    </div>        
+                                </div>      
+                            </div>
+                        </div>
+                    </td>
                     <td>이름1111</td>
                     <td>####.##.##</td>
                 </tr>
                 <tr>
                     <td>#</td>
-                    <td>상품후기2222</td>
+                    <td>
+                        <div class="accordionBoard" id="accordion" role="tablist" aria-multiselectable="true">      
+                            <div class="accordionBoard accordionBoardDefault">        
+                                <div class="accordionBoardHeading" role="tab">          
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="false">           
+                                        상품후기2222         
+                                    </a>        
+                                </div>        
+                                <div id="collapse2" class="accordionBoardCollapse collapse" role="tabpanel">          
+                                    <div class="accordionBoardBody">            
+                                        <p>후기2</p>          
+                                        <p>사지마세요</p>
+                                        <p>1234</p>
+                                        <p>5678</p>
+                                        <p>1111</p>
+                                    </div>        
+                                </div>      
+                            </div>
+                        </div>
+                    </td>
                     <td>이름2222</td>
                     <td>####.##.##</td>
                 </tr>
             </table>
         </div><br><br><br>
         <div class="container">
-            <ul class="nav nav-tabs">
+            <ul class="nav nav-tabs" id="goitemQnA">
                 <li class="nav-item">
                   <a class="nav-link" href="#goDetail">상품상세설명</a>
                 </li>
@@ -121,21 +159,59 @@
                 </li>
             </ul>
         </div><br>
-        <div class="container itemQnA" id="goitemQnA">
+        <div class="container itemQnA">
             <table class="QnATable">
                 <tr>
                     <th colspan="5">상품문의</th>
                 </tr>
                 <tr>
                     <td>#</td>
-                    <td>상품문의1111</td>
+                    <td>
+                        <div class="accordionBoard" id="accordion" role="tablist" aria-multiselectable="true">      
+                            <div class="accordionBoard accordionBoardDefault">        
+                                <div class="accordionBoardHeading" role="tab">          
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false">           
+                                        상품문의1111         
+                                    </a>        
+                                </div>        
+                                <div id="collapse3" class="accordionBoardCollapse collapse" role="tabpanel">          
+                                    <div class="accordionBoardBody">            
+                                        <p>문의1</p>          
+                                        <p>배송문의</p>
+                                        <p>1111</p>
+                                        <p>3333</p>
+                                        <p>1111</p>
+                                    </div>        
+                                </div>      
+                            </div>
+                        </div>
+                    </td>
                     <td>이름1111</td>
                     <td>####.##.##</td>
                     <td>답변대기</td>
                 </tr>
                 <tr>
                     <td>#</td>
-                    <td>상품문의2222</td>
+                    <td>
+                        <div class="accordionBoard" id="accordion" role="tablist" aria-multiselectable="true">      
+                            <div class="accordionBoard accordionBoardDefault">        
+                                <div class="accordionBoardHeading" role="tab">          
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false">           
+                                        상품문의2222        
+                                    </a>        
+                                </div>        
+                                <div id="collapse4" class="accordionBoardCollapse collapse" role="tabpanel">          
+                                    <div class="accordionBoardBody">            
+                                        <p>문의2</p>          
+                                        <p>상품문의</p>
+                                        <p>1111</p>
+                                        <p>2222</p>
+                                        <p>1111</p>
+                                    </div>        
+                                </div>      
+                            </div>
+                        </div>
+                    </td>
                     <td>이름2222</td>
                     <td>####.##.##</td>
                     <td>답변완료</td>
