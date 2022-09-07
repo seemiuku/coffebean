@@ -1,0 +1,27 @@
+
+#join p{
+    text-align: center;
+}
+
+.container{
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.jointxt{
+    width: 100%;
+}
+
+#joinform{
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+
+#joinbtn{
+    width: 20%;
+    margin: 0 auto;
+}
+
