@@ -97,7 +97,8 @@ li {
     color: black;
 }
 .nav-item a:hover{
-    color:chocolate;
+    color:rgb(0, 0, 0);
+    font-weight: bold;
 }
 .accordionBoard a{
     text-decoration: none;
