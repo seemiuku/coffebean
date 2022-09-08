@@ -1,0 +1,37 @@
+*{
+    width: 60%;
+    min-width: 1000px;
+    margin: 0 auto;
+}
+.answer {
+    display: none;
+    padding-bottom: 20px;
+    font-size: 15px;
+  }
+  #faq-title {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+
+  }
+  .faq-content {
+    border-bottom: 1px solid #F0EBE0;
+  }
+  .question {
+    font-size: 15px;
+    padding: 17px 0;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+  }
+  .question:hover {
+    color: #7f552e;
+    font-weight: 600;
+  }
+  [id$="-toggle"] {
+    margin-right: 15px;
+  }
