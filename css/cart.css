@@ -3,15 +3,22 @@
     margin: 0 auto;
     padding: 0;
 }
+.mybody{
+    width: 60%;
+min-width: 1000px;
+}
 .row{
-    float: none;
+    /* float: none; */
+    align-items: stretch;
+    margin-top: 30px;
 }
 .cart{
     margin: 0;
-    width: fit-content;
+    width: 80%;
 }
 .user{
-    margin: 0;
+    margin-top: 30px;
+
 }
 .cartTable0 table{
     width: 100%;
@@ -45,11 +52,16 @@
 .caution span{
     font-size: 14px;
 }
+
+.userImg{
+    padding: auto;
+}
 .userImg img{
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     margin-top: 10%;
     border-radius: 70%;
     overflow: hidden;
     object-fit: cover;
+
 }
