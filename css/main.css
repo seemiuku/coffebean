@@ -1,6 +1,6 @@
 
 *{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0 auto;
     padding: 0;
 }
@@ -34,16 +34,24 @@ h2 {
 .overlayIn{
     margin-top: 60px;
 }
+.overlayIn img{
+    margin-right: 10px;
+    margin-left: 10px;
+}
 .mainBestItem{
     padding: 10px;
 }
+.mainBestItem1 a {
+    width: 100%;
+    height: 100%;
+}
 .mainBestItem1:hover .overlay{
     opacity: 0.8;
-    background-color:rgb(218, 216, 216);
+    background-color:rgb(150, 150, 150);
 }
 .mainNewItem1:hover .overlay{
     opacity: 0.8;
-    background-color:rgb(218, 216, 216);
+    background-color:rgb(150, 150, 150);
 }
 .mainBestTitle, .mainNewTitle {
     text-align: center;
