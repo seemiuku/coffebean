@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>1:1문의게시판</title>  
+  <!-- Main CSS : Header, Main, Footer -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/one2one.css">
+  <link rel="stylesheet" href="css/one2oneList.css">
+  
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <!-- Bootstarp JS -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+  
+  <script>
+    $(document).ready(function(){
+      $('#headerTop').load("/headerTop.html");
+      $('#header').load("/header.html");     
+      $('#footer').load("/footer.html");
+    });
+  </script>
+
+</head>
+<body>
+  <!-- 헤더 -->
+  <div id="headerTop"></div>
+  <div id="header" class="sticky-top"></div>
+
+  <!-- 메인 -->
+    <h2 class="one2one_title">1:1문의 게시판</h2>
+    <div>
+        <table class="one2onetable">
+            <thead>
+                <tr>
+                    <th>NO.</th>
+                    <th>구분</th>
+                    <th>글제목</th>
+                    <th>작성자</th>
+                    <th>날짜</th>
+                    <th>조회</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- <c:forEach var="dto" items="${ list }" varStatus="status"> -->
+                <tr>
+                    <td>${ dto.BOARD_IDX }</td>
+                    <td>구분</td>
+                    <td width="100%"><a href="/viewDTO?board_idx=${ dto.BOARD_IDX }">
+                        ${ dto.BOARD_CONTENT }</td>
+                    <td>${ dto.BOARD_NAME }</td>
+                    <td width="17%">
+                        <fmt:formatDate value="${ dto.BOARD_DATE }" pattern = "yyyy-MM-dd"/></td>
+                    <td>${ dto.BOARD_HIT }</td>
+                </tr>
+                <!-- </c:forEach> -->
+            </tbody>
+            <span class="formBtn"><a href="/one2one.html" class="formBtn">글작성</a></span>
+        </table>
+    </div>
+
+  <!-- 푸터 -->
+  <div id="footer"></div>
+
+</body>
+</html>

@@ -13,18 +13,18 @@ textarea{
     margin: 30px;
     display: flex;
     justify-content: center;
-    font-family: 'Times New Roman', Times, serif;
+    /* font-family: 'Times New Roman', Times, serif; */
     color: rgba(100, 56, 16, 0.753);
 }
 .btn{
     margin: 50px;
     display: flex;
     justify-content: center;
-    font-family: 'Times New Roman', Times, serif;
+    /* font-family: 'Times New Roman', Times, serif; */
 }
 td{
     padding: 7px;
-    font-family: 'Times New Roman', Times, serif;
+    /* font-family: 'Times New Roman', Times, serif; */
 }
 .one2one{
     width: 250px;

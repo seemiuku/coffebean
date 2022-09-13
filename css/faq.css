@@ -1,4 +1,4 @@
-ul{
+/* ul{
   list-style-type: none;
   background-color: #F0EBE0;
   width: 10%;
@@ -7,17 +7,17 @@ ul{
   position: fixed;
   height: 100%;
   overflow: auto;
-}
+} */
 *{
   list-style: none;
 }
-.container{
+/* .container{
     width: 60%;
     min-width: 1000px;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
-}
+} */
 .answer {
     display: none;
     padding-bottom: 20px;

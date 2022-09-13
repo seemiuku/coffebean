@@ -3,7 +3,7 @@
     display : block;
     justify-content : center;
     padding: 50px;
-    font-family: 'Times New Roman', Times, serif;
+    /* font-family: 'Times New Roman', Times, serif; */
 }
 .id_box{
     margin: 2px;

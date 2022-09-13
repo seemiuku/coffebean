@@ -1,0 +1,18 @@
+*{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+.formBtn {
+    width: 200px;
+    height: 50px;
+    background-color: #9a6c45;
+    color: white;
+}
+
+th{
+    border: 1px solid rgba(124, 108, 101, 0.425);
+    color: rgba(100, 56, 16, 0.753);
+    text-align: center;
+}
