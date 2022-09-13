@@ -1,74 +1,43 @@
 
 *{
-    /* border: 1px solid red; */
     margin: 0 auto;
     padding: 0;
 }
+
+.main{
+    width: 60%;
+    min-width: 1000px;
+    height: auto;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: #101010;
+}
+
 .carousel-item img {
     width: 100%;
-    min-width: 1000px;
     height: 500px;
 }
 .mainAd img {
     height: 200px;
 }
-h2 {
-    text-align: center;
+.mainBanner{
+    width: 100%;
+    min-width: 1000px;
+}
+.mainBest, .mainNew, .mainAd{
+    margin-top: 70px;
 }
 .mainBestTitle, .mainNewTitle {
     text-align: center;
 }
-.mainBestItem img {
-    width: 80px;
-    height: 80px;   
-}
-.mainNewItem img {
-    width: 80px;
-    height: 80px;
-}
-.mainBestItem, .mainNewItem {
-    text-align: center;
-    margin-top: 30px;
-}
-.carousel-control-prev, .carousel-control-next {
-    background: none;
-    border: 0;
-}
-.BestPlus, .NewPlus {
-    width: 10%;
-    text-align: center;
-    border: 1px solid rgb(156, 156, 156);
-    border-radius: 5px;
-}
-#carouselExampleSlidesOnly {
-    border: 1px solid rgb(189, 189, 189);
-}
-.mainInfo {
-    border: 1px solid rgb(189, 189, 189);
-}
-.mainInfo1, .mainInfo2 {
-    margin: 20px;
-}
-.mainInfo1 {
-    border-right: 1px dashed #9A6C45;
-}
-.mainInfo span {
-    font-size: 14px;
-}
-
-.main{
-    background-color: aliceblue;
-    width: 60%;
-    min-width: 1000px;
-    font-family: 'Nanum Gothic', sans-serif;
-    color: #101010;
-}
 
 .BestPlus, .NewPlus{
+    margin-top: 50px;
     width: 100px;
     height: 30px;
     line-height: 30px;
     vertical-align: middle;
+    text-align: center;
+    font-size: 16px;
     border: 1px solid #7F552E;
     border-radius: 0;
         
@@ -80,8 +49,44 @@ h2 {
     background-color: #7F552E;
 }
 .BestPlus a:hover, .NewPlus a:hover{
-    width: 100px;
-    height: 30px;
     text-decoration: none;
     color: #F0EBE0;
+}
+
+.bestnew1{
+    margin-top: 15px;
+    font-size: 14px;
+}
+.mainBestItem img {
+    width: 150px;
+    height: 150px;   
+}
+.mainNewItem img {
+    width: 100px;
+    height: 100px;
+}
+.mainBestItem, .mainNewItem {
+    text-align: center;
+    margin-top: 30px;
+}
+.carousel-control-prev, .carousel-control-next {
+    background: none;
+    border: 0;
+}
+.mainAd {
+    border: 1px solid #F0EBE0;
+}
+.mainInfo {
+    border: 1px solid #F0EBE0;
+}
+.mainInfo1, .mainInfo2 {
+    margin: 20px;
+    
+}
+.mainInfo1 {
+    border-right: 1px dashed #9A6C45;
+}
+.mainInfo2 a{
+    text-decoration: none;
+    color: #101010;
 }
