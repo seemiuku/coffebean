@@ -33,3 +33,30 @@ max-width: 1000px;
     text-decoration:none;
     font-weight: bold;
 }
+.member_data table {
+    width: 100%;
+    height: 300px;
+    border: 1px solid rgb(187, 187, 187);
+    text-align: center;
+}
+.member_data th {
+    width: 20%;
+    background-color: rgb(233, 233, 233);
+}
+.member_data td {
+    width: 80%;
+    text-align: left;
+}
+.member_data span {
+    margin-left: 10px;
+}
+.userImg{
+    padding: auto;
+}
+.userImg img{
+    width: 100px;
+    height: 100px;
+    margin-top: 10%;
+    border-radius: 70%;
+    overflow: hidden;
+    object-fit: cover;
