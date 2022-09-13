@@ -17,17 +17,27 @@
         // 코드중복을 피하기 위해 탑헤더/헤더/푸터를 만들어
         // 재사용한다. jquery load함수
         $(document).ready(function(){
-          $('#header').load("../../header-sub.html");    
+          $('#header').load("../../header-sub2.html");    
           $('#footer').load("../../footer-sub.html");
         });
       </script>
+<style>
+
+.btn1-primary {
+    color: #000000a3;
+    background-color: #a2883a80;
+    border-color: #3f53689e;
+}
+
+</style>
+
 
 </head>
 <body>
-  <link rel="stylesheet" href="/css/header.css">
+  <link rel="stylesheet" href="../../css/header.css">
   <link rel="stylesheet" href="/css/adminAction.css">
   <div class="container" style="width: 100%;">
-    <div id="header"></div>
+    <div id="header" style="right: 50px;"></div>
     <div class="commonSection1" style="margin: 0px;">
         <div class="commonContent1">
         
@@ -44,17 +54,17 @@
       
       <div id="adminMain">
         <!-- 사이드메뉴 -->
-          <div id="adminSide">
-            <ul class="sideUl">
-                <li><a href="/admin/admin_notice.html">공지사항 관리</a  ></li>
-                    <li><a href="/admin/admin_member.html" class="">회원 관리</a></li>
-                    <li><a href="/admin/admin_puroductManagement.html">상품 관리</a></li>
-                    <li><a href="/admin/admin_one2one.html">1:1문의 관리</a></li>
-                    <li><a href="/admin/admin_review.html">리뷰 관리</a></li>
-                    <li><a href="/admin/admin_orderManagement.html">주문 관리</a></li>
-                    <li><a href="/admin/admin_productAsk.html">상품문의 관리</a></li>
-            </ul>
-          </div>
+        <div id="adminSide">
+          <ul class="sideUl">
+            <li><button type="button" onclick='location.href="/admin/admin_notice.html"' class="btn btn-warning">공지사항</button></li>                 
+            <li><button type="button" onclick='location.href="/admin/admin_member.html"' class="btn btn-warning">회원관리</button></li>             
+            <li><button type="button" onclick='location.href="/admin/admin_puroductManagement.html"' class="btn btn-warning">상품관리</button></li>       
+            <li><button type="button" onclick='location.href="/admin/admin_one2one.html"' class="btn btn-warning">1:1문의</button></li>            
+            <li><button type="button" onclick='location.href="/admin/admin_review.html"' class="btn btn-warning">리뷰관리</button></li>
+            <li><button type="button" onclick='location.href="/admin/admin_orderManagement.html"' class="btn btn-warning">주문관리</button></li>        
+            <li><button type="button" onclick='location.href="/admin/admin_productAsk.html"' class="btn btn-warning">상품문의</button></li>           
+          </ul>
+        </div>
           <!-- 메인 -->
           <div id="adminSection">
               <div class="adminDiv">
@@ -107,9 +117,9 @@
                             <label for="exampleInputPassword1">가입일</label>
                             <input type="text" class="form-control" id="exampleInputPassword1">
                           </div>
-                          <button type="submit" class="btn btn-primary">수정하기</button>
-                          <button type="submit" class="btn btn-primary">목록가기</button>
-                          <button type="submit" class="btn btn-primary">탈퇴하기</button>
+                          <button type="submit" class="btn btn1-primary">수정하기</button>
+                          <button type="submit" class="btn btn1-primary">목록가기</button>
+                          <button type="submit" class="btn btn1-primary">탈퇴하기</button>
                         </form>
                     </tbody>
               </div>
