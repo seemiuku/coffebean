@@ -1,7 +1,22 @@
+ul{
+  list-style-type: none;
+  background-color: #F0EBE0;
+  width: 10%;
+  padding: 0;
+  margin: 0;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
 *{
+  list-style: none;
+}
+.container{
     width: 60%;
     min-width: 1000px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: row;
 }
 .answer {
     display: none;
@@ -34,4 +49,11 @@
   }
   [id$="-toggle"] {
     margin-right: 15px;
+  }
+#container-left {
+    border: 1px solid #f0ebe0;
+    margin-right: 100px;
+    padding: 20px;
+    margin-top: 50px;
+    height: 200px;
   }
