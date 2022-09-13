@@ -34,12 +34,13 @@ a {
 #adminSide {
 	border: 1px solid #333;
 	flex-grow: 2;
-	
+	background-color: #9a6c45ad;
 	padding: 20px;
 }
 #adminSection {
 	border: 1px solid #333;
 	flex-grow: 10;
+	background-color: #9a781140;
     padding: 18px 16px;
 }
 .adminDiv {
