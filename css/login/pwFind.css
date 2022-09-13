@@ -1,0 +1,26 @@
+.main{
+    text-align: center;
+    display : block;
+    justify-content : center;
+    padding: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.id_box{
+    margin: 2px;
+    padding: 10px;
+    width: 300px;
+    height: 50px;
+}
+p{
+    font-size: smaller;
+}
+.button_box{
+    border: 0px;
+    width: 300px;
+    height: 55px;
+    background-color: #f0ebe0;
+}
+.close_box{
+    border: 0px;
+    background-color: white;
+}

@@ -1,0 +1,22 @@
+.loginForm{
+    padding: 100px;
+    background-color: #f0ebe0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.id_box{
+    margin: 2px;
+    padding: 10px;
+    width: 300px;
+    height: 50px;
+}
+.button_box{
+    border: 0px;
+    width: 300px;
+    height: 55px;
+    background-color: #9a6c45;
+    color: white;
+}
+.find_box{
+    border: 0px;
+    background-color: #f0ebe0;
+}
