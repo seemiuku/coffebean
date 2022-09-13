@@ -6,22 +6,34 @@
 .mybody{
     width: 60%;
 min-width: 1000px;
+max-width: 1000px;
 }
 .row{
     /* float: none; */
     align-items: stretch;
     margin-top: 30px;
+    padding-left: 30px;
 }
 .cart{
-    margin: 0;
+    margin-right: 0;
     width: 80%;
 }
 .user{
-    margin-top: 30px;
-
+    /* position: fixed; */
+    padding-left: 10;
 }
+
 .userList a{
-    color: black;
+    color: #7F552E;
+}
+.userList a:visited{
+    color: #7F552E;
+    text-decoration: none;
+}
+.userList a:hover{
+    color: #7F552E;
+    text-decoration:none;
+    font-weight: bold;
 }
 /* .cartTable0 table{
     width: 100%;

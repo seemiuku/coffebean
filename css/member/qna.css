@@ -12,15 +12,17 @@ max-width: 1000px;
     /* float: none; */
     align-items: stretch;
     margin-top: 30px;
+    /* margin-left: 0;
+    margin-right: 0; */
 }
 .cart{
-    margin: 0;
     width: 80%;
 }
 .user{
-    margin-top: 30px;
-
+    /* position: fixed; */
+    margin-top: 30px
 }
+
 .userList a{
     color: #7F552E;
 }
