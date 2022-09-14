@@ -31,7 +31,8 @@
   <div id="header" class="sticky-top"></div> -->
 
   <!-- 메인 -->
-    <h2 class="one2one_title">1:1문의 게시판</h2>
+    <h2 class="one2one_title">1 : 1 문의 게시판</h2>
+    
     <div>
         <table class="one2onetable">
             <thead>
@@ -56,10 +57,98 @@
                         <fmt:formatDate value="${ dto.BOARD_DATE }" pattern = "yyyy-MM-dd"/></td>
                     <td>${ dto.BOARD_HIT }</td>
                 </tr>
+                <tr>
+                  <td>${ dto.BOARD_IDX }</td>
+                  <td>구분</td>
+                  <td width="100%"><a href="/viewDTO?board_idx=${ dto.BOARD_IDX }">
+                      ${ dto.BOARD_CONTENT }</td>
+                  <td>${ dto.BOARD_NAME }</td>
+                  <td width="17%">
+                      <fmt:formatDate value="${ dto.BOARD_DATE }" pattern = "yyyy-MM-dd"/></td>
+                  <td>${ dto.BOARD_HIT }</td>
+              </tr>
+              <tr>
+                <td>${ dto.BOARD_IDX }</td>
+                <td>구분</td>
+                <td width="100%"><a href="/viewDTO?board_idx=${ dto.BOARD_IDX }">
+                    ${ dto.BOARD_CONTENT }</td>
+                <td>${ dto.BOARD_NAME }</td>
+                <td width="17%">
+                    <fmt:formatDate value="${ dto.BOARD_DATE }" pattern = "yyyy-MM-dd"/></td>
+                <td>${ dto.BOARD_HIT }</td>
+            </tr>
+            <tr>
+              <td>${ dto.BOARD_IDX }</td>
+              <td>구분</td>
+              <td width="100%"><a href="/viewDTO?board_idx=${ dto.BOARD_IDX }">
+                  ${ dto.BOARD_CONTENT }</td>
+              <td>${ dto.BOARD_NAME }</td>
+              <td width="17%">
+                  <fmt:formatDate value="${ dto.BOARD_DATE }" pattern = "yyyy-MM-dd"/></td>
+              <td>${ dto.BOARD_HIT }</td>
+          </tr>
+                <tr>
+                  <td>${ dto.BOARD_IDX }</td>
+                  <td>구분</td>
+                  <td width="100%"><a href="/viewDTO?board_idx=${ dto.BOARD_IDX }">
+                      ${ dto.BOARD_CONTENT }</td>
+                  <td>${ dto.BOARD_NAME }</td>
+                  <td width="17%">
+                      <fmt:formatDate value="${ dto.BOARD_DATE }" pattern = "yyyy-MM-dd"/></td>
+                  <td>${ dto.BOARD_HIT }</td>
+              </tr>
+              <tr>
+                <td>${ dto.BOARD_IDX }</td>
+                <td>구분</td>
+                <td width="100%"><a href="/viewDTO?board_idx=${ dto.BOARD_IDX }">
+                    ${ dto.BOARD_CONTENT }</td>
+                <td>${ dto.BOARD_NAME }</td>
+                <td width="17%">
+                    <fmt:formatDate value="${ dto.BOARD_DATE }" pattern = "yyyy-MM-dd"/></td>
+                <td>${ dto.BOARD_HIT }</td>
+            </tr>
+            <tr>
+              <td>${ dto.BOARD_IDX }</td>
+              <td>구분</td>
+              <td width="100%"><a href="/viewDTO?board_idx=${ dto.BOARD_IDX }">
+                  ${ dto.BOARD_CONTENT }</td>
+              <td>${ dto.BOARD_NAME }</td>
+              <td width="17%">
+                  <fmt:formatDate value="${ dto.BOARD_DATE }" pattern = "yyyy-MM-dd"/></td>
+              <td>${ dto.BOARD_HIT }</td>
+          </tr>
+          <tr>
+            <td>${ dto.BOARD_IDX }</td>
+            <td>구분</td>
+            <td width="100%"><a href="/viewDTO?board_idx=${ dto.BOARD_IDX }">
+                ${ dto.BOARD_CONTENT }</td>
+            <td>${ dto.BOARD_NAME }</td>
+            <td width="17%">
+                <fmt:formatDate value="${ dto.BOARD_DATE }" pattern = "yyyy-MM-dd"/></td>
+            <td>${ dto.BOARD_HIT }</td>
+        </tr>
+        <tr>
+          <td>${ dto.BOARD_IDX }</td>
+          <td>구분</td>
+          <td width="100%"><a href="/viewDTO?board_idx=${ dto.BOARD_IDX }">
+              ${ dto.BOARD_CONTENT }</td>
+          <td>${ dto.BOARD_NAME }</td>
+          <td width="17%">
+              <fmt:formatDate value="${ dto.BOARD_DATE }" pattern = "yyyy-MM-dd"/></td>
+          <td>${ dto.BOARD_HIT }</td>
+      </tr>
                 <!-- </c:forEach> -->
             </tbody>
-            <span class="formBtn"><a href="/one2one.html" class="formBtn">글작성</a></span>
+            <div class="formbtn">
+            <a href="/one2one.html" class="formBtn">글작성</a>
+            </div>
+
+
+
         </table>
+
+        
+
     </div>
 
   <!-- 푸터 -->
