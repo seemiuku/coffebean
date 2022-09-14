@@ -116,15 +116,15 @@
     -o-transform: scale(1.2);
 }
 .itemName{
-    border-bottom: 1px solid #7F552E;
+    /* border-bottom: 1px solid #7F552E; */
     color: black;
-    text-align: left;
+    text-align: center;
     font-size: 14px;
     padding: 5px;
 }
 .itemPrice{
     font-weight: bold;
-    text-align: left;
+    text-align: center;
     font-size: 16px;
     padding: 5px;
 }
