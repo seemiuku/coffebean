@@ -135,7 +135,7 @@
                             <td>${ dto.R_CONTENT }</td>
                             <td>${ dto.R_WRITER }</td>
                             <td><fmt:formatDate value="${ dto.A_REGDATE }" pattern = "yyyy-MM-dd"/>1111/11/11</td>
-                            <td><button>답글달기</button></td>
+                            <td><button type="button" style="border: 1px solid black;" onclick='location.href="/admin/admin_productAsk.html"' class="btn btn-warn1ing">답글달기</button></td>
                           </tr>
                       </c:forEach>
                       <c:forEach var="dto" items="${ member_list }">
@@ -151,7 +151,7 @@
                           <td>${ dto.R_CONTENT }</td>
                           <td>${ dto.R_WRITER }</td>
                           <td><fmt:formatDate value="${ dto.A_REGDATE }" pattern = "yyyy-MM-dd"/>1111/11/11</td>
-                          <td><button>답글달기</button></td>
+                          <td><button type="button" style="border: 1px solid black;" onclick='location.href="/admin/admin_productAsk.html"' class="btn btn-warn1ing">답글달기</button></td>
                         </tr>
                     </c:forEach>
                     <c:forEach var="dto" items="${ member_list }">
