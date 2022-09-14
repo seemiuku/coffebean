@@ -4,11 +4,19 @@
 
 a{
     text-decoration: none;
-    color: #a1a1a1;
+    color: #101010;
 }
 
 #sidebar{
-    background-color: aliceblue;
+    background-color:none;
     width: 150px;
+    height: 200px;
+    text-align: center;
+}
+.quick-side-bar{
+    position: fixed;
+    bottom: 3%;
+    right: 13px;
+    z-index: 7;
 }
 

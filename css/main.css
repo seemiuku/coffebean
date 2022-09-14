@@ -29,28 +29,6 @@
     text-align: center;
 }
 
-.BestPlus, .NewPlus{
-    margin-top: 50px;
-    width: 100px;
-    height: 30px;
-    line-height: 30px;
-    vertical-align: middle;
-    text-align: center;
-    font-size: 16px;
-    border: 1px solid #7F552E;
-    border-radius: 0;
-        
-}
-.BestPlus a, .NewPlus a{
-    color:#7F552E;
-}
-.BestPlus:hover, .NewPlus:hover{
-    background-color: #7F552E;
-}
-.BestPlus a:hover, .NewPlus a:hover{
-    text-decoration: none;
-    color: #F0EBE0;
-}
 
 .bestnew1{
     margin-top: 15px;
@@ -76,11 +54,14 @@
     text-align: center;
     margin-top: 30px;
 }
+.BestPlus, .NewPlus{
+    text-align: center;
+}
+
 .carousel-control-prev, .carousel-control-next {
     background: none;
     border: 0;
 }
-
 .mainAd{
     width: 100%;
     height: 300px;
