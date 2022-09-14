@@ -70,7 +70,6 @@
     transition: .5s ease;
 }
 .itemTitle {
-    border-bottom: 1px solid #7F552E;
     text-align: center;
 }
 .itemList{
@@ -173,7 +172,6 @@ li a:visited{
 }
 .itemPage {
     text-align: center;
-    border-top: 1px solid #7F552E;
 }
 .pagination {
     width: 30%;
