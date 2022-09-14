@@ -32,12 +32,20 @@
           $('#footer').load("../footer-sub.html");
         });
       </script>
+<style>
 
+  .table1-dark{
+    color: #000;
+      background-color: #6a4a364f;
+  }
+  
+  </style>
 </head>
 <body>
+  <link rel="stylesheet" href="/css/admin.css">
   <link rel="stylesheet" href="/css/header.css">
-    <div id="header"></div>
-    <link rel="stylesheet" href="/css/admin.css">
+  <div class="container">
+  <div id="header"></div>
     <div class="commonSection1">
         <div class="commonContent1">
         
@@ -55,29 +63,29 @@
       <div id="adminMain">
         <!-- 사이드메뉴 -->
           <div id="adminSide">
-            <ul>
-                <li><a href="/admin/admin_notice.html">공지사항 관리</a  ></li>
-                    <li><a href="/admin/admin_member.html" class="">회원 관리</a></li>
-                    <li><a href="/admin/admin_puroductManagement.html">상품 관리</a></li>
-                    <li><a href="/admin/admin_one2one.html">1:1문의 관리</a></li>
-                    <li><a href="/admin/admin_review.html">리뷰 관리</a></li>
-                    <li><a href="/admin/admin_orderManagement.html">주문 관리</a></li>
-                    <li><a href="/admin/admin_productAsk.html">상품문의 관리</a></li>
+            <ul class="sideUl" >
+              <li><button type="button" onclick='location.href="/admin/admin_notice.html"' class="btn btn-warning">공지사항</button></li>                 
+              <li><button type="button" onclick='location.href="/admin/admin_member.html"' class="btn btn-warning">회원관리</button></li>             
+              <li><button type="button" onclick='location.href="/admin/admin_puroductManagement.html"' class="btn btn-warning">상품관리</button></li>       
+              <li><button type="button" onclick='location.href="/admin/admin_one2one.html"' class="btn btn-warning">1:1문의</button></li>            
+              <li><button type="button" onclick='location.href="/admin/admin_review.html"' class="btn btn-warning">리뷰관리</button></li>
+              <li><button type="button" onclick='location.href="/admin/admin_orderManagement.html"' class="btn btn-warning">주문관리</button></li>        
+              <li><button type="button" onclick='location.href="/admin/admin_productAsk.html"' class="btn btn-warning">상품문의</button></li> 
             </ul>
           </div>
           <!-- 메인 -->
           <div id="adminSection">
-              <div class="adminDiv">
+              <div class="adminDiv" >
                   <h3>상품 관리</h3>
               </div>
-              <div class="adminDiv">
+              <div class="adminDiv" style="display: flex;">
                   검색 옵션 
-                  <select name="search_select" id="search_select">
+                  <select class="form-control form-control-sm"  style=" height: 30px; width: 70px; background-color: antiquewhite; border: 1px solid rgba(0, 0, 0, 0.356); margin-right: 5px; " >
               <option value="all" selected>전체</option>
               <option value="id">상품이름</option>
               <option value="name">등록일자</option>
             </select>
-            <input type="text" name="search_keyword" id="search_keyword" value="">
+            <input class="form-control" style="width:200px; height: 30px; background-color: antiquewhite;  border: 1px solid rgba(0, 0, 0, 0.356);"  type="text" >
             <input type="image" src="/img/community/search.gif">
               </div>
               <div class="adminDiv">
@@ -97,7 +105,7 @@
               </div>
               <div class="">
              
-                  <table class="table table-dark">
+                  <table class="table table1-dark">
                     <thead>
                       <tr>
                         
@@ -158,3 +166,4 @@
 </html>
 <link rel="stylesheet" href="/css/footer.css">
 <div id="footer"></div>
+</div>

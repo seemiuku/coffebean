@@ -14,6 +14,39 @@
 h2 {
     text-align: center;
 }
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.3s ease;
+}
+.overlayIn{
+    margin-top: 60px;
+}
+.overlayIn img{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.mainBestItem{
+    padding: 10px;
+}
+.mainBestItem1 a {
+    width: 100%;
+    height: 100%;
+}
+.mainBestItem1:hover .overlay{
+    opacity: 0.8;
+    background-color:rgb(150, 150, 150);
+}
+.mainNewItem1:hover .overlay{
+    opacity: 0.8;
+    background-color:rgb(150, 150, 150);
+}
 .mainBestTitle, .mainNewTitle {
     text-align: center;
 }
@@ -54,7 +87,22 @@ h2 {
 .mainInfo span {
     font-size: 14px;
 }
-
+.mainInfo a{
+    text-decoration: none;
+    color: black;
+}
+.mainInfo a:hover{
+    text-decoration: none;
+    color: black;
+}
+.mainInfo a:visited {
+    text-decoration: none;
+    color: black;
+}
+.mainInfo1 img {
+    width: 30px;
+    height: 30px;
+}
 .main{
     background-color: aliceblue;
     width: 60%;
