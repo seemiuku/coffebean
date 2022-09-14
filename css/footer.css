@@ -5,10 +5,11 @@
 
 .footer{
   display: flex;
-  width: 100%;
-  background-color: rgb(255, 255, 255);
+  min-width: 1000px;
+  background-color: aliceblue;
   flex-flow: row nowrap;
   justify-content: center;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 .abox{
   width: 100%;
@@ -66,4 +67,9 @@
 }
 .ibox1 img{
   width: 150px;
+  
+}
+.ibox1{
+  display: flex;
+  justify-content:flex-start;
 }
