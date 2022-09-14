@@ -32,9 +32,12 @@
 }
 .itemMenuUl li{
     display: inline-block;
-    width: 10%;
+    width: 7%;
     font-size: 12px;
-    text-align: right;
+    text-align: center;
+}
+.itemMenuUl li:hover{
+    font-weight: bolder;
 }
 .itemTitleS ul{
     display:inline-block;
@@ -62,7 +65,9 @@
 }
 .itemTitleS a:hover{
     text-decoration: none;
-    color: #9A6C45;
+    color: #7F552E;
+    background-color:#F0EBE0;
+    transition: .5s ease;
 }
 .itemTitle {
     border-bottom: 1px solid #7F552E;
@@ -174,6 +179,13 @@ li a:visited{
     width: 30%;
     margin-top: 50px;
 }
-.pagination .active{
+.pagination > li.active a{
+    background: #9A6C45;
     background-color: #9A6C45;
+}
+.my.pagination > .active > a, 
+.my.pagination > .active > a:hover, 
+.my.pagination > .active > a:focus{
+  background: #9A6C45;
+  border-color: #9A6C45;
 }
