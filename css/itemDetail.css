@@ -6,6 +6,16 @@
 html {
     scroll-behavior: smooth;
 }
+.itemRoad{
+    font-size: 12px;
+}
+.itemRoad a {
+    color: black;
+}
+.itemRoad a:hover{
+    text-decoration: none;
+    color: black;
+}
 .itemDetail{
     margin-top: 50px;
 }
@@ -13,24 +23,28 @@ html {
     height: 550px;
 }
 .imgbox{
-    margin-top: 30px;
+    height: 550px;
 }
 .itemImg {
     text-align: center;
-    width: 350px;
-    height: 350px;
-    border: 1px solid rgb(184, 184, 184);
-    margin-top: 10px;
+    padding-top: 30px;
+    overflow: hidden;
 }
 .itemImg img{
-    width: 100%;
-    height: 100%;
+    width: 380px;
+    height: 380px;
+    background-color: white;
+}
+.itemImg li {
+    width: 95%;
+    position: absolute;
 }
 .itemSubImg {
-    width: 350px;
+    margin-top: 380px;
+    width: 100%;
 }
 .itemSubImg li {
-    border: 1px solid rgb(184, 184, 184);
+    border: 1px solid #F0EBE0;
 }
 .itemSubImg img {
     width: 70px;
@@ -43,46 +57,60 @@ li {
 }
 .itemTable{
     width: 100%;
-    height : 420px;
+    height : 550px;
+    padding-top: 30px;
+    font-size: 14px;
 }
 .itemTable table {
     width: 100%;
-    height: 100%;
+    height: 80%;
 }
 .itemTable th {
     font-size: 20px;
 }
 .itemTable td, th {
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #F0EBE0;
     padding-left: 10px;
 }
 .itemTable td:nth-child(1){
     width: 40%;
-    color: rgb(100, 100, 100);
-    
+    color: rgb(100, 100, 100);  
 }
-.itemTable tr:nth-child(6), .itemTable tr:nth-child(5){
-    background-color: rgb(240, 240, 240);
+#totalPrice {
+    font-size: 20px;
+    font-weight: bold;
+    color: #7F552E;
 }
-.count {
+/* .itemTable tr:nth-child(6), .itemTable tr:nth-child(7){
+    background-color: #F0EBE0;
+} */
+#itemCount {
+    margin: 0 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.countBtn{
+    font-size: 22px;
+    padding: 0px 10px;
     border: 1px solid gray;
-    padding: 5px;
     background-color: white;
 }
 .itemTableBtn {
     width: 100%;
 }
 .itemTableBtn input:nth-child(1){
-    background-color: rgb(77, 77, 252);
-    color: white;
+    background-color: white;
+    color: black;
     width: 49%;
     height: 50px;
+    border: 1px solid #9A6C45;
 }
 .itemTableBtn input:nth-child(2){
-    background-color:chocolate;
+    background-color:#9A6C45;
     color: white;
     width: 49%;
     height: 50px;
+    border: 1px solid #9A6C45;
 }
 .nav-item {
     margin: 0;
@@ -113,13 +141,13 @@ li {
     color: black;
 }
 .accordionBoardBody {
-    color: chocolate;
-    padding-top: 15px;
+    color: black;
+    padding: 10px;
     border: 1px solid rgb(202, 202, 202);
 }
 .reviewTable, .QnATable{
     width: 100%;
-    text-align: center;
+    text-align: left;
 }
 .reviewTable th, .QnATable th {
     text-align: left;
@@ -145,5 +173,5 @@ li {
     padding: 10px;
 }
 .detailTap, .review, .itemQnA{
-    margin-bottom: 300px;
+    margin-bottom: 200px;
 }

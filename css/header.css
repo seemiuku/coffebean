@@ -73,10 +73,9 @@ margin-top: 2px;
 .dropdown-menu a{
     text-align: center;
 }
-li, ul{
+.headerNav li, .headerNav ul{
     width: 100%;
     text-align: center;
-
 }
 
 .headerNav{

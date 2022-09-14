@@ -5,21 +5,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>itemDetail</title>
-    <link rel="stylesheet" href="/css/itemDetail.css">
+    <!-- Main CSS : Header, Main, Footer -->
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/itemDetail.css">
+    <link rel="stylesheet" href="../css/footer.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!-- Bootstarp JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+    <script>
+        $(document).ready(function(){
+          $('#header').load("../header.html");     
+          $('#footer').load("../footer-sub.html");
+        });
+
+        function count(type)  {
+        // 결과를 표시할 element
+        const resultElement = document.getElementById('itemCount');
+
+        // 현재 화면에 표시된 값
+        let number = resultElement.innerText;
+
+        if(type == 'plus') {
+          number = parseInt(number) + 1;
+        }else if(type == 'minus')  {
+            if( number <= 1 ){
+                return 1;
+            }
+          number = parseInt(number) - 1;
+        }
+
+        resultElement.innerText = number;
+        }
+    </script>
 </head>
 <body>
+    <div id="header"></div>
     <div class="itemDetail">
         <div class="container item">
+            <div class="itemRoad">
+                <a href="#"><span>HOME</span></a>
+                <span> > </span>
+                <a href="#"><span>COFFEE</span></a>
+                <span> > </span>
+                <a href="#"><span>원두커피</span></a>
+            </div>
             <div class="row">
                 <div class="col imgbox">
-                    <ul class="itemImg">
-                        <li><img src="/img/free-icon-coffee-beans-3219300.png" alt=""></li>
-                    </ul>
-                    <ul class="itemSubImg">
-                        <li><img src="/img/free-icon-coffee-beans-3219300.png" alt=""></li>
-                        <li><img src="/img/free-icon-coffee-cup-3361135.png" alt=""></li>
-                        <li><img src="/img/logo.png" alt=""></li>
-                    </ul>
+                    <div class="itemImg">
+                        <ul>
+                            <li style="z-index: 2; display:list-item"><img src="/img/free-icon-coffee-beans-3219300.png" alt=""></li>
+                            <li style="z-index: 3; display:list-item"><img src="/img/free-icon-coffee-cup-3361135.png" alt=""></li>
+                            <li style="z-index: 2; display:list-item"><img src="/img/logo.png" alt=""></li>
+                        </ul>
+                    </div>
+                    <div class="itemSubImg">
+                        <ul>
+                            <li><img src="/img/free-icon-coffee-beans-3219300.png" alt=""></li>
+                            <li><img src="/img/free-icon-coffee-cup-3361135.png" alt=""></li>
+                            <li><img src="/img/logo.png" alt=""></li>
+                        </ul>
+                    </div>               
                 </div>
                 <div class="col itemTable"> 
                     <table>
@@ -30,30 +80,39 @@
                         </tr>
                         <tr>
                             <td>상품가격</td>
-                            <td>0000원</td>
+                            <td>0000</td>
                         </tr>
                         <tr>
                             <td>제조사</td>
-                            <td>ㅁㅁㅁ</td>
+                            <td>제조회사</td>
                         </tr>
                         <tr>
                             <td>배송비</td>
                             <td>무료</td>
                         </tr>
                         <tr>
+                            <td>배송기간</td>
+                            <td>
+                                <span>오후 2:00 이전 주문 시 당일출고</span><br>
+                                <span>오후 2:00 이후 주문 시 익일출고</span>
+                            </td>
+                        </tr>
+                        <tr>
                             <td>주문수량</td>
                             <td>
-                                <span class="count">0</span>
+                                <input type="button" value="+" onclick="count('plus')" class="countBtn">
+                                <span id="itemCount">1</span>
+                                <input type="button" value="-" onclick="count('minus')" class="countBtn">
                             </td>
                         </tr>
                         <tr>
                             <td>총 상품금액</td>
-                            <td>0000원</td>
+                            <td id="totalPrice">12345원</td>
                         </tr>
                     </table><br>
                     <div class="itemTableBtn">
                         <input type="button" value="장바구니">
-                        <input type="button" value="바로구매">
+                        <input type="button" value="구매하기">
                     </div>
                 </div>
             </div>
@@ -72,9 +131,7 @@
             </ul>
         </div><br>
         <div class="container detailTap">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p><br>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p><br>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <span>상세정보 이미지</span>
         </div><br><br><br>
         <div class="container">
             <ul class="nav nav-tabs" id="goReview">
@@ -106,11 +163,12 @@
                                 </div>        
                                 <div id="collapse1" class="accordionBoardCollapse collapse" role="tabpanel">          
                                     <div class="accordionBoardBody">            
-                                        <p>후기1</p>          
-                                        <p>사지마세요</p>
-                                        <p>1234</p>
-                                        <p>5678</p>
-                                        <p>1111</p>
+                                        <span>이 후기는 영국에서 시작되어...</span><br>
+                                        <span>111111111111111111111</span><br>
+                                        <span>111111111111111111111</span><br>
+                                        <span>111111111111111111111</span><br>
+                                        <span>111111111111111111111</span><br>
+                                        <span>111111111111111111111</span><br>
                                     </div>        
                                 </div>      
                             </div>
@@ -176,11 +234,7 @@
                                 </div>        
                                 <div id="collapse3" class="accordionBoardCollapse collapse" role="tabpanel">          
                                     <div class="accordionBoardBody">            
-                                        <p>문의1</p>          
-                                        <p>배송문의</p>
-                                        <p>1111</p>
-                                        <p>3333</p>
-                                        <p>1111</p>
+                                        <span>상품문의111122223333</span>
                                     </div>        
                                 </div>      
                             </div>
@@ -218,12 +272,7 @@
                 </tr>
             </table>
         </div>
-    </div><br><br><br>
-
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    </div><br>
+    <div id="footer"></div>
 </body>
 </html>
