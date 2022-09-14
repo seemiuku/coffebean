@@ -7,7 +7,7 @@
     width: 60%;
     min-width: 1000px;
     height: auto;
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family:'OTWelcomeRA', sans-serif;
     color: #101010;
 }
 .mainBanner{
@@ -18,7 +18,7 @@
 .c_item img{
     width: 100%;
     height: 500px;
-    object-fit:fill;
+    object-fit:cover;
 }
 
 
@@ -32,7 +32,10 @@
 
 .bestnew1{
     margin-top: 15px;
-    font-size: 14px;
+    font-size: 16px;
+}
+.bestnew2{
+    font-size: 18px;
 }
 .bestnew1 a, .bestnew2 a{
     text-decoration: none;
@@ -87,23 +90,23 @@
 }
 .mainInfo1 ul li{
     text-align: left;
-    font-size: 14px;
+    font-size: 16px;
 
 }
 .mainInfo1 ul li:first-child{
     font-weight: bold;
-    font-size: 18px;
+    font-size: 22px;
     border-bottom: 1px solid #9A6C45;
     margin-bottom: 5px;
-    padding-bottom: 5px;
 }
 .mainInfo1 ul li:nth-child(2){
     font-size: 24px;
     color: #7F552E;
     font-weight: bold;
+    margin-top: 10px;
 }
 .mainInfo1 ul li:nth-child(4), .mainInfo1 ul li:nth-child(5){
-    font-size: 12px;
+    font-size: 14px;
     color: #a1a1a1;
 }
 .mainInfo1 ul li:last-child{
@@ -115,19 +118,17 @@
 }
 .mainInfo1 ul li a:hover{
     font-weight: bold;
-    color: #9A6C45;
 }
 .mainInfo2 ul li{
     text-align: left;
-    font-size: 14px;
+    font-size: 16px;
 
 }
 .mainInfo2 ul li:first-child{
     font-weight: bold;
-    font-size: 18px;
+    font-size:22px;
     border-bottom: 1px solid #9A6C45;
     margin-bottom: 5px;
-    padding-bottom: 5px;
 }
 .mainInfo2 ul li:last-child{
     text-align: right;
@@ -139,6 +140,5 @@
 }
 .mainInfo2 a:hover{
     text-decoration: none;
-    color: #9A6C45;
     font-weight: bold;
 }

@@ -5,24 +5,13 @@
 .footer{
   width: 60%;
   min-width: 1000px;
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: 'OTWelcomeRA', sans-serif;
 }
 .abox{
   width: 100%;
   float: left;
   text-align: center;
 }
-
-/* .abox{
-  flex:1 100%;
-  display: flex;
-  justify-content: left;
-  height: 40px;
-}
-.abox a{
-  color: rgba(13, 20, 26, 0.856);
-  justify-content: left;
-} */
 .iconbox{
   width: 100%;
 }
