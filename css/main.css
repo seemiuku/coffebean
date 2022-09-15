@@ -91,16 +91,18 @@
     width: 90px; height: 30px;
     line-height: 35px;
     vertical-align: middle;
-    border: 1px solid darkblue;
+    border: 1px solid #9A6C45;
     /* background-color: darkblue; */
 }
-.BestPlus a{
+.BestPlus a, .NewPlus a{
     /* border: 1px solid darkcyan; */
     width: 90px; height: 30px;
+    color: #7F552E;
 }
-.BestPlus a:hover{
-    width: 90px; height: 30px;
-    background-color:  darkcyan;
+.BestPlus a:hover, .NewPlus a:hover{
+    /* width: 90px; height: 30px;
+    background-color:  darkcyan; */
+    text-decoration: none;
 }
 .carousel-control-prev, .carousel-control-next {
     background: none;
