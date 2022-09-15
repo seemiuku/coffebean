@@ -3,7 +3,7 @@
     width: 60%;
     min-width: 1102px;
     background-color: white;
-    font-family:  'OTWelcomeRA', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 .container{
     width: 100%;
@@ -11,30 +11,40 @@
 .headerTop {
     text-align: right;
     color: gray;
+    padding: 3px;
     font-size: 13px;
-    margin-top: 10px;
 }
-.headerTop a{
+.headerTop a:link{
     text-decoration: none;
-    color: #a1a1a1;
+    color: gray;
 }
-
+.headerTop a:active{
+    text-decoration: none;
+    color: gray;
+}
+.headerTop a:visited{
+    text-decoration: none;
+    color: gray;
+}
 .headerTop a:hover{
-    text-decoration: none;
-    color:#101010;
+    color:black;
     font-weight: bold;
 }
 .headerTop a {
-    margin: 8px;
+    margin: 10px;
 }
 .headerTop img{
     width: 15px;
     height: 15px;
 }
 
+.headerTopLogo span{
+    text-align: center;
+}
+
 .headerTopLogo{
-    width: 25%;
-    margin: 15px auto;
+    width: 30%;
+    margin: 0 auto;
 }
 
 .headerTopLogo img{
@@ -54,40 +64,28 @@
     height: 100%;
 }
 .dropdown:hover .dropdown-menu {
-    display: block;
-    margin-top: 2px;
+display: block;
+margin-top: 2px;
 }
 .dropdown-menu {
     width: 100%;
-    
 }
 .dropdown-menu a{
     text-align: center;
-    line-height: 30px;
-    vertical-align: middle;
 }
 .headerNav li, .headerNav ul{
     width: 100%;
     text-align: center;
+
 }
 
 .headerNav{
     width: 100%;
-    min-width: 1000px;
-    height: 35px;
-    line-height: 30px;
-    vertical-align: middle;
+    height: 40px;
     background-color: #F0EBE0;
 }
-.nav-item{
-    height: 40px;
-    line-height: 30px;
-    vertical-align: middle;
-}
+
 .nav-item a:hover{
     color: #7F552E;
     font-weight: bold;
-}
-.dropdown-menu a:hover{
-    background-color: #F0EBE0;
 }
