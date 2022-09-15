@@ -17,28 +17,10 @@
         // 코드중복을 피하기 위해 탑헤더/헤더/푸터를 만들어
         // 재사용한다. jquery load함수
         $(document).ready(function(){
-          $('#header').load("../../header-sub2.html");    
+          $('#header').load("../../header-sub.html");    
           $('#footer').load("../../footer-sub.html");
         });
       </script>
-
-<style>
-
-.btn:active, .btn:focus {
-outline:none !important;
-box-shadow:none !important;}
-
-.commonContent2{
-      border: 1px;
-      width: 90%;
-      margin-top: 30px;
-    }
-    .commonContent1{
-      display: flex;
-      justify-content: center;
-    }
-
-</style>
 
 </head>
 <body>
@@ -64,14 +46,13 @@ box-shadow:none !important;}
         <!-- 사이드메뉴 -->
         <div id="adminSide">
           <ul class="sideUl">
-            <li><button style="background-color: #F0EBE0; border-color: #000000;" type="button" onclick='location.href="/admin/admin_notice.html"' class="btn btn-warning">공지사항</button></li>                 
-            <li><button style="background-color: #F0EBE0; border-color: #000000;" type="button" onclick='location.href="/admin/admin_member.html"' class="btn btn-warning">회원관리</button></li>             
-            <li><button style="background-color: #F0EBE0; border-color: #000000;" type="button" onclick='location.href="/admin/admin_puroductManagement.html"' class="btn btn-warning">상품관리</button></li>       
-            <li><button style="background-color: #F0EBE0; border-color: #000000;" type="button" onclick='location.href="/admin/admin_one2one.html"' class="btn btn-warning">1:1문의</button></li>            
-            <li><button style="background-color: #F0EBE0; border-color: #000000;" type="button" onclick='location.href="/admin/admin_review.html"' class="btn btn-warning">리뷰관리</button></li>
-            <li><button style="background-color: #F0EBE0; border-color: #000000;" type="button" onclick='location.href="/admin/admin_orderManagement.html"' class="btn btn-warning">주문관리</button></li>        
-            <li><button style="background-color: #F0EBE0; border-color: #000000;" type="button" onclick='location.href="/admin/admin_productAsk.html"' class="btn btn-warning">상품문의</button></li>           
-
+            <li><button type="button" onclick='location.href="/admin/admin_notice.html"' class="btn btn-warning">공지사항</button></li>                 
+            <li><button type="button" onclick='location.href="/admin/admin_member.html"' class="btn btn-warning">회원관리</button></li>             
+            <li><button type="button" onclick='location.href="/admin/admin_puroductManagement.html"' class="btn btn-warning">상품관리</button></li>       
+            <li><button type="button" onclick='location.href="/admin/admin_one2one.html"' class="btn btn-warning">1:1문의</button></li>            
+            <li><button type="button" onclick='location.href="/admin/admin_review.html"' class="btn btn-warning">리뷰관리</button></li>
+            <li><button type="button" onclick='location.href="/admin/admin_orderManagement.html"' class="btn btn-warning">주문관리</button></li>        
+            <li><button type="button" onclick='location.href="/admin/admin_productAsk.html"' class="btn btn-warning">상품문의</button></li>           
           </ul>
         </div>
           <!-- 메인 -->
@@ -113,8 +94,8 @@ box-shadow:none !important;}
                           <div class="form-group form-check">
                             <input type="date" class="form-check-input" id="exampleCheck1">
                           </div><br><br>
-                          <button style="background-color: #F0EBE0; border-color: #000000;" type="button" onclick='location.href="/admin/admin_productAsk.html"' class="btn btn-warning">수정하기</button>
-                          <button style="background-color: #F0EBE0; border-color: #000000;" type="button" onclick='location.href="/admin/admin_productAsk.html"' class="btn btn-warning">삭제하기</button>
+                          <button type="submit" class="btn btn-primary">수정하기</button>
+                          <button type="submit" class="btn btn-primary">삭제하기</button>
                         </form>
                       </div>
               </div>

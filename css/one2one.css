@@ -1,30 +1,43 @@
 td{
-    border: 1px solid rgba(124, 108, 101, 0.425);
-    color: rgba(100, 56, 16, 0.753);
+    border-bottom: 1px solid #F0EBE0;
+    color: #9a6c45;
     text-align: center;
+    font-family: 'OTWelcomeRA';
+    font-weight: 300;
 }
 input{
     border: none;
+    font-family: 'OTWelcomeRA';
 }
 textarea{
-    border: none;
+    border: 1px solid #F0EBE0;
+    font-family: 'OTWelcomeRA';
+}
+select {
+    border: 1px solid #f0ebe0;
+    height: 0 auto;
+    text-align: left;
+    font-size: 10px;
+    padding: 13px;
+}
+#one2oneTable {
+    width: 1000px;
 }
 .one2one_title{
     margin: 30px;
-    display: flex;
-    justify-content: center;
-    font-family: 'Times New Roman', Times, serif;
-    color: rgba(100, 56, 16, 0.753);
+    color: #7f552e;
+    font-family: 'OTWelcomeRA';
 }
 .btn{
     margin: 50px;
     display: flex;
     justify-content: center;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'OTWelcomeRA';
+    /* font-family: 'Times New Roman', Times, serif; */
 }
 td{
     padding: 7px;
-    font-family: 'Times New Roman', Times, serif;
+    /* font-family: 'Times New Roman', Times, serif; */
 }
 .one2one{
     width: 250px;
@@ -55,4 +68,10 @@ td{
 .btn{
     width: 100%;
     margin: 0 auto;
+}
+@font-face {
+    font-family: 'OTWelcomeRA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/OTWelcomeRA.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
 }

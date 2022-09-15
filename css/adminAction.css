@@ -3,13 +3,6 @@ a {
 	color: #333;
 }
 
-*{
-    font-family: 'OTWelcomeRA';
-}
-button, select {
-    height: 30px;
-    
-}
 
 
 .adminSideActive {
@@ -38,17 +31,18 @@ button, select {
 	flex-flow: row nowrap;
 	justify-content: flex-start;
 	
+	padding: 20px 20px;
 }
 #adminSide {
-	border-bottom: 1px solid black;
+	border: 1px solid #333;
 	flex-grow: 2;
-	background-color: #F0EBE0;
+	background-color: #9a6c45ad;
 	padding: 20px;
 }
 #adminSection {
+	border: 1px solid #333;
 	flex-grow: 10;
-	background-color: #F0EBE0;
-
+	background-color: #9a781140;
     padding: 18px 16px;
 }
 .adminDiv {
@@ -70,7 +64,7 @@ button, select {
 }
 .adminTable th {
 	border: 1px solid #111;
-	background-color: rgb(255, 255, 255);
+	background-color: #aaa;
 }
 .adminTable td {
 	border: 1px solid #111;
@@ -273,10 +267,5 @@ button, select {
 	justify-content: space-between;
 }
 
-@font-face {
-    font-family: 'OTWelcomeRA';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/OTWelcomeRA.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
+
 

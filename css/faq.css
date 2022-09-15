@@ -1,0 +1,52 @@
+*{
+  list-style: none;
+}
+#container {
+  width: 1000px;
+  height: 0 auto;
+  margin: 0 auto;
+  padding-bottom: 70px;
+  
+}
+.answer {
+    display: none;
+    padding-bottom: 20px;
+    font-size: 17px;
+    font-family: 'OTWelcomeRA';
+}
+#faq-title {
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  color: #7f552e;
+  font-family: 'OTWelcomeRA';
+}
+.faq-content {
+  border-bottom: 1px solid #F0EBE0;
+}
+.question {
+  font-size: 17px;
+  padding: 17px 0;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  font-family: 'OTWelcomeRA';
+}
+.question:hover {
+  color: #7f552e;
+  font-weight: 600;
+}
+[id$="-toggle"] {
+  margin-right: 15px;
+  font-family: 'OTWelcomeRA';
+}
+@font-face {
+  font-family: 'OTWelcomeRA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/OTWelcomeRA.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
