@@ -74,6 +74,7 @@ box-shadow:none !important;}
             <li><button style="background-color: #F0EBE0; border-color: #000000;" type="button" onclick='location.href="/admin/admin_review.html"' class="btn btn-warning">리뷰관리</button></li>
             <li><button style="background-color: #F0EBE0; border-color: #000000;" type="button" onclick='location.href="/admin/admin_orderManagement.html"' class="btn btn-warning">주문관리</button></li>        
             <li><button style="background-color: #F0EBE0; border-color: #000000;" type="button" onclick='location.href="/admin/admin_productAsk.html"' class="btn btn-warning">상품문의</button></li>           
+
           </ul>
         </div>
           <!-- 메인 -->
@@ -84,12 +85,14 @@ box-shadow:none !important;}
               <div class="adminDiv" style="display: flex;">
                   검색 옵션 
                   <select class="form-control form-control-sm"  style=" height: 30px; width: 70px;  margin-right: 5px; " >
+
               <option value="all" selected>전체</option>
               <option value="id">아이디</option>
               <option value="name">이름</option>
               <option value="name">내용</option>
             </select>
             <input class="form-control" style="width:200px; height: 30px; "  type="text" >
+
             <input type="image" src="/img/community/search.gif">
               </div>
               <div class="adminDiv">
@@ -122,6 +125,7 @@ box-shadow:none !important;}
                                 <td>${ dto.A_CONTENT }</td>
                                 <td><fmt:formatDate value="${ dto.A_REGDATE }" pattern = "yyyy-MM-dd"/>1111/11/11</td>
                                 <td><button style="background-color: #6a4a361e; border-color: #000000;" type="button" onclick='location.href="/admin/admin_productAsk.html"' class="btn btn-warning">조회하기</button></td>
+
                             </tr>
                           </c:forEach>
                     </tbody>

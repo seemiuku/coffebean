@@ -48,6 +48,7 @@ button, select {
 #adminSection {
 	flex-grow: 10;
 	background-color: #F0EBE0;
+
     padding: 18px 16px;
 }
 .adminDiv {
@@ -69,7 +70,7 @@ button, select {
 }
 .adminTable th {
 	border: 1px solid #111;
-	background-color: #aaa;
+	background-color: rgb(255, 255, 255);
 }
 .adminTable td {
 	border: 1px solid #111;

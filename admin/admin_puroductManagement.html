@@ -85,6 +85,7 @@
             <li><button style="background-color: #F0EBE0; border-color: #000000;" type="button" onclick='location.href="/admin/admin_review.html"' class="btn btn-warning">리뷰관리</button></li>
             <li><button style="background-color: #F0EBE0; border-color: #000000;" type="button" onclick='location.href="/admin/admin_orderManagement.html"' class="btn btn-warning">주문관리</button></li>        
             <li><button style="background-color: #F0EBE0; border-color: #000000;" type="button" onclick='location.href="/admin/admin_productAsk.html"' class="btn btn-warning">상품문의</button></li>           
+
           </ul>
         </div>
           <!-- 메인 -->
@@ -95,11 +96,13 @@
               <div class="adminDiv" style="display: flex;">
                   검색 옵션 
                   <select class="form-control form-control-sm"  style=" height: 30px; width: 70px;  margin-right: 5px; " >
+
               <option value="all" selected>전체</option>
               <option value="id">상품이름</option>
               <option value="name">등록일자</option>
             </select>
             <input class="form-control" style="width:200px; height: 30px; "  type="text" >
+
             <input type="image" src="/img/community/search.gif">
               </div>
               <div class="adminDiv">
@@ -115,6 +118,7 @@
               <div class="adminDiv2" id="tableTitle">
                 <div>회원목록 ${ count }건</div>
                 <button style="background-color: #F0EBE0; border-color: #000000;" type="button" onclick='location.href="/admin/admin_productAsk.html"' class="btn btn-warning">상품등록</button>
+
                 
               </div>
               <div class="">
@@ -149,6 +153,7 @@
                                 <td>${ dto.P_STOCK }</td>
                                 <td><fmt:formatDate value="${ dto.P_DATE }" pattern = "yyyy-MM-dd"/>1</td>
                                 <td><button style="background-color: #6a4a361e; border-color: #000000;" type="button" onclick='location.href="/admin/admin_productAsk.html"' class="btn btn-warning">수정하기</button></td>
+
                             </tr>
                           </c:forEach>
                     </tbody>
