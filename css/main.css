@@ -3,7 +3,7 @@
     margin: 0 auto;
     padding: 0;
 }
-.carousel-item img {
+.mainBanner .carousel-item img {
     width: 100%;
     min-width: 1000px;
     height: 500px;
