@@ -59,8 +59,20 @@
 }
 .BestPlus, .NewPlus{
     text-align: center;
+    width: 90px; height: 30px;
+    line-height: 35px;
+    vertical-align: middle;
+    border: 1px solid darkblue;
+    /* background-color: darkblue; */
 }
-
+.BestPlus a{
+    /* border: 1px solid darkcyan; */
+    width: 90px; height: 30px;
+}
+.BestPlus a:hover{
+    width: 90px; height: 30px;
+    background-color:  darkcyan;
+}
 .carousel-control-prev, .carousel-control-next {
     background: none;
     border: 0;

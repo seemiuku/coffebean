@@ -7,14 +7,20 @@
   min-width: 1000px;
   font-family: 'OTWelcomeRA', sans-serif;
 }
+.ibox1{
+  width: 100px;
+  float: left;
+}
+.ibox1 img{
+  width: 110px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
 .abox{
   width: 100%;
   float: left;
-  text-align: center;
 }
-.iconbox{
-  width: 100%;
-}
+
 .abox{
   width: 100%;
   margin-left: 15px;
@@ -34,23 +40,14 @@
 .abox p:nth-child(1){
   margin-right: 20px;
 }
-.a1:nth-child(2){
-  font-size: 20px;
-  line-height: 10px;
-  vertical-align: middle;
-}
 
 .a1::after, .a2::after {
   content: "|";
   float: right;
-  color: rgba(204, 204, 204, 0.589);
+  color: #dddddd;
   margin-right: -17px;
 }
 
 .a1:last-child::after, .a2:last-child::after {
   content: "";
-}
-.ibox1 img{
-  width: 150px;
-  
 }
