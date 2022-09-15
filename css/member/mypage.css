@@ -20,6 +20,9 @@ min-width: 1000px;
     height: 100%;
     background-color: #7F552E;
 }
+.userList{
+    /* margin-left: 0; */
+}
 .userList a {
     color: #7F552E;
     text-decoration: none;

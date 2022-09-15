@@ -22,13 +22,15 @@
       $('#header').load("../header-sub.html");
       $('#footer').load("../footer-sub.html");
     });
+    
   </script>
+  
 
 </head>
 <body>
     <div class="mybody">
         <div id="header" class="sticky-top"></div>
-        <div class="row">
+        <div class="row cont">
             <div class="user">
                 <div class="userImg text-center">
                     <img src="../img/cat.jpg" alt="" >
@@ -87,13 +89,68 @@
                         </tr>
                     </table>
                 </div>
-                <div class="product_list">
+                <br>
 
-                </div>
+                <div class="container product_list" style="padding-left: 0;">
+                        <table>
+                            <tr>
+                                <th>상품</th>
+                                <th>상품이름</th>
+                                <th>수량</th>
+                                <th>가격</th>
+                            </tr>
+                            
+                            <tr class="item">
+                                <td class="product_img">
+                                    <img src="../img/free-icon-coffee-cup-3361135.png" alt="">
+                                </td>
+                                <td>커피</td>
+                                <td>2</td>
+                                <td>0000원</td>
+                                
+                            </tr>
+                            <tr class="item">
+                                <td class="product_img">
+                                    <img src="../img/free-icon-coffee-cup-3361135.png" alt="">
+                                </td>
+                                <td>홍차</td>
+                                <td>1</td>
+                                <td>0000원</td>
+                                
+                            </tr>
+                            <tr class="item">
+                                <td class="product_img">
+                                    <img src="../img/free-icon-coffee-cup-3361135.png" alt="">
+                                </td>
+                                <td>녹차</td>
+                                <td>3</td>
+                                <td>0000원</td>
+                                
+                            </tr>
+                            <tr class="item">
+                                <td class="product_img">
+                                    <img src="../img/free-icon-coffee-cup-3361135.png" alt="">
+                                </td>
+                                <td>맥심</td>
+                                <td>5</td>
+                                <td>0000원</td>
+                                
+                            </tr>
+                            <tr class="item">
+                                <td class="product_img">
+                                    <img src="../img/free-icon-coffee-cup-3361135.png" alt="">
+                                </td>
+                                <td>라떼</td>
+                                <td>1</td>
+                                <td>0000원</td>
+                              
+                            </tr>
+                        </table>
             </div>
         </div>
-        <div id="footer"></div>
+        
     </div>
+    <div id="footer"></div>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
