@@ -1,4 +1,14 @@
 /* 사이드메뉴  */
+
+*{
+    font-family: 'OTWelcomeRA';
+}
+
+button, select {
+    height: 30px;
+    text-transform: none;
+}
+
 a {
 	color: #333;
 }
@@ -29,18 +39,17 @@ a {
 	flex-flow: row nowrap;
 	justify-content: flex-start;
 	
-	padding: 20px 20px;
 }
 #adminSide {
-	border: 1px solid #333;
+	border-bottom: 1px solid black;
 	flex-grow: 2;
-	background-color: #9a6c45ad;
+	background-color: #F0EBE0;
 	padding: 20px;
 }
 #adminSection {
-	border: 1px solid #333;
 	flex-grow: 10;
-	background-color: #9a781140;
+	background-color: #F0EBE0;
+
     padding: 18px 16px;
 }
 .adminDiv {
@@ -62,7 +71,7 @@ a {
 }
 .adminTable th {
 	border: 1px solid #111;
-	background-color: #aaa;
+	background-color: rgb(255, 255, 255);
 }
 .adminTable td {
 	border: 1px solid #111;
@@ -106,8 +115,8 @@ a {
 }
 .noticeViewContent {
 	min-height: 100px;
-	border-top: 3px solid #333;
-	border-bottom: 3px solid #333;
+	border-top: 3px solid rgb(255, 255, 255);
+	border-bottom: 3px solid rgb(255, 255, 255);
 	padding: 0px;
 }
 
@@ -265,5 +274,10 @@ a {
 	justify-content: space-between;
 }
 
-
+@font-face {
+    font-family: 'OTWelcomeRA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/OTWelcomeRA.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
 

@@ -1,26 +1,35 @@
 *{
+    box-sizing: border-box;
     list-style: none;
 }
 
 .footer{
-  width: 60%;
+  display: flex;
   min-width: 1000px;
-  font-family: 'OTWelcomeRA', sans-serif;
-}
-.ibox1{
-  width: 100px;
-  float: left;
-}
-.ibox1 img{
-  width: 110px;
-  margin-left: 10px;
-  margin-bottom: 10px;
+  background-color: aliceblue;
+  flex-flow: row nowrap;
+  justify-content: center;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 .abox{
   width: 100%;
   float: left;
+  text-align: center;
 }
 
+/* .abox{
+  flex:1 100%;
+  display: flex;
+  justify-content: left;
+  height: 40px;
+}
+.abox a{
+  color: rgba(13, 20, 26, 0.856);
+  justify-content: left;
+} */
+.iconbox{
+  width: 100%;
+}
 .abox{
   width: 100%;
   margin-left: 15px;
@@ -40,14 +49,27 @@
 .abox p:nth-child(1){
   margin-right: 20px;
 }
+.a1:nth-child(2){
+  font-size: 20px;
+  line-height: 10px;
+  vertical-align: middle;
+}
 
 .a1::after, .a2::after {
   content: "|";
   float: right;
-  color: #dddddd;
+  color: rgba(204, 204, 204, 0.589);
   margin-right: -17px;
 }
 
 .a1:last-child::after, .a2:last-child::after {
   content: "";
+}
+.ibox1 img{
+  width: 150px;
+  
+}
+.ibox1{
+  display: flex;
+  justify-content:flex-start;
 }
