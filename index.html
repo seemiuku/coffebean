@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/sidebar.css">
 
   <script>
     // 코드중복을 피하기 위해 탑헤더/헤더/푸터를 만들어
@@ -25,13 +26,20 @@
       $('#headerTop').load("./headerTop.html");
       $('#header').load("./header.html");
       $('#main').load("./main.html");
+      $('#sidebar').load("./tool/sidebar.html");
       $('#footer').load("./footer.html");
     });
   </script>
 
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
-  </style>
+
+  @font-face {
+    font-family: 'OTWelcomeRA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/OTWelcomeRA.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+</style>
 </head>
 <body>
   <!-- 헤더 -->
@@ -39,6 +47,9 @@
 
   <!-- 메인 -->
   <div id="main"></div>
+
+  <!-- 사이드바 -->
+  <div id="sidebar"></div>
 
   <!-- 푸터 -->
   <div id="footer"></div>

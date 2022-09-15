@@ -4,11 +4,24 @@
 
 a{
     text-decoration: none;
-    color: #a1a1a1;
+    color: #101010;
 }
 
-#sidebar{
-    background-color: aliceblue;
-    width: 150px;
+.quick-side-bar{
+    text-align: center;
+    font-size: 14px;
+    position: fixed;
+    bottom: 1%;
+    right: 2%;
+    z-index: 7;
+}
+
+#sidebar ul li{
+    height: 40px;
+    /* border: 1px solid darkblue; */
+}
+
+.quickButton img{
+    width: 30px;
 }
 
