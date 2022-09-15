@@ -9,18 +9,15 @@
     font-family:'OTWelcomeRA', sans-serif;
     color: #101010;
 }
-.mainBanner{
+.mainBanner .carousel-item img {
     width: 100%;
     min-width: 1000px;
 }
-
 .c_item img{
     width: 100%;
     height: 500px;
     object-fit:cover;
 }
-
-
 .mainBest, .mainNew, .mainAd{
     margin-top: 70px;
 }

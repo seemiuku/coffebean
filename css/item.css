@@ -4,7 +4,7 @@
     padding: 0;
 }
 .item{
-    width: 60%;
+    width: 100%;
     min-width: 1000px;
     margin-top: 50px;
 }
@@ -25,6 +25,7 @@
     color: black;
 }
 .itemMenuUl{
+    width: 100%;
     display: inline-block;
     list-style: none;
     margin: 0;
@@ -32,9 +33,12 @@
 }
 .itemMenuUl li{
     display: inline-block;
-    width: 10%;
+    width: 7%;
     font-size: 12px;
-    text-align: right;
+    text-align: center;
+}
+.itemMenuUl li:hover{
+    font-weight: bolder;
 }
 .itemTitleS ul{
     display:inline-block;
@@ -62,10 +66,11 @@
 }
 .itemTitleS a:hover{
     text-decoration: none;
-    color: #9A6C45;
+    color: #7F552E;
+    background-color:#F0EBE0;
+    transition: .5s ease;
 }
 .itemTitle {
-    border-bottom: 1px solid #7F552E;
     text-align: center;
 }
 .itemList{
@@ -111,15 +116,15 @@
     -o-transform: scale(1.2);
 }
 .itemName{
-    border-bottom: 1px solid #7F552E;
+    /* border-bottom: 1px solid #7F552E; */
     color: black;
-    text-align: left;
+    text-align: center;
     font-size: 14px;
     padding: 5px;
 }
 .itemPrice{
     font-weight: bold;
-    text-align: left;
+    text-align: center;
     font-size: 16px;
     padding: 5px;
 }
@@ -168,12 +173,18 @@ li a:visited{
 }
 .itemPage {
     text-align: center;
-    border-top: 1px solid #7F552E;
 }
 .pagination {
     width: 30%;
     margin-top: 50px;
 }
-.pagination .active{
+.pagination > li.active a{
+    background: #9A6C45;
     background-color: #9A6C45;
+}
+.my.pagination > .active > a, 
+.my.pagination > .active > a:hover, 
+.my.pagination > .active > a:focus{
+  background: #9A6C45;
+  border-color: #9A6C45;
 }
