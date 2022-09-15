@@ -24,6 +24,10 @@
 
 <style>
 
+.btn:active, .btn:focus {
+outline:none !important;
+box-shadow:none !important;}
+
 .commonContent2{
       border: 1px;
       width: 90%;
@@ -97,8 +101,8 @@
                           </div>
                        
                           
-                          <button style="background-color: #F0EBE0;" type="submit" class="btn btn-primary">답변하기</button>
-                          <button style="background-color: #F0EBE0;" type="submit" class="btn btn-primary">삭제하기</button>
+                          <button style="background-color: #F0EBE0; border-color: #000000;" type="button" onclick='location.href="/admin/admin_productAsk.html"' class="btn btn-warning">답변하기</button>
+                          <button style="background-color: #F0EBE0; border-color: #000000;" type="button" onclick='location.href="/admin/admin_productAsk.html"' class="btn btn-warning">삭제하기</button>
                         </form>
                       </div>
               </div>

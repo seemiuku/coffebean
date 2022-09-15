@@ -1,4 +1,14 @@
 /* 사이드메뉴  */
+
+*{
+    font-family: 'OTWelcomeRA';
+}
+
+button, select {
+    height: 30px;
+    text-transform: none;
+}
+
 a {
 	color: #333;
 }
@@ -29,10 +39,9 @@ a {
 	flex-flow: row nowrap;
 	justify-content: flex-start;
 	
-	padding: 20px 20px;
 }
 #adminSide {
-	border: 1px solid rgb(255, 255, 255);
+	border-bottom: 1px solid black;
 	flex-grow: 2;
 	background-color: #F0EBE0;
 	padding: 20px;
@@ -264,5 +273,10 @@ a {
 	justify-content: space-between;
 }
 
-
+@font-face {
+    font-family: 'OTWelcomeRA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/OTWelcomeRA.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
 

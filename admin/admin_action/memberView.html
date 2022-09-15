@@ -22,6 +22,9 @@
         });
       </script>
 <style>
+.btn:active, .btn:focus {
+outline:none !important;
+box-shadow:none !important;}
 
 .commonContent2{
       border: 1px;
@@ -123,9 +126,9 @@
                             <label for="exampleInputPassword1">가입일</label>
                             <input type="text" class="form-control" id="exampleInputPassword1">
                           </div>
-                          <button type="submit" style="background-color: #F0EBE0;" class="btn btn1-primary">수정하기</button>
-                          <button type="submit" style="background-color: #F0EBE0;" class="btn btn1-primary">목록가기</button>
-                          <button type="submit" style="background-color: #F0EBE0;" class="btn btn1-primary">탈퇴하기</button>
+                          <button style="background-color: #F0EBE0; border-color: #000000;" type="button" onclick='location.href="/admin/admin_productAsk.html"' class="btn btn-warning">수정하기</button>
+                          <button style="background-color: #F0EBE0; border-color: #000000;" type="button" onclick='location.href="/admin/admin_productAsk.html"' class="btn btn-warning">목록보기</button>
+                          <button style="background-color: #F0EBE0; border-color: #000000;" type="button" onclick='location.href="/admin/admin_productAsk.html"' class="btn btn-warning">탈퇴하기</button>
                         </form>
                     </tbody>
               </div>
