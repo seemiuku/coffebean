@@ -40,7 +40,6 @@ button, select {
 	
 }
 #adminSide {
-	border-bottom: 1px solid black;
 	flex-grow: 2;
 	background-color: #F0EBE0;
 	padding: 20px;
