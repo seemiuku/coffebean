@@ -25,6 +25,9 @@ max-width: 1000px;
     height: 300px;
     width: 150px;
 }
+.userList ul{
+    width: 100%;
+}
 .userList a{
     color: #7F552E;
 }

@@ -23,6 +23,9 @@ min-width: 1000px;
 .userList{
     /* margin-left: 0; */
 }
+.userList ul{
+    width: 100%;
+}
 .userList a {
     color: #7F552E;
     text-decoration: none;
