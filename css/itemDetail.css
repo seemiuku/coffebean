@@ -6,6 +6,15 @@
 html {
     scroll-behavior: smooth;
 }
+@font-face {
+    font-family: 'OTWelcomeRA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/OTWelcomeRA.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+.itemDetail{
+    font-family:'OTWelcomeRA', sans-serif;
+}
 .itemRoad{
     font-size: 14px;
     margin-bottom: 30px;
