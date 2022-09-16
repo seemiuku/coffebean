@@ -23,6 +23,7 @@ button, select {
 }
 
 .sideUl{
+	justify-content: space-around;
 	margin: 0;
     display: flex;
 	padding: 0px;

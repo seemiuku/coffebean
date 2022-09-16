@@ -1,27 +1,111 @@
-
-#join p{
+@font-face {
+    font-family: 'OTWelcomeRA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/OTWelcomeRA.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+*{
+    font-family: 'OTWelcomeRA';
+}
+h1 {
+    padding-top: 50px;
     text-align: center;
+    color: #9a6c45;
 }
-
-.container{
-    width: 80%;
-    max-width: 1000px;
+#joinForm {
+    /* border: 1px solid black; */
+    width: 1000px;
+    height: 0 auto;
+    text-align: left;
+    margin-top: 30px;
+    font-size: 15px;
+    padding-top: 10px;
+}
+#jointxt {
+    /* border: 1px solid black; */
+    width: 1000px;
+    height: 0 auto;
+    padding-bottom: 20px;
     margin: 0 auto;
+    padding-left: 100px;
 }
-
-.jointxt{
-    width: 100%;
+.jointxt {
+    padding-bottom: 20px;
 }
-
-#joinform{
-    width: 50%;
-    margin: 0 auto;
+textarea {
+    width: 800px;
+    height: 100px;
+    border-color: #f0ebe0;
 }
-
-
-
-#joinbtn{
-    width: 20%;
-    margin: 0 auto;
+td {
+    margin: 0;
+    outline: 0;
+    font-family: 'Nanum Gothic',sans-serif;
+    line-height: normal;
+    display: table-cell;
 }
+.ec-base-table table tbody td input {
+    height: 30px;
+    border: 1px solid #f0ebe0;
+}
+input[type="text"] {
+    padding: 4px 10px;
+    background-color: #fff;
+    color: #666;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+input {
+    margin: 0;
+    vertical-align: middle;
+}
+.ec-base-table .typeWrite td {
+    padding: 8px 10px 7px;
+}
+#wrapper {
+    text-align: left;
+}
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    border-color: #fff;
+    border-bottom: #f0ebe0;
+}
+td {
+    padding: 15px;
+}
+#joinbtn {
+    text-align: center;
+    padding-bottom: 50px;
+}
+.addr {
+    width: 400px;
+    margin: 5px 0 0;
+}
+/* h3 {
+    text-align: left;
+} */
+.required {
+    text-align: right;
+    font-size: 12px;
 
+}
+.joinbtn {
+    border: 0px;
+    width: 200px;
+    height: 50px;
+    background-color: #9a6c45;
+    color: white;
+    font-size: 15px;
+}
+select {
+    border: 1px solid #f0ebe0;
+    height: 0 auto;
+    text-align: left;
+    font-size: 13px;
+    padding: 7px;
+}
+#mobile2 {
+    width: 80px;
+    height: 35px;
+}

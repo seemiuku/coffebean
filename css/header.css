@@ -65,7 +65,7 @@
     line-height: 30px;
     vertical-align: middle;
 }
-li, ul{
+.headerNav li, .headerNav ul{
     width: 100%;
     text-align: center;
 }
