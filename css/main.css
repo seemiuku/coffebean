@@ -80,6 +80,9 @@
     width: 90px; height: 30px;
     color: #7F552E;
 }
+#bestplus a{
+    width: 90px; height: 30px;
+}
 #bestplus:hover{
     text-decoration: none;
 }
