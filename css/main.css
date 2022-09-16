@@ -11,7 +11,6 @@
 }
 .mainBanner .carousel-item img {
     width: 100%;
-    min-width: 1000px;
 }
 .c_item img{
     width: 100%;
@@ -20,24 +19,6 @@
 }
 .mainBest, .mainNew, .mainAd{
     margin-top: 70px;
-}
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    transition: 0.3s ease;
-}
-.overlayIn{
-    margin-top: 60px;
-}
-.overlayIn img{
-    margin-right: 10px;
-    margin-left: 10px;
 }
 .mainBestItem{
     padding: 10px;
@@ -98,6 +79,12 @@
     /* border: 1px solid darkcyan; */
     width: 90px; height: 30px;
     color: #7F552E;
+}
+#bestplus a{
+    width: 90px; height: 30px;
+}
+#bestplus:hover{
+    text-decoration: none;
 }
 .BestPlus a:hover, .NewPlus a:hover{
     /* width: 90px; height: 30px;
