@@ -4,16 +4,39 @@
     margin: 0 auto;
     padding: 0;
 }
-.carousel-item img {
+
+.main{
+    width: 60%;
+    min-width: 1102px;
+    height: auto;
+    font-family:'OTWelcomeRA', sans-serif;
+    color: #101010;
+}
+.mainBanner .carousel-item img {
     width: 100%;
-    min-width: 1000px;
+}
+.c_item img{
+    width: 100%;
     height: 500px;
 }
 .mainAd img {
     height: 200px;
 }
-h2 {
-    text-align: center;
+
+.mainBestItem{
+    padding: 10px;
+}
+.mainBestItem1 a {
+    width: 100%;
+    height: 100%;
+}
+.mainBestItem1:hover .overlay{
+    opacity: 0.8;
+    background-color:rgb(150, 150, 150);
+}
+.mainNewItem1:hover .overlay{
+    opacity: 0.8;
+    background-color:rgb(150, 150, 150);
 }
 .mainBestTitle, .mainNewTitle {
     text-align: center;
@@ -42,6 +65,12 @@ h2 {
     /* border: 1px solid darkcyan; */
     width: 90px; height: 30px;
     color: #7F552E;
+}
+#bestplus a{
+    width: 90px; height: 30px;
+}
+#bestplus:hover{
+    text-decoration: none;
 }
 .BestPlus a:hover, .NewPlus a:hover{
     /* width: 90px; height: 30px;
@@ -102,5 +131,11 @@ h2 {
     width: 100px;
     height: 30px;
     text-decoration: none;
-    color: #F0EBE0;
+
+
+    font-weight: bold;
+}
+.blank{
+    width: 80px;
+    height: 30px;
 }
