@@ -1,16 +1,7 @@
-@font-face {
-    font-family: 'OTWelcomeRA';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/OTWelcomeRA.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-  }
-*{
-    font-family: 'OTWelcomeRA';
-}
 .loginForm{
     padding: 100px;
     background-color: #f0ebe0;
-    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: 'Times New Roman', Times, serif;
 }
 .id_box{
     margin: 2px;
@@ -29,9 +20,3 @@
     border: 0px;
     background-color: #f0ebe0;
 }
-@font-face {
-    font-family: 'OTWelcomeRA';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/OTWelcomeRA.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-  }
