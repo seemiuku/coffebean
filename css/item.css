@@ -57,7 +57,6 @@
     height: 50px;
     display:inline-block;
     list-style: none;
-    border: 1px solid #9A6C45;
     line-height: 50px;
     margin: 10px;
 }
@@ -74,10 +73,9 @@
     color: rgb(0, 0, 0);
 }
 .itemTitleS a:hover{
-    text-decoration: none;
+    border-bottom-style:ridge;
     color: #7F552E;
-    background-color:#F0EBE0;
-    transition: .5s ease;
+    font-weight: bold;
 }
 .itemTitle {
     text-align: center;
