@@ -4,6 +4,16 @@
     margin: 0 auto;
     padding: 0;
 }
+@font-face {
+    font-family: 'OTWelcomeRA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/OTWelcomeRA.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+.buy {
+    margin-top: 50px;
+    font-family:'OTWelcomeRA', sans-serif;
+}
 .buyItemInfo{
     width: 100%;
     height: 200px;
@@ -33,7 +43,7 @@
 }
 .UserInfoTable th{
     width: 20%;
-    background-color: rgb(236, 236, 236);
+    background-color: #F0EBE0;
 }
 .UserInfoTable td{
     text-align: left;
@@ -42,14 +52,42 @@
     width: 80%;
     margin-left: 10px;
 }
+.buyItemInfo {
+    font-size: 20px;
+}
+#sample6_postcode {
+    width: 30%;
+}
+#sample6_btn{
+    width: 15%;
+    font-size: 14px;
+    color: black;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#fff),to(#f2f2f2));
+}
+#sample6_detailAddress{
+    width: 40%;
+}
+#sample6_extraAddress{
+    width: 40%;
+}
+.UserAddress input {
+    margin-top: 10px;
+}
+
+#buyItemPrice {
+    font-weight: bold;
+}
 .buyPrice table {
     width: 100%;
+    height: 150px;
     border: 1px solid rgb(187, 187, 187);
     text-align: center;
 }
 .buyPrice th{
     width: 20%;
-    background-color: rgb(233, 233, 233);
+    background-color: #F0EBE0;
 }
 .buyPrice td {
     width: 80%;
@@ -57,6 +95,11 @@
 }
 .buyPrice span {
     margin-left: 10px;
+}
+.buyPrice tr:nth-child(3){
+    background-color: #F0EBE0;
+    font-size: 20px;
+    font-weight: bold;
 }
 .buyOrNot{
     text-align: center;
@@ -75,5 +118,5 @@
 }
 .buyPayment select{
     width: 20%;
-
+    height: 30px;
 }

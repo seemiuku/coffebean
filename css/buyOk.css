@@ -2,6 +2,15 @@
     margin: 0 auto;
     padding: 0;
 }
+@font-face {
+    font-family: 'OTWelcomeRA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/OTWelcomeRA.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+.buyOk{
+    font-family: 'OTWelcomeRA';
+}
 .buyOktitle{
     text-align: center;
 }
@@ -22,6 +31,15 @@
     width: 100px;
     height: 100px;
 }
+.buyOkItem li {
+    list-style: none;
+}
+.buyOkItem{
+    font-size: 20px;
+}
+#buyItemPrice {
+    font-weight: bold;
+}
 .buyOkInfo table {
     width: 100%;
     height: 300px;
@@ -30,7 +48,7 @@
 }
 .buyOkInfo th {
     width: 20%;
-    background-color: rgb(233, 233, 233);
+    background-color: #F0EBE0;
 }
 .buyOkInfo td {
     width: 80%;
@@ -38,6 +56,9 @@
 }
 .buyOkInfo span {
     margin-left: 10px;
+}
+.buyOkBtn input {
+    
 }
 .mainBtn {
     text-align: right;

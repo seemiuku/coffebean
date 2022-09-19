@@ -8,25 +8,27 @@
     <link rel="stylesheet" href="css/buyOk.css">
 </head>
 <body>
-    <div class="buyOk">
-        <div class="container buyOkTitle">
+    <div class="container buyOk">
+        <div class="buyOkTitle">
             <h2>주문이 완료되었습니다.</h2>
         </div><br>
-        <div class="container buyOkItem">
+        <div class="buyOkItem">
             <table>
                 <tr>
                     <td rowspan="3">
                         <img src="img/free-icon-coffee-cup-3361135.png" alt="">
                     </td>
                     <td>
-                        <span>상품이름</span><br>
-                        <span>상품수량</span><br>
-                        <span>상품가격</span>
+                        <ul>
+                            <li id="buyItemName">커피이름1234</li>
+                            <li id="buyItemPrice">12345원</li>
+                            <li>구매수량</li>
+                        </ul>
                     </td>
                 </tr>
             </table>
         </div><br>
-        <div class="container buyOkInfo">
+        <div class="buyOkInfo">
             <table class="UserInfoTable">
                 <tr>
                     <th>주문번호</th>
@@ -50,7 +52,7 @@
                 </tr>
             </table>
         </div><br>
-        <div class="container buyOkBtn">
+        <div class="buyOkBtn">
             <div class="row">
                 <div class="col-6">
                     <input type="button" value="쇼핑 계속하기">
