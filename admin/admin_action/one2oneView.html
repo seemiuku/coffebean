@@ -6,7 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
+    <style>
 
+.btn:active, .btn:focus {
+outline:none !important;
+box-shadow:none !important;}
+
+.commonContent2{
+      border: 1px;
+      width: 90%;
+      margin-top: 30px;
+    }
+    .commonContent1{
+      display: flex;
+      justify-content: center;
+    }
+
+    </style>
     <title>Document</title>
     <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
@@ -17,8 +33,8 @@
         // 코드중복을 피하기 위해 탑헤더/헤더/푸터를 만들어
         // 재사용한다. jquery load함수
         $(document).ready(function(){
-          $('#header').load("../../header-sub.html");    
-          $('#footer').load("../../footer-sub.html");
+          $('#header').load("../../header-sub2.html");    
+          $('#footer').load("../../footer-sub2.html");
         });
       </script>
 
@@ -46,48 +62,52 @@
         <!-- 사이드메뉴 -->
         <div id="adminSide">
           <ul class="sideUl">
-            <li><button type="button" onclick='location.href="/admin/admin_notice.html"' class="btn btn-warning">공지사항</button></li>                 
-            <li><button type="button" onclick='location.href="/admin/admin_member.html"' class="btn btn-warning">회원관리</button></li>             
-            <li><button type="button" onclick='location.href="/admin/admin_puroductManagement.html"' class="btn btn-warning">상품관리</button></li>       
-            <li><button type="button" onclick='location.href="/admin/admin_one2one.html"' class="btn btn-warning">1:1문의</button></li>            
-            <li><button type="button" onclick='location.href="/admin/admin_review.html"' class="btn btn-warning">리뷰관리</button></li>
-            <li><button type="button" onclick='location.href="/admin/admin_orderManagement.html"' class="btn btn-warning">주문관리</button></li>        
-            <li><button type="button" onclick='location.href="/admin/admin_productAsk.html"' class="btn btn-warning">상품문의</button></li>           
+
+            <li><button style="background-color: #F0EBE0; border-color: #000000;" type="button" onclick='location.href="/admin/admin_notice.html"' class="btn btn-warning">공지사항</button></li>                 
+            <li><button style="background-color: #F0EBE0; border-color: #000000;" type="button" onclick='location.href="/admin/admin_member.html"' class="btn btn-warning">회원관리</button></li>             
+            <li><button style="background-color: #F0EBE0; border-color: #000000;" type="button" onclick='location.href="/admin/admin_puroductManagement.html"' class="btn btn-warning">상품관리</button></li>       
+            <li><button style="background-color: #F0EBE0; border-color: #000000;" type="button" onclick='location.href="/admin/admin_one2one.html"' class="btn btn-warning">1:1문의</button></li>            
+            <li><button style="background-color: #F0EBE0; border-color: #000000;" type="button" onclick='location.href="/admin/admin_review.html"' class="btn btn-warning">리뷰관리</button></li>
+            <li><button style="background-color: #F0EBE0; border-color: #000000;" type="button" onclick='location.href="/admin/admin_orderManagement.html"' class="btn btn-warning">주문관리</button></li>        
+            <li><button style="background-color: #F0EBE0; border-color: #000000;" type="button" onclick='location.href="/admin/admin_productAsk.html"' class="btn btn-warning">상품문의</button></li>           
+
           </ul>
         </div>
           <!-- 메인 -->
           <div id="adminSection">
-              <div class="adminDiv">
-                  <h3 style="display: flex; justify-content: center;">1:1문의 관리</h3>
-          
-              <div class="" style="display: flex; justify-content: center;">
-                        <form style="width: 600px;">
-                          
+            <div class="adminDiv">
+                <h3 style="display: flex; justify-content: center;">1:1문의 관리</h3>
+        
+            <div class="" style="display: flex; justify-content: center;">
+                      <form style="width: 600px;">
+                        
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">문의제목</label>
+                          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <small id="emailHelp" class="form-text text-muted"></small>
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleInputPassword1">문의내용</label>
+                          <textarea  class="form-control" id="exampleInputPassword1"></textarea>
+                        </div>
                           <div class="form-group">
-                            <label for="exampleInputEmail1">문의제목</label>
-                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                            <small id="emailHelp" class="form-text text-muted"></small>
-                          </div>
-                          <div class="form-group">
-                            <label for="exampleInputPassword1">문의내용</label>
-                            <textarea  class="form-control" id="exampleInputPassword1"></textarea>
-                          </div>
-                            <div class="form-group">
-                              <label for="exampleInputPassword1">작성자</label>
-                              <input type="text" class="form-control" id="exampleInputPassword1" disabled>
-                            </div>
-                            <div class="form-group">
-                            <label for="exampleInputPassword1">작성일</label>
+                            <label for="exampleInputPassword1">작성자</label>
                             <input type="text" class="form-control" id="exampleInputPassword1" disabled>
                           </div>
-                       
-                          
-                          <button type="submit" class="btn btn-primary">답변하기</button>
-                          <button type="submit" class="btn btn-primary">삭제하기</button>
-                        </form>
-                      </div>
-              </div>
-          </div>
+
+                          <div class="form-group">
+                          <label for="exampleInputPassword1">작성일</label>
+                          <input type="text" class="form-control" id="exampleInputPassword1" disabled>
+                        </div>
+                     
+                        
+                        <button style="background-color: #F0EBE0; border-color: #000000;" type="button" onclick='location.href="/admin/admin_productAsk.html"' class="btn btn-warning">답변하기</button>
+                        <button style="background-color: #F0EBE0; border-color: #000000;" type="button" onclick='location.href="/admin/admin_productAsk.html"' class="btn btn-warning">삭제하기</button>
+                      </form>
+                    </div>
+            </div>
+        </div>
+
       </div>
     
 

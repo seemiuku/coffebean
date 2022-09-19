@@ -23,6 +23,20 @@
       </script>
 <style>
 
+.btn:active, .btn:focus {
+outline:none !important;
+box-shadow:none !important;}
+
+.commonContent2{
+      border: 1px;
+      width: 90%;
+      margin-top: 30px;
+    }
+    .commonContent1{
+      display: flex;
+      justify-content: center;
+    }
+
   .table1-dark{
     color: #000;
       background-color: #6a4a364f;
@@ -51,15 +65,17 @@
       
       <div id="adminMain">
         <!-- 사이드메뉴 -->
+        <div id="adminMain">
           <div id="adminSide">
             <ul class="sideUl">
-              <li><button type="button" onclick='location.href="/admin/admin_notice.html"' class="btn btn-warning">공지사항</button></li>                 
-              <li><button type="button" onclick='location.href="/admin/admin_member.html"' class="btn btn-warning">회원관리</button></li>             
-              <li><button type="button" onclick='location.href="/admin/admin_puroductManagement.html"' class="btn btn-warning">상품관리</button></li>       
-              <li><button type="button" onclick='location.href="/admin/admin_one2one.html"' class="btn btn-warning">1:1문의</button></li>            
-              <li><button type="button" onclick='location.href="/admin/admin_review.html"' class="btn btn-warning">리뷰관리</button></li>
-              <li><button type="button" onclick='location.href="/admin/admin_orderManagement.html"' class="btn btn-warning">주문관리</button></li>        
-              <li><button type="button" onclick='location.href="/admin/admin_productAsk.html"' class="btn btn-warning">상품문의</button></li> 
+              <li><button style="background-color: #F0EBE0; border-color: #000000;" type="button" onclick='location.href="/admin/admin_notice.html"' class="btn btn-warning">공지사항</button></li>                 
+              <li><button style="background-color: #F0EBE0; border-color: #000000;" type="button" onclick='location.href="/admin/admin_member.html"' class="btn btn-warning">회원관리</button></li>             
+              <li><button style="background-color: #F0EBE0; border-color: #000000;" type="button" onclick='location.href="/admin/admin_puroductManagement.html"' class="btn btn-warning">상품관리</button></li>       
+              <li><button style="background-color: #F0EBE0; border-color: #000000;" type="button" onclick='location.href="/admin/admin_one2one.html"' class="btn btn-warning">1:1문의</button></li>            
+              <li><button style="background-color: #F0EBE0; border-color: #000000;" type="button" onclick='location.href="/admin/admin_review.html"' class="btn btn-warning">리뷰관리</button></li>
+              <li><button style="background-color: #F0EBE0; border-color: #000000;" type="button" onclick='location.href="/admin/admin_orderManagement.html"' class="btn btn-warning">주문관리</button></li>        
+              <li><button style="background-color: #F0EBE0; border-color: #000000;" type="button" onclick='location.href="/admin/admin_productAsk.html"' class="btn btn-warning">상품문의</button></li>           
+
             </ul>
           </div>
           <!-- 메인 -->
@@ -69,14 +85,16 @@
               </div>
               <div class="adminDiv" style="display: flex;">
                   검색 옵션 
-                  <select class="form-control form-control-sm"  style=" height: 30px; width: 70px; background-color: antiquewhite; border: 1px solid rgba(0, 0, 0, 0.356); margin-right: 5px; " >
+                  <select class="form-control form-control-sm"  style=" height: 30px; width: 70px;  margin-right: 5px; " >
+
               <option value="all" selected>전체</option>
               <option value="id">아이디</option>
               <option value="name">상품이름</option>
               <option value="email">제목</option>
               <option value="phone">내용</option>
             </select>
-            <input class="form-control" style="width:200px; height: 30px; background-color: antiquewhite;  border: 1px solid rgba(0, 0, 0, 0.356);"  type="text" >
+            <input class="form-control" style="width:200px; height: 30px; "  type="text" >
+
             <input type="image" src="/img/community/search.gif">
               </div>
               <div class="adminDiv">
@@ -110,7 +128,8 @@
                                 <td>${ dto.A_CONTENT }</td>
                                 <td><fmt:formatDate value="${ dto.A_REGDATE }" pattern = "yyyy-MM-dd"/>1</td>
                                 <td>${ dto.PA_TITLE }</td>
-                                <td><button type="submit">답변하기</button></td>
+                                <td><button style="background-color: #6a4a361e; border-color: #000000;" type="button" onclick='location.href="/admin/admin_productAsk.html"' class="btn btn-warning">답변달기</button></td>
+
                             </tr>
                           </c:forEach>
                     </tbody>
