@@ -1,26 +1,25 @@
-*{
-  list-style: none;
+@font-face {
+  font-family: 'OTWelcomeRA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/OTWelcomeRA.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
 }
 #container {
-  width: 1000px;
-  height: 0 auto;
-  margin: 0 auto;
-  padding-bottom: 70px;
-  
+  width: 1102px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  font-family: 'OTWelcomeRA';
 }
 .answer {
-    display: none;
     padding-bottom: 20px;
     font-size: 17px;
-    font-family: 'OTWelcomeRA';
 }
 #faq-title {
   font-size: 32px;
   display: flex;
   justify-content: center;
   padding: 30px;
-  color: #7f552e;
-  font-family: 'OTWelcomeRA';
+  color: #9a6c45;
 }
 .faq-content {
   border-bottom: 1px solid #F0EBE0;
@@ -34,19 +33,11 @@
   background: none;
   width: 100%;
   text-align: left;
-  font-family: 'OTWelcomeRA';
 }
 .question:hover {
-  color: #7f552e;
-  font-weight: 600;
+  color: #9a6c45;
+  font-weight: 500;
 }
 [id$="-toggle"] {
   margin-right: 15px;
-  font-family: 'OTWelcomeRA';
-}
-@font-face {
-  font-family: 'OTWelcomeRA';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/OTWelcomeRA.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
 }

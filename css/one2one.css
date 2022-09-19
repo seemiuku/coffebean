@@ -23,7 +23,8 @@ select {
 #one2oneTable {
     width: 1000px;
 }
-.one2one_title{
+.one2one_title {
+    text-align: center;
     margin: 30px;
     color: #7f552e;
     font-family: 'OTWelcomeRA';
@@ -77,4 +78,7 @@ td{
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/OTWelcomeRA.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
+}
+.mas {
+    margin: 100px;
 }

@@ -117,22 +117,29 @@
     <div class="loginMain">
             <input type="text" class="id_box" name="loginID" placeholder="아이디"><br>
             <input type="password" class="pw_box" name="loginPW" placeholder="비밀번호"><br>
-           <br>
+            <span class="input-wrap">
+              <input type="checkbox" id="checkId" name="checkId">
+              <label for="checkId"><span></span></label>
+              아이디 저장
+            </span>
+           <br><br>
             <div>
               <input type="button" class="button_box" value="로그인">
             </div>
             <br>
       <!-- 아이디찾기 비번찾기 -->
       <div class="loginFindbox">
-        <span class="input-wrap">
-          <input type="checkbox" id="checkId" name="checkId">
-          <label for="checkId"><span></span></label>
-          아이디 저장
-        </span>
         <span><input type="button" class="find_box" value="아이디찾기"
-              onclick="window.open('idFind.html', '아이디찾기', 'width=500,height=440')" ></span>
+              onclick="window.open('idFind.html', '아이디찾기', 'width=500,height=440')" >
+            </span>
         <span><input type="button" class="find_box" value="비밀번호찾기"
-              onclick="window.open('pwFind.html', '비밀번호찾기', 'width=500,height=440')" ></span>
+              onclick="window.open('pwFind.html', '비밀번호찾기', 'width=500,height=440')" >
+            </span>
+            <span></span>
+        <span>
+          <a href="join.html" style="color:#9a6c45; font-weight: bold;">회원가입</a>
+        </span>
+
         
       </div>
     </div>
