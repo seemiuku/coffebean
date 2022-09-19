@@ -101,6 +101,8 @@
 }
 .itemList{
     text-align: center;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
 }
 .itemList img {
     width: 80px;
