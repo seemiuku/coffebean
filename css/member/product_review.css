@@ -98,3 +98,9 @@ max-width: 1000px;
     background-color: #7F552E;
     text-align: center;
 }
+.creatbt{
+    width: 100%;
+    text-align: right;
+    margin-bottom: 30px;
+    margin-right: 15px
+}
