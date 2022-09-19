@@ -21,7 +21,7 @@
         $(document).ready(function(){
           $('#header').load("../header-sub.html");     
           $('#footer').load("../footer-sub.html");
-        });
+        });b
 
         function count(type)  {
         // 결과를 표시할 element
@@ -128,11 +128,11 @@
                     </div>
                 </div>
             </div>
-        </div><br>
+        </div><br><br>
         <div class="container">
-            <ul class="nav nav-tabs" id="goDetail">
+            <ul class="nav nav-tabs" id="goDetail" style="border-color: black;">
                 <li class="nav-item">
-                  <a class="nav-link active" href="#goDetail">상품상세설명</a>
+                  <a class="nav-link active" href="#goDetail" style="border-color: black; border-bottom: 1px solid white;" >상품상세설명</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#goReview">상품후기</a>
@@ -148,12 +148,12 @@
             </div>
         </div><br><br><br>
         <div class="container">
-            <ul class="nav nav-tabs" id="goReview">
+            <ul class="nav nav-tabs" id="goReview" style="border-color: black;">
                 <li class="nav-item">
                   <a class="nav-link" href="#goDetail">상품상세설명</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" href="#goReview">상품후기</a>
+                  <a class="nav-link active" href="#goReview" style="border-color: black; border-bottom: 1px solid white;">상품후기</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#goitemQnA">상품문의</a>
@@ -217,9 +217,20 @@
                     <td>####.##.##</td>
                 </tr>
             </table>
+            <nav aria-label="Page navigation reviewNav">
+                <ul class="pagination my">
+                  <li class="page-item"><a class="page-link" href="#">Prev</a></li>
+                  <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item"><a class="page-link" href="#">4</a></li>
+                  <li class="page-item"><a class="page-link" href="#">5</a></li>
+                  <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                </ul>
+            </nav>
         </div><br><br><br>
         <div class="container">
-            <ul class="nav nav-tabs" id="goitemQnA">
+            <ul class="nav nav-tabs" id="goitemQnA" style="border-color: black;">
                 <li class="nav-item">
                   <a class="nav-link" href="#goDetail">상품상세설명</a>
                 </li>
@@ -227,7 +238,7 @@
                   <a class="nav-link" href="#goReview">상품후기</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" href="#goitemQnA">상품문의</a>
+                  <a class="nav-link active" href="#goitemQnA" style="border-color: black; border-bottom: 1px solid white;">상품문의</a>
                 </li>
             </ul>
         </div><br>
@@ -285,6 +296,17 @@
                     <td>답변완료</td>
                 </tr>
             </table>
+            <nav aria-label="Page navigation itemQnANav">
+                <ul class="pagination my">
+                  <li class="page-item"><a class="page-link" href="#">Prev</a></li>
+                  <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item"><a class="page-link" href="#">4</a></li>
+                  <li class="page-item"><a class="page-link" href="#">5</a></li>
+                  <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                </ul>
+            </nav>
         </div>
     </div><br>
     <div id="footer"></div>

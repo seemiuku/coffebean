@@ -41,7 +41,7 @@ html {
 ul {
     list-style: none;
 }
-li {
+.nav li {
     display: inline-block;
 }
 .itemTable{
@@ -108,11 +108,11 @@ li {
     width: 100%;
     height: 100%;
 }
-.nav-item {
-    margin: 0;
-}
 .nav-tabs{
     justify-content: center;
+}
+.nav-item {
+    margin: 0;
 }
 .nav-item a{
     color: black;
@@ -161,7 +161,7 @@ li {
     width: 10%;
 }
 .reviewTable th, .QnATable th{
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
     padding: 10px;
 }
 .reviewTable td, .QnATable td{
@@ -170,4 +170,24 @@ li {
 }
 .detailTap, .review, .itemQnA{
     margin-bottom: 200px;
+}
+.pagination {
+    margin: 30px;
+    justify-content: center;
+}
+.page-item {
+    margin: 0;
+    border: 0;
+}
+.pagination a{
+    color: black;
+}
+.pagination a:visited{
+    color: black;
+}
+.my.pagination > .active > a, 
+.my.pagination > .active > a:hover, 
+.my.pagination > .active > a:focus{
+  background: #9A6C45;
+  border-color: #9A6C45;
 }
