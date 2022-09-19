@@ -57,9 +57,10 @@
 .buyOkInfo span {
     margin-left: 10px;
 }
-.buyOkBtn input {
-    
+.buyOkBtn {
+    text-align: right;
+    margin: 0;
 }
 .mainBtn {
-    text-align: right;
+    text-align: left;
 }
