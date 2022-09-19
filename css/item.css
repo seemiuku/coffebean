@@ -42,9 +42,9 @@
 }
 .itemMenuUl li{
     display: inline-block;
-    width: 7%;
     font-size: 12px;
     text-align: center;
+    margin: 0 15px;
 }
 .itemMenuUl li:hover{
     font-weight: bolder;
@@ -88,7 +88,7 @@
 }
 .itemSearch input {
     width: 80%;
-    height: 100%;
+    height: 25px;
     border: 0;
 }
 .itemSearch input:focus{
