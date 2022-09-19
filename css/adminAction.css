@@ -10,7 +10,9 @@ button, select {
     height: 30px;
     
 }
-
+#footer{
+	margin-top: 50px;
+}
 
 .adminSideActive {
 	color: red;
