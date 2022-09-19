@@ -95,3 +95,13 @@ max-width: 1000px;
 .page a{
     color: black;
 }
+.myli {
+    list-style: none;
+    padding: 20px;
+    width: 100%;
+    background-color: #7F552E;
+    text-align: center;
+}
+/* .myli:hover{
+    width: 110%;
+} */

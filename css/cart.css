@@ -82,3 +82,10 @@ max-width: 1000px;
     object-fit: cover;
 
 }
+.myli {
+    list-style: none;
+    padding: 20px;
+    width: 100%;
+    background-color: #7F552E;
+    text-align: center;
+}
