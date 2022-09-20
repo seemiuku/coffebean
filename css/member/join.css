@@ -4,6 +4,14 @@
     font-weight: normal;
     font-style: normal;
   }
+#join2 {
+    text-align: center;
+    color: #9a6c45;
+
+}
+#join2 a {
+    color: #9a6c45;
+}
 h2 {
     padding-top: 50px;
     text-align: center;

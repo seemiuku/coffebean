@@ -24,7 +24,7 @@ select {
     padding: 13px;
 }
 #one2oneTable {
-    width: 1000px;
+    width: 1102px;
 }
 .one2one_title {
     text-align: center;
@@ -60,7 +60,7 @@ td{
     text-align: left;
 }
 .submit_button{
-    width: 200px;
+    width: 120px;
     height: 50px;
     background-color: #9a6c45;
     color: white;
