@@ -3,19 +3,60 @@
     margin: 0 auto;
     padding: 0;
 }
+@font-face {
+    font-family: 'OTWelcomeRA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/OTWelcomeRA.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+.writeQnA{
+    margin-top: 50px;
+    font-family: 'OTWelcomeRA';
+}
+.writeQnATitle {
+    text-align: center;
+}
 .writeQnAItem{
     display:flex;
+    border: 1px solid gray;
+    padding: 5px;
+}
+.writeQnAItemImg{
+    width: 30%;
+    text-align: center;
 }
 .writeQnAItemImg img{
     width: 150px;
     height: 150px;
 }
+.writeQnAItemInfo{
+    width: 70%;
+    margin-top: 40px;
+}
+.writeQnAItemInfo a {
+    color: gray;
+}
+.writeQnAItemInfo a:hover{
+    color: gray;
+    text-decoration: none;
+}
 .writeQnATable table{
-    width: 80%;
+    width: 100%;
 }
 .writeQnATable tr{
-    border-bottom: 1px solid gray;
-    border-top: 1px solid gray;
+    border-bottom: 1px solid #9A6C45;
+}
+.writeQnATable td:nth-child(1) {
+    width: 30%;
+    text-align: center;
+    padding: 5px;
+}
+.writeQnATable td:nth-child(2) {
+    width: 70%;
+    padding: 5px;
+}
+.writeQnATable input{
+    width: 70%;
 }
 .writeQnABtn {
     text-align: center;
