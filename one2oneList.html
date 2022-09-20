@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="css/one2one.css">
   <link rel="stylesheet" href="css/one2oneList.css">
   <link rel="stylesheet" href="./css/header.css">
-    <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./css/footer.css">
   
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
@@ -29,100 +29,43 @@
 </head>
 <body>
   <!-- 헤더 -->
-   <div id="headerTop"></div>
   <div id="header" class="sticky-top"></div> 
 
-  <!-- 메인 -->
-
-    
-    <div class="all">
-
-        <h2 class="one2one_title">1 : 1 문의 게시판</h2>
-
-        <div class="formbtn">
-          <a href="/one2one.html" class="formBtn">글작성</a>
-        </div>
-        <table class="one2onetable">
-            <thead>
-                <tr>
-                    <th>NO.</th>
-                    <th>구분</th>
-                    <th>글제목</th>
-                    <th>작성자</th>
-                    <th>날짜</th>
-                    <th>조회</th>
-                </tr>
-            </thead>
-            <tbody>
-                <!-- <c:forEach var="dto" items="${ list }" varStatus="status"> -->
-                <tr>
-                    <td>1</td>
-                    <td>교환/반품문의</td>
-                    <td width="100%"><a href="/viewDTO?board_idx=${ dto.BOARD_IDX }">
-                        교환문의 드립니다.</td>
-                    <td>강*현</td>
-                    <td width="17%">
-                        <fmt:formatDate value="${ dto.BOARD_DATE }" pattern = "yyyy-MM-dd"/>2022-09-20</td>
-                    <td>1</td>
-                </tr>
-                <!-- <tr>
-                  <td>${ dto.BOARD_IDX }</td>
-                  <td>구분</td>
-                  <td width="100%"><a href="/viewDTO?board_idx=${ dto.BOARD_IDX }">
-                      ${ dto.BOARD_CONTENT }</td>
-                  <td>${ dto.BOARD_NAME }</td>
-                  <td width="17%">
-                      <fmt:formatDate value="${ dto.BOARD_DATE }" pattern = "yyyy-MM-dd"/></td>
-                  <td>${ dto.BOARD_HIT }</td>
-              </tr>
+  <!-- 메인 --> 
+  <div class="all">
+      <h2 class="one2one_title">1:1 문의 게시판</h2>
+      <table class="one2onetable">
+          <thead>
               <tr>
-                <td>${ dto.BOARD_IDX }</td>
-                <td>구분</td>
-                <td width="100%"><a href="/viewDTO?board_idx=${ dto.BOARD_IDX }">
-                    ${ dto.BOARD_CONTENT }</td>
-                <td>${ dto.BOARD_NAME }</td>
-                <td width="17%">
-                    <fmt:formatDate value="${ dto.BOARD_DATE }" pattern = "yyyy-MM-dd"/></td>
-                <td>${ dto.BOARD_HIT }</td>
-            </tr>
-            <tr>
-              <td>${ dto.BOARD_IDX }</td>
-              <td>구분</td>
-              <td width="100%"><a href="/viewDTO?board_idx=${ dto.BOARD_IDX }">
-                  ${ dto.BOARD_CONTENT }</td>
-              <td>${ dto.BOARD_NAME }</td>
-              <td width="17%">
-                  <fmt:formatDate value="${ dto.BOARD_DATE }" pattern = "yyyy-MM-dd"/></td>
-              <td>${ dto.BOARD_HIT }</td>
-          </tr>
-                <tr>
-                  <td>${ dto.BOARD_IDX }</td>
-                  <td>구분</td>
-                  <td width="100%"><a href="/viewDTO?board_idx=${ dto.BOARD_IDX }">
-                      ${ dto.BOARD_CONTENT }</td>
-                  <td>${ dto.BOARD_NAME }</td>
-                  <td width="17%">
-                      <fmt:formatDate value="${ dto.BOARD_DATE }" pattern = "yyyy-MM-dd"/></td>
-                  <td>${ dto.BOARD_HIT }</td>
+                  <th class="th2-no">NO.</th>
+                  <th class="th2-category">구분</th>
+                  <th class="th2-title">글제목</th>
+                  <th class="th2-name">작성자</th>
+                  <th class="th2-date">날짜</th>
+                  <th class="th2-hit">조회</th>
               </tr>
+          </thead>
+          <tbody>
+              <!-- <c:forEach var="dto" items="${ list }" varStatus="status"> -->
               <tr>
-                <td>${ dto.BOARD_IDX }</td>
-                <td>구분</td>
-                <td width="100%"><a href="/viewDTO?board_idx=${ dto.BOARD_IDX }">
-                    ${ dto.BOARD_CONTENT }</td>
-                <td>${ dto.BOARD_NAME }</td>
-                <td width="17%">
-                    <fmt:formatDate value="${ dto.BOARD_DATE }" pattern = "yyyy-MM-dd"/></td>
-                <td>${ dto.BOARD_HIT }</td>
-            </tr> -->
+                  <td>1</td>
+                  <td>교환/반품문의</td>
+                  <td><a href="/viewDTO?board_idx=${ dto.BOARD_IDX }">
+                      교환문의 드립니다.</td>
+                  <td>강*현</td>
+                  <td>
+                      <fmt:formatDate value="${ dto.BOARD_DATE }" pattern = "yyyy-MM-dd"/>2022-09-20</td>
+                  <td>5</td>
+              </tr>
+           <!-- </c:forEach> -->
+          </tbody>    
+      </table><br>
+      <div class="formbtn">
+        <a href="/one2one.html" class="formBtn">글쓰기</a>
+      </div>
 
-                <!-- </c:forEach> -->
-            </tbody>
+  </div>
 
-
-        </table><br>
-    
-    </div>
 
     <div class="pagination">
         <a href="#">이전</a>

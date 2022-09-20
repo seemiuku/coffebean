@@ -4,13 +4,13 @@
     font-weight: normal;
     font-style: normal;
   }
-h1 {
+h2 {
     padding-top: 50px;
     text-align: center;
-    color: #9a6c45;
     font-family: 'OTWelcomeRA';
 }
 #joinForm {
+    margin-top: 50px;
     height: 0 auto;
     text-align: left;
     font-size: 15px;

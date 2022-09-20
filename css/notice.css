@@ -1,2 +1,15 @@
-/* notice.html css를 one2oneList.css 가져다 쓰고있어서 비어있음 */
-/* 원래 써져있던 것은 company web이라 지웠음 */
+thead {
+    text-align: center;
+}
+.th-no {
+    width: 10%;
+}
+.th-title {
+    width: 65%;
+}
+.th-date {
+    width: 20%;
+}
+.th-hit {
+    width: 20%;
+}

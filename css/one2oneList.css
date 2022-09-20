@@ -2,36 +2,46 @@
     width: 1102px;
     padding-top: 50px;
 }
+.all a {
+    color: #7F552E;
+}
+.all a:hover {
+    color: #7F552E;
+}
 th, td {
     padding: 10px;
     color: #7F552E;
     text-align: center;
-    font-family: 'OTWelcomeRA';
+    font-size: 15px;
 }
 thead {
     border-top: 1px solid #7f552e;
     border-bottom: 1px solid #7f552e;
 }
-/* 글작성 버튼 CSS */
+thead {
+    text-align: center;
+}
+.one2onetable {
+    width: 100%;
+}
+
+/* 글쓰기 버튼 CSS */
 .formBtn{
+    font-weight: bold;
     width: 120px;
     height: 50px;
-    background-color: #9a6c45;
-    color: white;
-    display: flex;
-    justify-content: center;
-    padding: 15px 0;
-    margin-bottom: 20px;
-    font-family: 'OTWelcomeRA';
-    border-radius: 5px;
+    position: relative;
+    left: 1030px;
 }
 .formBtn:hover {
     color: white;
 }
+
 /* 페이지네이션 CSS */
 .pagination {
     width: 400px;
     display: inline-block;
+    margin-top: 30px;
     margin-bottom: 100px;
 }
 .pagination a {
