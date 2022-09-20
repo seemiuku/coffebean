@@ -14,6 +14,7 @@ html {
 }
 .itemDetail{
     font-family:'OTWelcomeRA', sans-serif;
+    margin-top: 50px;
 }
 .itemRoad{
     font-size: 14px;
@@ -171,6 +172,23 @@ ul {
 .detailTap, .review, .itemQnA{
     margin-bottom: 200px;
 }
+.writeQnA {
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+    background-color:#7F552E;
+}
+.writeQnAA{
+    color: white;
+    text-decoration: none;
+    width: 100%;
+}
+.writeQnAA:hover{
+    color: white;
+    text-decoration: none;
+}
+
 .pagination {
     margin: 30px;
     justify-content: center;
