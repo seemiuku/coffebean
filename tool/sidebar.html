@@ -4,7 +4,16 @@
 <link rel="stylesheet" href="../css/common.css">
 <link rel="stylesheet" href="../css/sidebar.css">
 <script>
-    $(window).on("scroll", function(){ });
+    // $(window).on("scroll", function(){ });
+    $( '.quickButton' ).click( function() {
+  $( 'html, body' ).animate( { scrollTop : 0 }, 1000 );
+  return false;
+});
+
+$( '.quickButton2' ).click( function() {
+  $( 'html, body' ).animate( { scrollTop : 5000 }, 2000 );
+  return false;
+});
 </script>
 <div id="sidebar" class="quick-side-bar">
     <ul>
@@ -16,12 +25,12 @@
         </li>
         <li>
             <span class="quick-arrow-top">
-                <a href="javascript:;" class="quickButton" onClick="javascript:window.scrollTo(0,0)"><img src="/img/icon/up.png"  style="width: 20px; margin-top: 10px;"></a>
+                <a href="javascript:;" class="quickButton"><img src="/img/icon/up.png"  style="width: 20px; margin-top: 10px;"></a>
             </span>
         </li>
         <li>
             <span class="quick-arrow-bottom">
-            <a href="javascript:;" class="quickButton" onClick="javascript:window.scrollTo(0,10000)"><img src="/img/icon/down.png"  style="width: 20px;"></a></a>
+            <a href="javascript:;" class="quickButton2"><img src="/img/icon/down.png"  style="width: 20px;"></a></a>
             </span>
         </li>
     </ul>

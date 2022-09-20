@@ -67,6 +67,9 @@
     text-align: center;
     margin-top: 30px;
 }
+.newbestimg a:hover, .bestnewimg a:hover{
+    opacity: 0.7;
+}
 .BestPlus, .NewPlus{
     text-align: center;
     width: 90px; height: 30px;
