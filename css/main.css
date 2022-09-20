@@ -76,7 +76,7 @@
     /* background-color: darkblue; */
 }
 .BestPlus a, .NewPlus a{
-    /* border: 1px solid darkcyan; */
+    padding: 10px 23px;
     color: #7F552E;
 }
 
