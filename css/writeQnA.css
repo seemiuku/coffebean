@@ -1,0 +1,22 @@
+*{
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    padding: 0;
+}
+.writeQnAItem{
+    display:flex;
+}
+.writeQnAItemImg img{
+    width: 150px;
+    height: 150px;
+}
+.writeQnATable table{
+    width: 80%;
+}
+.writeQnATable tr{
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+}
+.writeQnABtn {
+    text-align: center;
+}
