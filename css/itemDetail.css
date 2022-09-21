@@ -12,13 +12,19 @@ html {
     font-weight: normal;
     font-style: normal;
 }
+.container {
+    min-width: 1102px;
+}
 .itemDetail{
     font-family:'OTWelcomeRA', sans-serif;
     margin-top: 50px;
+    min-width: 1102px;
+    width: 60%;
 }
 .itemRoad{
     font-size: 14px;
     margin-bottom: 30px;
+    padding-right: 10px;
     text-align: right;
 }
 .itemRoad a {
