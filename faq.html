@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/faq.css">
   <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/sidebar.css">
   <link rel="stylesheet" href="./css/footer.css">
 
   <!-- Bootstrap CSS -->
@@ -21,7 +22,8 @@
   <script>
     $(document).ready(function(){
       $('#headerTop').load("/headerTop.html");
-      $('#header').load("/header-sub.html");     
+      $('#header').load("/header-sub.html");  
+      $('#sidebar').load("./tool/sidebar.html");   
       $('#footer').load("/footer-sub.html");
     });
   </script>
@@ -30,6 +32,9 @@
   <!-- 헤더 -->
    <div id="header"></div>
   <div id="header" class="sticky-top"></div> 
+
+  <!-- 사이드바 -->
+  <div id="sidebar"></div>
 
   <!-- 메인 -->
   <div id="container">
