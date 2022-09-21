@@ -47,6 +47,7 @@
 .UserInfoTable th{
     width: 20%;
     background-color: #F0EBE0;
+    padding-top: 5px;
 }
 .UserInfoTable td{
     text-align: left;
@@ -54,6 +55,7 @@
 .UserInfoTable input{
     width: 80%;
     margin: 10px 10px 10px 10px;
+    padding-top: 5px;
 }
 #payment1{
     width: 3%;
@@ -100,10 +102,12 @@
 .buyPrice th{
     width: 20%;
     background-color: #F0EBE0;
+    padding-top: 5px;
 }
 .buyPrice td {
     width: 80%;
     text-align: left;
+    padding-top: 5px;
 }
 .buyPrice span {
     margin-left: 10px;

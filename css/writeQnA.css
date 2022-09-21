@@ -64,13 +64,18 @@
 .writeQnABtn {
     text-align: center;
 }
+.writeQnABtn input{
+    width: 100px;
+    height: 40px;
+    padding-top: 5px;
+    font-weight: bold   ;
+}
 .writeQnABtn input:nth-child(1) {
-    padding: 5px;
     background-color: #9A6C45;
     color: white;
     margin-right: 5px;
 }
 .writeQnABtn input:nth-child(2) {
-    padding: 5px;
+    background-color: white;
     margin-left: 5px;
 }
