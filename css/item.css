@@ -86,9 +86,10 @@
     list-style: none;
     display: inline-block;
     margin: 0;
+    font-size: 0;
 }
 .itemListUl li{
-    margin: 20px;
+    margin-top: 50px;
 }
 .itemImg{
     width: 100%;
@@ -110,6 +111,10 @@
 .itemImgBox{
     line-height: 150px;
 }
+.itemImgBox img {
+    width: 150px;
+    height: 150px;
+}
 .itemImgBox:hover{
     transform: scale(1.2);
     -webkit-transform: scale(1.2);
@@ -119,8 +124,8 @@
 }
 .itemName{
     /* border-bottom: 1px solid #7F552E; */
+    width: 100%;
     color: black;
-    text-align: center;
     font-size: 16px;
     padding: 5px;
 }
@@ -168,6 +173,7 @@ li a:visited{
     font-weight: bold;
     color: #F0EBE0;
     text-align: center;
+    padding-top: 15px;
 }
 .itemImg:hover .overlay{
     opacity: 0.8;
