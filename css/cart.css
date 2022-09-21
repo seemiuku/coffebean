@@ -40,7 +40,7 @@ max-width: 1000px;
 }
 .cartTable0 table{
     width: 100%;
-    height: 100px;
+    height: 150px;
     border-top: 1px solid rgb(167, 167, 167);
     border-bottom: 1px solid rgb(167, 167, 167);
     text-align: center;
@@ -52,11 +52,13 @@ max-width: 1000px;
     text-align: center;
 }
 .cartTable1 tr:nth-child(1) {
-    height: 20%;
-    background-color: rgb(231, 231, 231);
+    height: 40px;
 }
-.cartTable1 tr:nth-child(2) {
+/* .cartTable1 tr:nth-child(2) {
     height: 30%;
+} */
+.cartTable1 tr{
+    height: 110px;
 }
 .cartTable1 tr,.cartTable1 td {
     border-bottom: 1px solid rgb(167, 167, 167);
@@ -87,7 +89,6 @@ max-width: 1000px;
     list-style: none;
     padding: 20px;
     width: 100%;
-    background-color: #7F552E;
     text-align: center;
 }
 @font-face {
