@@ -30,6 +30,7 @@ select {
     text-align: center;
     margin: 30px;
     font-family: 'OTWelcomeRA';
+    color: #555555;
 }
 .btn{
     margin: 50px;
