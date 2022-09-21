@@ -12,6 +12,8 @@
 .writeQnA{
     margin-top: 50px;
     font-family: 'OTWelcomeRA';
+    min-width: 1102px;
+    width: 60%;
 }
 .writeQnATitle {
     text-align: center;

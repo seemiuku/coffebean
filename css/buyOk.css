@@ -11,6 +11,8 @@
 .buyOk{
     font-family: 'OTWelcomeRA';
     margin-top: 50px;
+    min-width: 1102px;
+    width: 60%;
 }
 .buyOktitle{
     text-align: center;

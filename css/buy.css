@@ -13,6 +13,8 @@
 .buy {
     margin-top: 50px;
     font-family:'OTWelcomeRA', sans-serif;
+    min-width: 1102px;
+    width: 60%;
 }
 .buyItemInfo{
     width: 100%;
