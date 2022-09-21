@@ -40,3 +40,9 @@ max-width: 1000px;
     font-weight: normal;
     font-style: normal;
 }
+.topic{
+    /* float: none; */
+    align-items: stretch;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

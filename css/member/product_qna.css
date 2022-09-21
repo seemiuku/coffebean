@@ -57,7 +57,6 @@ max-width: 1000px;
 }
 .cartTable1 tr:nth-child(1) {
     height: 40px;
-    background-color: rgb(231, 231, 231);
 }
 .item{
     height: 70px;
@@ -115,4 +114,10 @@ max-width: 1000px;
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/OTWelcomeRA.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
+}
+.topic{
+    /* float: none; */
+    align-items: stretch;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
