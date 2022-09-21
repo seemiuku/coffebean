@@ -107,10 +107,6 @@
                     <td><input type="text"></td>
                 </tr>
                 <tr>
-                    <th>우편번호</th>
-                    <td><input type="text"></td>
-                </tr>
-                <tr>
                     <th>주소</th>
                     <td class="UserAddress">
                         <input type="text" id="sample6_postcode" placeholder="우편번호">
@@ -123,6 +119,13 @@
                 <tr>
                     <th>배송메모</th>
                     <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <th>결제방식</th>
+                    <td>
+                        <input type="radio" name="payment" id="payment1"><span>무통장입금</span>
+                        <input type="radio" name="payment" id="payment2"><span>카드결제</span>
+                    </td>
                 </tr>
             </table>
         </div><br>
@@ -142,13 +145,6 @@
                 </tr>
             </table>
         </div><br>
-        <div class="buyPayment">
-            <select name="payment" id="payment">
-                <option value="" selected>결제수단선택</option>
-                <option value="">무통장입금</option>
-                <option value="">카드결제</option>
-            </select>
-        </div><br><br>
         <div class="buyOrNot">
             <input type="button" value="결제하기" class="buybuy">
             <input type="button" value="결제취소" class="buynot">
