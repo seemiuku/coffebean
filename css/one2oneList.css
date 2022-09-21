@@ -1,38 +1,59 @@
-*{
-    
-    margin: 0 auto;
-    padding: 0;
-    text-align: center;
-}
 .all{
     width: 1102px;
+    padding-top: 50px;
+}
+.all a {
+    color: #7F552E;
+}
+.all a:hover {
+    color: #7F552E;
 }
 th, td {
     padding: 10px;
     color: #7F552E;
     text-align: center;
-    font-family: 'OTWelcomeRA';
-}
-.formBtn{
-    width: 120px;
-    height: 50px;
-    text-align: center;
-    background-color: #9a6c45;
-    color: white;
-    display: flex;
-    justify-content: center;
-    padding: 15px 0;
-    margin-bottom: 20px;
-    margin-right: 5px;
-    font-family: 'OTWelcomeRA';
+    font-size: 15px;
 }
 thead {
-    padding-top: 50px;
-    background-color: #F0EBE0;
+    border-top: 1px solid #7f552e;
+    border-bottom: 1px solid #7f552e;
 }
-@font-face {
-    font-family: 'OTWelcomeRA';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/OTWelcomeRA.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
+thead {
+    text-align: center;
+}
+.one2onetable {
+    width: 100%;
+}
+
+/* 글쓰기 버튼 CSS */
+.formBtn{
+    font-weight: bold;
+    width: 120px;
+    height: 50px;
+    position: relative;
+    left: 1030px;
+}
+.formBtn:hover {
+    color: white;
+}
+
+/* 페이지네이션 CSS */
+.pagination {
+    width: 400px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.pagination a.active {
+    background-color: #9a6c45;
+    color: white;
+}
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
 }

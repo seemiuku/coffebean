@@ -9,8 +9,9 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/one2one.css">
   <link rel="stylesheet" href="css/one2oneList.css">
+  <link rel="stylesheet" href="css/notice.css">
   <link rel="stylesheet" href="./css/header.css">
-    <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./css/footer.css">
   
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
@@ -33,116 +34,79 @@
   <div id="header" class="sticky-top"></div> 
 
   <!-- 메인 -->
-    <h2 class="one2one_title">공지사항</h2>
-    
     <div class="all">
+        <h2 class="one2one_title">공지사항</h2>
         <table class="one2onetable">
             <thead>
                 <tr>
-                    <th>NO.</th>
-                    <th>글제목</th>
-                    <th>날짜</th>
-                    <th>조회</th>
+                    <th class="th-no">NO.</th>
+                    <th class="th-title">글제목</th>
+                    <th class="th-date">날짜</th>
+                    <th class="th-hit">조회</th>
                 </tr>
             </thead>
             <tbody>
                 <!-- <c:forEach var="dto" items="${ list }" varStatus="status"> -->
                 <tr>
-                    <td>${ dto.BOARD_IDX }</td>
+                    <td>1</td>
                     
-                    <td width="100%"><a href="/viewDTO?board_idx=${ dto.BOARD_IDX }">
-                        ${ dto.BOARD_CONTENT }</td>
+                    <td><a href="/viewDTO?board_idx=${ dto.BOARD_IDX }">
+                        1년이상 사용하지 않은 적립금 자동소멸 안내</td>
                     <td width="17%">
-                        <fmt:formatDate value="${ dto.BOARD_DATE }" pattern = "yyyy-MM-dd"/></td>
-                    <td>${ dto.BOARD_HIT }</td>
+                        <fmt:formatDate value="${ dto.BOARD_DATE }" pattern = "yyyy-MM-dd"/>2022-09-20</td>
+                    <td>130</td>
                 </tr>
                 <tr>
-                  <td>${ dto.BOARD_IDX }</td>
-                  
-                  <td width="100%"><a href="/viewDTO?board_idx=${ dto.BOARD_IDX }">
-                      ${ dto.BOARD_CONTENT }</td>
-
-                  <td width="17%">
-                      <fmt:formatDate value="${ dto.BOARD_DATE }" pattern = "yyyy-MM-dd"/></td>
-                  <td>${ dto.BOARD_HIT }</td>
-              </tr>
-              <tr>
-                <td>${ dto.BOARD_IDX }</td>
-             
-                <td width="100%"><a href="/viewDTO?board_idx=${ dto.BOARD_IDX }">
-                    ${ dto.BOARD_CONTENT }</td>
-
-                <td width="17%">
-                    <fmt:formatDate value="${ dto.BOARD_DATE }" pattern = "yyyy-MM-dd"/></td>
-                <td>${ dto.BOARD_HIT }</td>
-            </tr>
-            <tr>
-              <td>${ dto.BOARD_IDX }</td>
-         
-              <td width="100%"><a href="/viewDTO?board_idx=${ dto.BOARD_IDX }">
-                  ${ dto.BOARD_CONTENT }</td>
-
-              <td width="17%">
-                  <fmt:formatDate value="${ dto.BOARD_DATE }" pattern = "yyyy-MM-dd"/></td>
-              <td>${ dto.BOARD_HIT }</td>
-          </tr>
+                    <td>2</td>
+                    
+                    <td><a href="/viewDTO?board_idx=${ dto.BOARD_IDX }">
+                        네이버 알림 서비스 시행 안내</td>
+                    <td width="17%">
+                        <fmt:formatDate value="${ dto.BOARD_DATE }" pattern = "yyyy-MM-dd"/>2022-09-20</td>
+                    <td>158</td>
+                </tr>
                 <tr>
-                  <td>${ dto.BOARD_IDX }</td>
-          
-                  <td width="100%"><a href="/viewDTO?board_idx=${ dto.BOARD_IDX }">
-                      ${ dto.BOARD_CONTENT }</td>
-
-                  <td width="17%">
-                      <fmt:formatDate value="${ dto.BOARD_DATE }" pattern = "yyyy-MM-dd"/></td>
-                  <td>${ dto.BOARD_HIT }</td>
-              </tr>
-              <tr>
-                <td>${ dto.BOARD_IDX }</td>
-       
-                <td width="100%"><a href="/viewDTO?board_idx=${ dto.BOARD_IDX }">
-                    ${ dto.BOARD_CONTENT }</td>
-
-                <td width="17%">
-                    <fmt:formatDate value="${ dto.BOARD_DATE }" pattern = "yyyy-MM-dd"/></td>
-                <td>${ dto.BOARD_HIT }</td>
-            </tr>
-            <tr>
-              <td>${ dto.BOARD_IDX }</td>
-
-              <td width="100%"><a href="/viewDTO?board_idx=${ dto.BOARD_IDX }">
-                  ${ dto.BOARD_CONTENT }</td>
-
-              <td width="17%">
-                  <fmt:formatDate value="${ dto.BOARD_DATE }" pattern = "yyyy-MM-dd"/></td>
-              <td>${ dto.BOARD_HIT }</td>
-          </tr>
-          <tr>
-            <td>${ dto.BOARD_IDX }</td>
-    
-            <td width="100%"><a href="/viewDTO?board_idx=${ dto.BOARD_IDX }">
-                ${ dto.BOARD_CONTENT }</td>
-
-            <td width="17%">
-                <fmt:formatDate value="${ dto.BOARD_DATE }" pattern = "yyyy-MM-dd"/></td>
-            <td>${ dto.BOARD_HIT }</td>
-        </tr>
-        <tr>
-          <td>${ dto.BOARD_IDX }</td>
-
-          <td width="100%"><a href="/viewDTO?board_idx=${ dto.BOARD_IDX }">
-              ${ dto.BOARD_CONTENT }</td>
-
-          <td width="17%">
-              <fmt:formatDate value="${ dto.BOARD_DATE }" pattern = "yyyy-MM-dd"/></td>
-          <td>${ dto.BOARD_HIT }</td>
-      </tr>
+                    <td>3</td>
+                    
+                    <td><a href="/viewDTO?board_idx=${ dto.BOARD_IDX }">
+                        익산지역 우체국택배 접수중지</td>
+                    <td width="17%">
+                        <fmt:formatDate value="${ dto.BOARD_DATE }" pattern = "yyyy-MM-dd"/>2022-09-20</td>
+                    <td>85</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    
+                    <td><a href="/viewDTO?board_idx=${ dto.BOARD_IDX }">
+                        KT회선오류로 전화연결 오류</td>
+                    <td width="17%">
+                        <fmt:formatDate value="${ dto.BOARD_DATE }" pattern = "yyyy-MM-dd"/>2022-09-20</td>
+                    <td>146</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    
+                    <td><a href="/viewDTO?board_idx=${ dto.BOARD_IDX }">
+                        원두 가격 인상 관련 안내</td>
+                    <td width="17%">
+                        <fmt:formatDate value="${ dto.BOARD_DATE }" pattern = "yyyy-MM-dd"/>2022-09-20</td>
+                    <td>218</td>
+                </tr>
                 <!-- </c:forEach> -->
             </tbody>
-        </table>
-
-        
+        </table><br>     
 
     </div>
+
+    <div class="pagination">
+        <a href="#">이전</a>
+        <a class="active" href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">다음</a>
+      </div>
 
   <!-- 푸터 -->
    <div id="footer"></div> 

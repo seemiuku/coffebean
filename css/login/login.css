@@ -4,34 +4,50 @@
     font-weight: normal;
     font-style: normal;
   }
-*{
+.loginSection1{
     font-family: 'OTWelcomeRA';
 }
 .loginForm{
+    margin: 0 auto;
     padding: 100px;
-    background-color: #f0ebe0;
-    /* font-family: 'Times New Roman', Times, serif; */
 }
 .id_box{
+    border: 1px solid #A1A1A1;
     margin: 2px;
     padding: 10px;
     width: 300px;
-    height: 50px;
+    height: 42px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pw_box{
+    border: 1px solid #A1A1A1;
+    margin: 2px;
+    padding: 10px;
+    width: 300px;
+    height: 42px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .button_box{
     border: 0px;
     width: 300px;
-    height: 55px;
+    height: 43px;
     background-color: #9a6c45;
-    color: white;
+    color: #F0EBE0;
+    font-size: medium;
 }
 .find_box{
     border: 0px;
-    background-color: #f0ebe0;
+    background-color: white;
 }
-@font-face {
-    font-family: 'OTWelcomeRA';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/OTWelcomeRA.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-  }
+.loginFindbox {
+    font-size: 14px;
+    width: 320px;
+    display: flex;
+    justify-content: space-around;
+}
+.input-wrap{
+    position: relative;
+    right: 105px;
+    font-size: 13px;
+    padding: 10px;
+}

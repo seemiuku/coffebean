@@ -1,17 +1,20 @@
+@font-face {
+    font-family: 'OTWelcomeRA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/OTWelcomeRA.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
 td{
     border-bottom: 1px solid #F0EBE0;
     color: #9a6c45;
     text-align: center;
-    font-family: 'OTWelcomeRA';
     font-weight: 300;
 }
 input{
     border: none;
-    font-family: 'OTWelcomeRA';
 }
 textarea{
     border: 1px solid #F0EBE0;
-    font-family: 'OTWelcomeRA';
 }
 select {
     border: 1px solid #f0ebe0;
@@ -21,23 +24,20 @@ select {
     padding: 13px;
 }
 #one2oneTable {
-    width: 1000px;
+    width: 1102px;
 }
-.one2one_title{
+.one2one_title {
+    text-align: center;
     margin: 30px;
-    color: #7f552e;
     font-family: 'OTWelcomeRA';
 }
 .btn{
     margin: 50px;
     display: flex;
     justify-content: center;
-    font-family: 'OTWelcomeRA';
-    /* font-family: 'Times New Roman', Times, serif; */
 }
 td{
     padding: 7px;
-    /* font-family: 'Times New Roman', Times, serif; */
 }
 .one2one{
     width: 250px;
@@ -60,7 +60,7 @@ td{
     text-align: left;
 }
 .submit_button{
-    width: 200px;
+    width: 120px;
     height: 50px;
     background-color: #9a6c45;
     color: white;
@@ -71,10 +71,5 @@ td{
 }
 .mas{
     width: 1100;
-}
-@font-face {
-    font-family: 'OTWelcomeRA';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/OTWelcomeRA.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
+    margin: 100px;
 }
