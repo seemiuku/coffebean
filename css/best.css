@@ -4,8 +4,8 @@
     padding: 0;
 }
 .item{
-    width: 100%;
-    min-width: 1000px;
+    width: 60%;
+    min-width: 1102px;
     margin-top: 50px;
 }
 .itemTop{
@@ -45,6 +45,7 @@
 }
 .itemList{
     text-align: center;
+    min-width: 1102px;
 }
 .itemList img {
     width: 80px;
@@ -85,17 +86,17 @@
     -ms-transform: scale(1.2);
     -o-transform: scale(1.2);
 }
-.itemName{
+.itemName span{
     /* border-bottom: 1px solid #7F552E; */
     color: black;
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
     padding: 5px;
 }
 .itemPrice{
     font-weight: bold;
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
     padding: 5px;
 }
 li a {

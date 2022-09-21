@@ -67,6 +67,9 @@
     text-align: center;
     margin-top: 30px;
 }
+.newbestimg a:hover, .bestnewimg a:hover{
+    opacity: 0.7;
+}
 .BestPlus, .NewPlus{
     text-align: center;
     width: 90px; height: 30px;
@@ -76,16 +79,9 @@
     /* background-color: darkblue; */
 }
 .BestPlus a, .NewPlus a{
-    /* border: 1px solid darkcyan; */
-    width: 90px; height: 30px;
     color: #7F552E;
 }
-#bestplus a{
-    width: 90px; height: 30px;
-}
-#bestplus:hover{
-    text-decoration: none;
-}
+
 .BestPlus a:hover, .NewPlus a:hover{
     /* width: 90px; height: 30px;
     background-color:  darkcyan; */

@@ -4,26 +4,20 @@
 
 .footer{
   width: 60%;
-  min-width: 1000px;
+  min-width: 1101px;
   font-family: 'OTWelcomeRA', sans-serif;
 }
 .ibox1{
-  width: 100px;
+  width: 110px;
   float: left;
 }
 .ibox1 img{
   width: 110px;
-  margin-left: 10px;
-  margin-bottom: 10px;
+  margin: 20px auto;
 }
 .abox{
   width: 100%;
   float: left;
-}
-
-.abox{
-  width: 100%;
-  margin-left: 15px;
   height: 40px;
   font-size: 14px;
 }
@@ -50,4 +44,9 @@
 
 .a1:last-child::after, .a2:last-child::after {
   content: "";
+}
+
+.a1 a:hover{
+  text-decoration: none;
+  color: black;
 }

@@ -12,12 +12,19 @@ html {
     font-weight: normal;
     font-style: normal;
 }
+.container {
+    min-width: 1102px;
+}
 .itemDetail{
     font-family:'OTWelcomeRA', sans-serif;
+    margin-top: 50px;
+    min-width: 1102px;
+    width: 60%;
 }
 .itemRoad{
     font-size: 14px;
     margin-bottom: 30px;
+    padding-right: 10px;
     text-align: right;
 }
 .itemRoad a {
@@ -41,7 +48,7 @@ html {
 ul {
     list-style: none;
 }
-li {
+.nav li {
     display: inline-block;
 }
 .itemTable{
@@ -60,10 +67,14 @@ li {
 .itemTable td, th {
     border-bottom: 1px solid #F0EBE0;
     padding-left: 10px;
+    padding-top: 5px;
 }
 .itemTable td:nth-child(1){
     width: 40%;
     color: rgb(100, 100, 100);  
+}
+.itemTable input{
+    padding-top: 5px;
 }
 #totalPrice {
     font-size: 20px;
@@ -108,11 +119,11 @@ li {
     width: 100%;
     height: 100%;
 }
-.nav-item {
-    margin: 0;
-}
 .nav-tabs{
     justify-content: center;
+}
+.nav-item {
+    margin: 0;
 }
 .nav-item a{
     color: black;
@@ -161,7 +172,7 @@ li {
     width: 10%;
 }
 .reviewTable th, .QnATable th{
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
     padding: 10px;
 }
 .reviewTable td, .QnATable td{
@@ -170,4 +181,41 @@ li {
 }
 .detailTap, .review, .itemQnA{
     margin-bottom: 200px;
+}
+.writeQnA {
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+    background-color:#7F552E;
+}
+.writeQnAA{
+    color: white;
+    text-decoration: none;
+    width: 100%;
+}
+.writeQnAA:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.pagination {
+    margin: 30px;
+    justify-content: center;
+}
+.page-item {
+    margin: 0;
+    border: 0;
+}
+.pagination a{
+    color: black;
+}
+.pagination a:visited{
+    color: black;
+}
+.my.pagination > .active > a, 
+.my.pagination > .active > a:hover, 
+.my.pagination > .active > a:focus{
+  background: #9A6C45;
+  border-color: #9A6C45;
 }
