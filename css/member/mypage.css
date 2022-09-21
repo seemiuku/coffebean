@@ -12,17 +12,11 @@ min-width: 1000px;
     margin-top: 50px;
     margin-bottom: 50px;
 }
-.myul {
-    
-}
 .myli {
     list-style: none;
     padding: 20px;
     width: 100%;
     text-align: center;
-}
-.userList{
-    /* margin-left: 0; */
 }
 .userList ul{
     width: 100%;
