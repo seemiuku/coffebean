@@ -6,6 +6,62 @@ a {
 *{
     font-family: 'OTWelcomeRA';
 }
+
+
+
+
+
+.itemTitleS ul{
+    display:inline-block;
+}
+.itemTitleS li{
+    width: 110px;
+    height: 42px;
+    display:inline-block;
+    list-style: none;
+    line-height: 50px;
+    margin: 10px;
+}
+.itemTitleS a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.itemTitleS a:link{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.itemTitleS a:visited{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.itemTitleS a:hover{
+    border-bottom-style:ridge;
+    color: #7F552E;
+    font-weight: bold;
+}
+.itemTitle {
+    text-align: center;
+}
+li a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: black;
+}
+li a:hover{
+    text-decoration: none;
+    color: black;
+}
+li a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
 button, select {
     height: 30px;
     
@@ -43,14 +99,11 @@ button, select {
 	
 }
 #adminSide {
-	border-bottom: 1px solid black;
 	flex-grow: 2;
-	background-color: #F0EBE0;
 	padding: 20px;
 }
 #adminSection {
 	flex-grow: 10;
-	background-color: #F0EBE0;
 
     padding: 18px 16px;
 }

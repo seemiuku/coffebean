@@ -4,6 +4,108 @@
     font-family: 'OTWelcomeRA';
 }
 
+
+
+
+.itemTitleS ul{
+    display:inline-block;
+}
+.itemTitleS li{
+    width: 110px;
+    height: 42px;
+    display:inline-block;
+    list-style: none;
+    line-height: 50px;
+    margin: 10px;
+}
+.itemTitleS a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.itemTitleS a:link{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.itemTitleS a:visited{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.itemTitleS a:hover{
+    border-bottom-style:ridge;
+    color: #7F552E;
+    font-weight: bold;
+}
+.itemTitle {
+    text-align: center;
+}
+li a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: black;
+}
+li a:hover{
+    text-decoration: none;
+    color: black;
+}
+li a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.pagination {
+    width: 400px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.pagination a.active {
+    background-color: #9a6c45;
+    color: white;
+}
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+
+.all{
+    width: 1102px;
+    padding-top: 50px;
+}
+.all a {
+    color: #7F552E;
+}
+.all a:hover {
+    color: #7F552E;
+}
+th, td {
+    padding: 10px;
+    color: #7F552E;
+    text-align: center;
+    font-size: 15px;
+}
+thead {
+    border-top: 1px solid #7f552e;
+    border-bottom: 1px solid #7f552e;
+}
+thead {
+    text-align: center;
+}
+.admintable {
+    width: 100%;
+}
+
+
+
 button, select {
     height: 30px;
     text-transform: none;
@@ -44,14 +146,14 @@ a {
 	
 }
 #adminSide {
-	border-bottom: 1px solid black;
+	
 	flex-grow: 2;
-	background-color: #F0EBE0;
+	
 	padding: 20px;
 }
 #adminSection {
 	flex-grow: 10;
-	background-color: #F0EBE0;
+	
 
     padding: 18px 16px;
 }

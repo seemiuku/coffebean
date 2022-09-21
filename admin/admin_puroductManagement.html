@@ -1,40 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
 
-  
-  
+<!DOCTYPE html>
+<html lang="en">  
+<head>
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-
-
-
-.commonContent2{
-      border: 1px;
-      width: 90%;
-      margin-top: 30px;
-    }
-    .commonContent1{
-      display: flex;
-      justify-content: center;
-    }
-
-      .imgbox{
-        width: 50px;
-        height: 50px;
-      }
-      .imgbox img{
-        width: 50px;
-        height: 50px;
-      }
-
-      .btn:active, .btn:focus {
-        outline:none !important;
-        box-shadow:none !important;}
-
-    </style>
+    
 
     <title>Document</title>
     <!-- Bootstrap CSS -->
@@ -50,20 +22,49 @@
           $('#footer').load("../footer-sub.html");
         });
       </script>
-<style>
 
-  .table1-dark{
-    color: #000;
-      background-color: #6a4a364f;
-  }
-  
-  </style>
+      <style>
+
+.btn:active, .btn:focus {
+outline:none !important;
+box-shadow:none !important;}
+
+
+.commonContent2{
+      border: 1px;
+      width: 90%;
+      margin-top: 30px;
+    }
+    .commonContent1{
+      display: flex;
+      justify-content: center;
+    }
+
+     
+        .imgbox img{
+          width: 50px;
+          height: 50px;
+        }
+       
+
+        .table1-dark{
+          color: #000;
+            background-color: #6a4a364f;
+        }
+        button{
+          background-color: #F0EBE0; 
+          border-color: #000000;
+        }
+
+
+      </style>
+
 </head>
 <body>
   <link rel="stylesheet" href="/css/admin.css">
   <link rel="stylesheet" href="/css/header.css">
   <div class="container">
-  <div id="header"></div>
+    <div id="header"></div>
     <div class="commonSection1">
         <div class="commonContent1">
         
@@ -72,117 +73,120 @@
               <h2 style="margin-top: 50px;">관리자페이지</h2>
             </div>
             <div>
+           
             </div>
           </div>
         </div>
       </div>
+
+
+
+
+      <div class="itemTitle">
+        <div class="itemTitleS">
+            <ul>
+                <li>
+                    <a href="/admin/admin_notice.html">공지사항</a>
+                </li>
+                <li>
+                    <a href="/admin/admin_member.html">회원관리</a>
+                </li>
+                <li>
+                    <a href="/admin/admin_puroductManagement.html">상품관리</a>
+                </li>
+                <li>
+                    <a href="/admin/admin_one2one.html">1:1문의</a>
+                </li>
+                <li>
+                    <a href="/admin/admin_review.html">리뷰관리</a>
+                </li>
+                <li>
+                    <a href="/admin/admin_orderManagement.html">주문관리</a>
+                </li>
+                <li>
+                  <a href="/admin/admin_productAsk.html">상품문의</a>
+               </li>
+            </ul>
+        </div><br>
+    </div>
+
+
+
       
       <div id="adminMain">
-        <!-- 사이드메뉴 -->
-        <div id="adminSide">
-          <ul class="sideUl">
-            <li><button style="background-color: #F0EBE0; border-color: #000000;" type="button" onclick='location.href="/admin/admin_notice.html"' class="btn btn-warning">공지사항</button></li>                 
-            <li><button style="background-color: #F0EBE0; border-color: #000000;" type="button" onclick='location.href="/admin/admin_member.html"' class="btn btn-warning">회원관리</button></li>             
-            <li><button style="background-color: #F0EBE0; border-color: #000000;" type="button" onclick='location.href="/admin/admin_puroductManagement.html"' class="btn btn-warning">상품관리</button></li>       
-            <li><button style="background-color: #F0EBE0; border-color: #000000;" type="button" onclick='location.href="/admin/admin_one2one.html"' class="btn btn-warning">1:1문의</button></li>            
-            <li><button style="background-color: #F0EBE0; border-color: #000000;" type="button" onclick='location.href="/admin/admin_review.html"' class="btn btn-warning">리뷰관리</button></li>
-            <li><button style="background-color: #F0EBE0; border-color: #000000;" type="button" onclick='location.href="/admin/admin_orderManagement.html"' class="btn btn-warning">주문관리</button></li>        
-            <li><button style="background-color: #F0EBE0; border-color: #000000;" type="button" onclick='location.href="/admin/admin_productAsk.html"' class="btn btn-warning">상품문의</button></li>           
-
-          </ul>
-        </div>
           <!-- 메인 -->
           <div id="adminSection">
-              <div class="adminDiv" >
                   <h3>상품 관리</h3>
-              </div>
               <div class="adminDiv" style="display: flex;">
-                <p style="font-size: 25px;">검색 옵션  </p>
+                <p style="font-size: 20px; margin-right: 10px;">검색 옵션  </p> 
                   <select class="form-control form-control-sm"  style="font-family: 'Courier New', Courier, monospace; height: 30px; width: 70px;  margin-right: 5px; " >
-
-              <option value="all" selected>전체</option>
-              <option value="id">상품이름</option>
-              <option value="name">등록일자</option>
-            </select>
-            <input class="form-control"  style="width:200px; height: 30px; "  type="text" >
-
-            <input id="searchIcon" style="height: 30px; width: 30px; margin-left: 5px;" type="image" src="/img/search.png">
-              </div>
-              <div class="adminDiv">
-                카테고리
+                    <option value="all" selected>전체</option>
+                    <option value="id">상품이름</option>
+                    <option value="name">등록일자</option>
+                  </select>
+                  <input  class="form-control" style= "width:200px; height: 30px;   border: 1px solid rgba(0, 0, 0, 0.356);"  type="text" >
+                  <input id="searchIcon" style="height: 25px; width: 25px; margin-left: 5px;" type="image" src="/img/search.png">
+                </div>
+                  <div class="adminDiv">
                 <select style="font-family: 'Courier New', Courier, monospace;" class="size" name="order_select" id="order_select">
-              <option value="id_asc" selected>전체</option>
-              <option value="id_desc">커피원두</option>
-              <option value="join_date_asc">액상커피</option>
-              <option value="join_date_asc">분쇠형커피</option>
-              <option value="join_date_asc">커피티백</option>
+              <option value="id_asc" selected>상품별순</option>
+              <option value="id_desc">콜드브루</option>
+              <option value="id_desc">원두</option>
+              <option value="id_desc">스틱</option>
+              <option value="id_desc">분쇄</option>
             </select>
               </div>
               <div class="adminDiv2" id="tableTitle">
-                <div>회원목록 ${ count }건</div>
-                <button style="background-color: #F0EBE0; border-color: #000000;" type="button" onclick='location.href="/admin/admin_productAsk.html"' class="btn btn-warning">상품등록</button>
-
+                <div>등록상품 ${ count }개</div>
                 
               </div>
-              <div class="">
-             
-                  <table class="table table1-dark">
-                    <thead>
-                      <tr>
-                        
-                        <th scope="col">상품번호</th>
-                        <th scope="col">카테고리</th>
-                        <th scope="col">상품사진</th>
-                        <th scope="col">상품이름</th>
-                        <th scope="col">상품가격</th>
-                        <th scope="col">재고수량</th>
-                        <th scope="col">등록일</th>
-                        <th scope="col">수정하기</th>
-                        
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <c:forEach var="dto" items="${ member_list }">
-                            <tr>
-                                <td>${ dto.P_CODE }</td>
-                                <td>${ dto.P_CATEGORY }</td>
-                                <td>
-                                <div class="imgbox">
-                                <img  src="/img/free-icon-coffee-beans-3219300.png" alt="">
-                                </div>
-                                </td>
-                                <td>${ dto.P_NAME }</td>
-                                <td>${ dto.P_PRICE }</td>
-                                <td>${ dto.P_STOCK }</td>
-                                <td><fmt:formatDate value="${ dto.P_DATE }" pattern = "yyyy-MM-dd"/>1</td>
-                                <td><button style="background-color: #6a4a361e; border-color: #000000;" type="button" onclick='location.href="/admin/admin_productAsk.html"' class="btn btn-warning">수정하기</button></td>
+      <table class="admintable">
+        <thead>
+            <tr>
+                <th >상품번호</th>
+                <th >카테고리</th>
+                <th >상품사진</th>
+                <th >상품이름</th>
+                <th >상품가격</th>
+                <th >재고수량</th>
+                <th >등록일</th>
+                <th >재고수량</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+          <c:forEach var="dto" items="${ member_list }">
+                <tr>
+                    <td>${ dto.P_CODE }</td>
+                    <td>${ dto.P_CATEGORY }</td>
+                    <td>
+                    <div class="imgbox">
+                    <img  src="/img/free-icon-coffee-beans-3219300.png" alt="">
+                    </div>
+                    </td>
+                    <td><a href="/admin/admin_action/productModify.html">${ dto.P_NAME }</a></td>
+                    <td>${ dto.P_PRICE }</td>
+                    <td>${ dto.P_STOCK }</td>
+                    <td><fmt:formatDate value="${ dto.P_DATE }" pattern = "yyyy-MM-dd"/>2222/11/33</td>
+                    <td>>3245개</td>
 
-                            </tr>
-                          </c:forEach>
-                    </tbody>
-                  </table>
-              </div>
-              <div class="a123">
-              <div class="pageNav">
-                  <nav aria-label="Page navigation example">
-                    <ul class="pagination justify-content-center">
-                      <li class="page-item disabled">
-                        <a class="page-link">Previous</a>
-                      </li>
-                      <li class="page-item"><a class="page-link" href="#">1</a></li>
-                      <li class="page-item"><a class="page-link" href="#">2</a></li>
-                      <li class="page-item"><a class="page-link" href="#">3</a></li>
-                      <li class="page-item">
-                        <a class="page-link" href="#">Next</a>
-                      </li>
-                    </ul>
-                  </nav>
-              </div>
-            </div>
-              
-          </div>
-      </div>
-    
+                </tr>
+              </c:forEach>
+        </tbody>
+    </table><br>
+    <div style="display:flex; justify-content: center;">     
+    <div class="pagination">
+      <a href="#">이전</a>
+      <a class="active" href="#">1</a>
+      <a href="#">2</a>
+      <a href="#">3</a>
+      <a href="#">4</a>
+      <a href="#">5</a>
+      <a href="#">다음</a>
+    </div>
+  </div>
+
+
 
 </body>
 </html>
