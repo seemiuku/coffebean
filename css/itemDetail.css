@@ -67,10 +67,14 @@ ul {
 .itemTable td, th {
     border-bottom: 1px solid #F0EBE0;
     padding-left: 10px;
+    padding-top: 5px;
 }
 .itemTable td:nth-child(1){
     width: 40%;
     color: rgb(100, 100, 100);  
+}
+.itemTable input{
+    padding-top: 5px;
 }
 #totalPrice {
     font-size: 20px;
