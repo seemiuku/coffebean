@@ -118,3 +118,6 @@ th{
 .displaynone {
     font-size: 12px;
 }
+input::placeholder {
+    font-size: 12px;
+}
