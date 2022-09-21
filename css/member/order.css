@@ -57,7 +57,8 @@ max-width: 1000px;
 }
 .cartTable1 tr:nth-child(1) {
     height: 40px;
-
+    border-bottom:1px solid #9A6C45;
+    color: #7F552E;
 }
 .item{
     height: 70px;
@@ -69,7 +70,7 @@ max-width: 1000px;
     height: 30%;
 } */
 .cartTable1 tr,.cartTable1 td {
-    border-bottom: 1px solid #9A6C45;
+    border-bottom: 1px solid rgb(167, 167, 167);
 }
 
 .caution span{
