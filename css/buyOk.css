@@ -58,10 +58,16 @@
 .buyOkInfo span {
     margin-left: 10px;
 }
-.buyOkBtn {
-    text-align: right;
-    margin: 0;
+.buyOkBtn{
+    text-align: center;
 }
-.mainBtn {
-    text-align: left;
+.buyOkBtn input:nth-child(1){
+    background-color: #9A6C45;
+    color: white;
+    padding: 5px;
+}
+.buyOkBtn input:nth-child(2){
+    background-color: cornflowerblue;
+    color: white;
+    padding: 5px;
 }
