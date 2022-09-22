@@ -75,10 +75,11 @@
     width: 90px; height: 30px;
     line-height: 35px;
     vertical-align: middle;
-    border: 1px solid #9A6C45;
+    border: 1px solid #a1a1a1;
+    margin-top: 25px;
 }
 .BestPlus a, .NewPlus a{
-    color: #7F552E;
+    color: #686868;
 }
 
 .BestPlus a:hover, .NewPlus a:hover{
