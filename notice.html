@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="css/one2oneList.css">
   <link rel="stylesheet" href="css/notice.css">
   <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/sidebar.css">
   <link rel="stylesheet" href="./css/footer.css">
   
   <!-- Bootstrap CSS -->
@@ -22,7 +23,8 @@
   <script>
     $(document).ready(function(){
       $('#headerTop').load("/headerTop.html");
-      $('#header').load("/header.html");     
+      $('#header').load("/header.html");  
+      $('#sidebar').load("./tool/sidebar.html");   
       $('#footer').load("/footer.html");
     });
   </script>
@@ -30,8 +32,10 @@
 </head>
 <body>
   <!-- 헤더 -->
-
   <div id="header" class="sticky-top"></div> 
+
+  <!-- 사이드바 -->
+  <div id="sidebar"></div>
 
   <!-- 메인 -->
     <div class="all">

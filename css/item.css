@@ -40,40 +40,12 @@
 }
 .itemMenuUl li{
     display: inline-block;
-    font-size: 12px;
+    font-size: 14px;
     text-align: center;
     margin: 0 15px;
 }
 .itemMenuUl li:hover{
     font-weight: bolder;
-}
-.itemTitleS ul{
-    display:inline-block;
-}
-.itemTitleS li{
-    width: 200px;
-    height: 50px;
-    display:inline-block;
-    list-style: none;
-    line-height: 50px;
-    margin: 10px;
-}
-.itemTitleS a{
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-}
-.itemTitleS a:link{
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-}
-.itemTitleS a:visited{
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-}
-.itemTitleS a:hover{
-    border-bottom-style:ridge;
-    color: #7F552E;
-    font-weight: bold;
 }
 .itemTitle {
     text-align: center;
@@ -97,22 +69,27 @@
     width: 25px;
     height: 25px;
 }
+.totalItems{
+    font-size: 16px;
+}
 .itemList{
     text-align: center;
-    border-top: 1px solid gray;
-    border-bottom: 1px solid gray;
 }
 .itemList img {
     width: 80px;
     height: 80px;
 }
+.itemListUl {
+    width: 100%;
+}
 .itemList ul, li{
     list-style: none;
     display: inline-block;
     margin: 0;
+    font-size: 0;
 }
 .itemListUl li{
-    margin: 20px;
+    margin-top: 50px;
 }
 .itemImg{
     width: 100%;
@@ -134,6 +111,10 @@
 .itemImgBox{
     line-height: 150px;
 }
+.itemImgBox img {
+    width: 150px;
+    height: 150px;
+}
 .itemImgBox:hover{
     transform: scale(1.2);
     -webkit-transform: scale(1.2);
@@ -143,15 +124,15 @@
 }
 .itemName{
     /* border-bottom: 1px solid #7F552E; */
+    width: 100%;
     color: black;
-    text-align: center;
-    font-size: 14px;
+    font-size: 16px;
     padding: 5px;
 }
 .itemPrice{
     font-weight: bold;
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
     padding: 5px;
 }
 li a {
@@ -192,6 +173,7 @@ li a:visited{
     font-weight: bold;
     color: #F0EBE0;
     text-align: center;
+    padding-top: 15px;
 }
 .itemImg:hover .overlay{
     opacity: 0.8;
@@ -201,7 +183,7 @@ li a:visited{
     text-align: center;
 }
 .pagination {
-    width: 30%;
+    width: 300px;
     margin-top: 50px;
 }
 .pagination a {
