@@ -8,18 +8,12 @@
   *{
     font-family: 'OTWelcomeRA';
 }
-h2 {
-    padding-top: 50px;
-    text-align: center;
-    color: #9a6c45;
-}
 #joinForm {
     width: 1000px;
     height: 0 auto;
     text-align: left;
-    margin-top: 30px;
     font-size: 15px;
-    padding-top: 10px;
+    margin-top: 50px;
 }
 #jointxt {
     width: 1000px;
