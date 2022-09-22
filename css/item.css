@@ -83,7 +83,7 @@
     width: 100%;
     font-size: 0;
 }
-.itemList ul, li{
+.itemList ul, .itemList li{
     list-style: none;
     display: inline-block;
     margin: 0;
@@ -136,18 +136,18 @@
     font-size: 18px;
     padding: 5px;
 }
-li a {
+.itemList li a {
     display: inline-block;
     width: 100%;
     height: 100%;
     text-decoration: none;
     color: black;
 }
-li a:hover{
+.itemList li a:hover{
     text-decoration: none;
     color: black;
 }
-li a:visited{
+.itemList li a:visited{
     text-decoration: none;
     color: black;
 }
@@ -157,8 +157,8 @@ li a:visited{
     bottom: 0;
     left: 0;
     right: 0;
-    height: 100%;
-    width: 100%;
+    height: 150px;
+    width: 150px;
     opacity: 0;
     transition: .5s ease;
     background-color: #9A6C45;
