@@ -288,6 +288,10 @@ a {
 	padding: 0px;
 }
 
+td {
+	color: #111;
+}
+
 .one2oneViewReplyBtns {
 	display: flex;
 	justify-content: space-between;
