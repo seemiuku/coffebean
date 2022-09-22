@@ -100,7 +100,7 @@ max-width: 1000px;
 .product_list tr,.cartTable1 td {
     border-bottom: 1px solid rgb(167, 167, 167);
 }
-.product_list th,.product_list td {
+.product_list th,.cartTable1 td {
     padding-top: 7px;
 }
 
