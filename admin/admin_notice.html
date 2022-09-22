@@ -127,8 +127,8 @@
 
         <div class="adminDiv2" id="tableTitle">
           <div>공지사항 ${ count }건</div>
-          <a href="/admin/admin_action/noticeWrite.html" style="background-color:#ffffff ; border-color: #ffffff;"
-            type="submit">글쓰기</a>
+          <button style="background-color: #ffffff; border-color: #000000;" type="button"
+          onclick='location.href="/admin/admin_action/noticeWrite.html"' class="btn btn-warning">글쓰기</button>  
 
         </div>
         <table class="admintable">
@@ -142,9 +142,10 @@
           </thead>
           <tbody>
             <!-- <c:forEach var="dto" items="${ member_list }"> -->
-              <tr>
+              <tr onclick="location.href='/admin/admin_action/noticeModify.html'">
                 <td>${ dto.N_IDX }</td>
-                <td><a style="color: #000;" href="/admin/admin_action/noticeModify.html">${ dto.N_TITLE }</a></td>
+
+                <td>>${ dto.N_TITLE }</td>
                 <td>${ dto.N_CONTENT }</td>
                 <td>
                   <fmt:formatDate value="${ dto.N_DATE }" pattern="yyyy-MM-dd" />2020/01/01
