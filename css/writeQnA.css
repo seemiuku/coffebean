@@ -20,7 +20,6 @@
 }
 .writeQnAItem{
     display:flex;
-    border: 1px solid gray;
     padding: 5px;
 }
 .writeQnAItemImg{
@@ -42,6 +41,8 @@
     color: gray;
     text-decoration: none;
 }
+
+
 .writeQnATable table{
     width: 100%;
 }
@@ -52,11 +53,19 @@
     width: 30%;
     text-align: center;
     padding: 5px;
+    padding-top: 13px;
     color: #9A6C45;
 }
 .writeQnATable td:nth-child(2) {
     width: 70%;
     padding: 5px;
+    padding-top: 7px;
+}
+.writeQnATable select{
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .writeQnATable input{
     width: 70%;
@@ -68,14 +77,15 @@
     width: 100px;
     height: 40px;
     padding-top: 5px;
-    font-weight: bold   ;
 }
 .writeQnABtn input:nth-child(1) {
     background-color: #9A6C45;
     color: white;
     margin-right: 5px;
+    border: 0;
 }
 .writeQnABtn input:nth-child(2) {
     background-color: white;
     margin-left: 5px;
+    border: 1px solid gray;
 }

@@ -123,15 +123,16 @@
 .buyOrNot input{
     width: 100px;
     height: 40px;
-    font-weight: bold;
     padding-top: 5px;
 }
 .buybuy{
     background-color: #9A6C45;
+    border: 0;
     color: white;
     margin-right: 10px;
 }
 .buynot{
     background-color: rgb(255, 255, 255);
     margin-left: 10px;
+    border: 1px solid gray;
 }

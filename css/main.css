@@ -76,14 +76,13 @@
     line-height: 35px;
     vertical-align: middle;
     border: 1px solid #a1a1a1;
+    margin-top: 25px;
 }
 .BestPlus a, .NewPlus a{
-    color:  #686868;
+    color: #686868;
 }
 
 .BestPlus a:hover, .NewPlus a:hover{
-    /* width: 90px; height: 30px;
-    background-color:  darkcyan; */
     text-decoration: none;
 }
 .carousel-control-prev, .carousel-control-next {

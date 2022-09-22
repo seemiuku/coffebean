@@ -55,19 +55,19 @@ ul {
     width: 100%;
     height : 550px;
     padding-top: 30px;
-    font-size: 14px;
+    font-size: 16px;
 }
 .itemTable table {
     width: 100%;
     height: 80%;
 }
 .itemTable th {
-    font-size: 20px;
+    font-size: 22px;
 }
 .itemTable td, th {
     border-bottom: 1px solid #F0EBE0;
     padding-left: 10px;
-    padding-top: 5px;
+    padding-top: 10px;
 }
 .itemTable td:nth-child(1){
     width: 40%;
@@ -77,7 +77,7 @@ ul {
     padding-top: 5px;
 }
 #totalPrice {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;
     color: #7F552E;
 }
@@ -86,13 +86,15 @@ ul {
 } */
 #itemCount {
     margin: 0 10px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
 }
 .countBtn{
+    width: 30px;
+    height: 20px;
+    padding: 0 0 30px 0; 
     font-size: 22px;
-    padding: 0px 10px;
-    border: 1px solid gray;
+    border: 0 solid gray;
     background-color: white;
 }
 .itemTableBtn {
@@ -119,22 +121,36 @@ ul {
     width: 100%;
     height: 100%;
 }
-.nav-tabs{
-    justify-content: center;
+
+.itemMenu {
+    text-align: center;
+    border-bottom: 2px solid #A1A1A1;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    border-collapse:collapse;
 }
-.nav-item {
-    margin: 0;
+.itemMenu li{
+    display: table-cell;
+    width: 30px;
+    padding: 10px;
 }
-.nav-item a{
+.itemMenus:hover{
+    border-bottom: 4px solid #7F552E;
+}
+.itemMenu a {
+    display: block;
     color: black;
 }
-.nav-item a:visited{
-    color: black;
-}
-.nav-item a:hover{
-    color:rgb(0, 0, 0);
+.itemMenu a:hover{
+    color: #7F552E;
+    text-decoration: none;
     font-weight: bold;
 }
+.itemMenu .active{
+    border-bottom: 4px solid #7F552E;
+}
+
 .accordionBoard a{
     text-decoration: none;
     color: black;
@@ -177,7 +193,7 @@ ul {
 }
 .reviewTable td, .QnATable td{
     border-bottom: 1px solid rgb(190, 190, 190);
-    padding: 10px;
+    padding: 13px 10px 10px 10px;
 }
 .detailTap, .review, .itemQnA{
     margin-bottom: 200px;
@@ -188,6 +204,7 @@ ul {
     padding: 10px;
     text-align: center;
     background-color:#7F552E;
+    font-weight: normal;
 }
 .writeQnAA{
     color: white;
@@ -209,6 +226,7 @@ ul {
 }
 .pagination a{
     color: black;
+    border: 0;
 }
 .pagination a:visited{
     color: black;
