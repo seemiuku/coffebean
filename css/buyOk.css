@@ -65,11 +65,15 @@
 }
 .buyOkBtn input:nth-child(1){
     background-color: #9A6C45;
+    border: 0;
     color: white;
-    padding: 5px;
+    padding: 13px 20px 5px 20px;
+    margin-right: 10px;
 }
 .buyOkBtn input:nth-child(2){
     background-color: cornflowerblue;
+    border: 0;
     color: white;
-    padding: 5px;
+    padding: 13px 20px 5px 20px;
+    margin-right: 10px;
 }
