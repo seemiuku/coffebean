@@ -53,11 +53,12 @@ max-width: 1000px;
     text-align: center;
 }
 .cartTable1 tr:nth-child(1) {
-    height: 0px;
+    height: 40px;
     vertical-align: middle;
+    
 }
 .cartTable1 tr:nth-child(1)  th{
-    line-height: 40px;
+    line-height: 45px;
     vertical-align: middle;
 }
 /* .cartTable1 tr:nth-child(2) {
@@ -65,6 +66,7 @@ max-width: 1000px;
 } */
 .cartTable1 td{
     height: 110px;
+    
 }
 .cartTable1 tr,.cartTable1 td {
     border-bottom: 1px solid #9A6C45;
