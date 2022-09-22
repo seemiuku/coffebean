@@ -113,3 +113,25 @@ select {
     text-align: center;
     font-family: 'OTWelcomeRA';
 }
+.select input[type=radio]{
+    display: none;
+}
+.select input[type=radio]+label{
+    margin: 0;
+    display: inline-block;
+    cursor: pointer;
+    height: 30px;
+    width: 90px;
+    border: 1px solid #f0ebe0;
+    line-height: 28px;
+    text-align: center;
+    font-size:13px;
+}
+.select input[type=radio]+label{
+    background-color: #fff;
+    color: black;
+}
+.select input[type=radio]:checked+label{
+    background-color: #9a6c45;
+    color: #fff;
+}
