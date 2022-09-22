@@ -26,7 +26,7 @@
 </head>
 <body>
     <div id="header"></div>
-    <div class="writeQnA">
+    <div class="writeQnA" class="sticky-top">
         <div class="writeQnATitle">
             <h3>상품문의</h3>
         </div><br>
@@ -47,9 +47,13 @@
         <div class="writeQnATable">
             <table>
                 <tr>
-                    <td>이름</td>
+                    <td>분류</td>
                     <td>
-                        <input type="text">
+                        <select name="QnAType" id="QnAType">
+                            <option value="">상품문의</option>
+                            <option value="">배송문의</option>
+                            <option value="">기타문의</option>
+                        </select>
                     </td>
                 </tr>
                 <tr>
@@ -59,9 +63,15 @@
                     </td>
                 </tr>
                 <tr>
+                    <td>비밀번호</td>
+                    <td>
+                        <input type="password">
+                    </td>
+                </tr>
+                <tr>
                     <td>내용</td>
                     <td>
-                        <textarea name="QnA" id="" cols="60" rows="10"></textarea>
+                        <textarea name="QnA" id="" cols="63" rows="10"></textarea>
                     </td>
                 </tr>
             </table>
