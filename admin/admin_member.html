@@ -145,10 +145,10 @@
           </thead>
           <tbody>
             <!-- <c:forEach var="dto" items="${ member_list }"> -->
-            <tr>
+            <tr onclick="location.href='/admin/admin_action/memberView.html'">
               <td>${ dto.M_IDX }</td>
               <td>${ dto.M_ID }</td>
-              <td><a style="color: #000;" href="/admin/admin_action/memberView.html">${ dto.M_NAME }</a></td>
+              <td>${ dto.M_NAME }</td>
               <td>
                 <fmt:formatDate value="${ dto. M_JOINDATE }" pattern="yyyy-MM-dd" />1111/11/11
               </td>
