@@ -91,12 +91,14 @@ td {
 
 }
 .joinbtn {
+    padding: 7px;
+    padding-top: 13px;
     border: 0px;
-    width: 200px;
-    height: 50px;
+    width: 150px;
+    height: 43px;
     background-color: #9a6c45;
-    color: white;
-    font-size: 15px;
+    color: #F0EBE0;
+    font-family: 'OTWelcomeRA';
 }
 select {
     border: 1px solid #f0ebe0;
