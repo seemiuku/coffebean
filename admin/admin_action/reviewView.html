@@ -1,136 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
 
-    <title>Document</title>
-    <!-- Bootstrap CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-<!-- Bootstarp JS -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
-    <script>
-        // 코드중복을 피하기 위해 탑헤더/헤더/푸터를 만들어
-        // 재사용한다. jquery load함수
-        $(document).ready(function(){
-          $('#header').load("../../header-sub2.html");    
-          $('#footer').load("../../footer-sub2.html");
-        });
-      </script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<style>
 
-.btn:active, .btn:focus {
-outline:none !important;
-box-shadow:none !important;}
+  <title>Document</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <!-- Bootstarp JS -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+    crossorigin="anonymous"></script>
+  <script>
+    // 코드중복을 피하기 위해 탑헤더/헤더/푸터를 만들어
+    // 재사용한다. jquery load함수
+    $(document).ready(function () {
+      $('#header').load("../../header-sub2.html");
+      $('#footer').load("../../footer-sub2.html");
+    });
+  </script>
 
-.commonContent2{
+  <style>
+    .btn:active,
+    .btn:focus {
+      outline: none !important;
+      box-shadow: none !important;
+    }
+
+    .commonContent2 {
       border: 1px;
       width: 90%;
       margin-top: 30px;
     }
-    .commonContent1{
+
+    .commonContent1 {
       display: flex;
       justify-content: center;
     }
-
-</style>
+  </style>
 
 </head>
+
 <body>
   <link rel="stylesheet" href="/css/header.css">
   <link rel="stylesheet" href="/css/adminAction.css">
   <div class="container" style="width: 100%;">
     <div id="header"></div>
-    <div class="commonSection1" style="margin: 0px;">
-        <div class="commonContent1">
-        
-          <div class="commonContent2 text-center">
-            <div>
-              <h2 style="margin-top: 50px;">관리자페이지</h2>
-            </div>
-            <div>
-             
-            </div>
+    <div class="commonContent1">
+      <h2 style="margin-top: 50px;">관리자페이지</h2>
+    </div>
+
+
+    <!-- 사이드메뉴 -->
+    <div class="adminTitle">
+      <div class="adminTitleS">
+        <ul>
+          <li>
+            <a href="/admin/admin_notice.html">공지사항</a>
+          </li>
+          <li>
+            <a href="/admin/admin_member.html">회원관리</a>
+          </li>
+          <li>
+            <a href="/admin/admin_puroductManagement.html">상품관리</a>
+          </li>
+          <li>
+            <a href="/admin/admin_one2one.html">1:1문의</a>
+          </li>
+          <li>
+            <a href="/admin/admin_review.html">리뷰관리</a>
+          </li>
+          <li>
+            <a href="/admin/admin_orderManagement.html">주문관리</a>
+          </li>
+          <li>
+            <a href="/admin/admin_productAsk.html">상품문의</a>
+          </li>
+        </ul>
+      </div><br>
+    </div>
+    <!-- 메인 -->
+    <div id="adminMain">
+      <div id="adminSection">
+        <div class="adminDiv">
+          <h3 style="display: flex; justify-content: center;">리뷰게시글 관리</h3>
+
+          <div class="" style="display: flex; justify-content: center;">
+            <form style="width: 600px;">
+              제목<br>
+              <input type="text" class="form-control" disabled>
+              <br>내용<br>
+              <textarea class="form-control" disabled></textarea>
+              <br>작성자<br>
+              <input type="text" class="form-control" disabled>
+              <br>등록일<br>
+              <input type="text" class="form-control" disabled>
+              <br>리뷰상품사진<br>
+              <input type="text" class="form-control" disabled>
+              <br>
+              <button style="background-color: #ffffff; border-color: #000000;" type="button"
+                onclick='location.href="#"' class="btn btn-warning">답변하기</button>
+              <button style="background-color: #ffffff; border-color: #000000;" type="button"
+                onclick='location.href="#"' class="btn btn-warning">삭제하기</button>
+
+            </form>
           </div>
         </div>
       </div>
-      
-      <div id="adminMain">
-        <!-- 사이드메뉴 -->
-        <div class="itemTitle">
-          <div class="itemTitleS">
-              <ul>
-                  <li>
-                      <a href="/admin/admin_notice.html">공지사항</a>
-                  </li>
-                  <li>
-                      <a href="/admin/admin_member.html">회원관리</a>
-                  </li>
-                  <li>
-                      <a href="/admin/admin_puroductManagement.html">상품관리</a>
-                  </li>
-                  <li>
-                      <a href="/admin/admin_one2one.html">1:1문의</a>
-                  </li>
-                  <li>
-                      <a href="/admin/admin_review.html">리뷰관리</a>
-                  </li>
-                  <li>
-                      <a href="/admin/admin_orderManagement.html">주문관리</a>
-                  </li>
-                  <li>
-                    <a href="/admin/admin_productAsk.html">상품문의</a>
-                 </li>
-              </ul>
-          </div><br>
-      </div>
-          <!-- 메인 -->
-          <div id="adminSection">
-              <div class="adminDiv">
-                  <h3 style="display: flex; justify-content: center;">리뷰게시글 관리</h3>
-          
-              <div class="" style="display: flex; justify-content: center;">
-                        <form style="width: 600px;">
-                          
-                          <div class="form-group">
-                            <label for="exampleInputEmail1">제목</label>
-                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" disabled>
-                            <small id="emailHelp" class="form-text text-muted"></small>
-                          </div>
-                          <div class="form-group">
-                            <label for="exampleInputPassword1">내용</label>
-                            <textarea  class="form-control" id="exampleInputPassword1" disabled></textarea>
-                          </div>
-                            <div class="form-group">
-                              <label for="exampleInputPassword1">작성자</label>
-                              <input type="text" class="form-control" id="exampleInputPassword1" disabled>
-                            </div>
-                            <div class="form-group">
-                            <label for="exampleInputPassword1">등록일</label>
-                            <input type="text" class="form-control" id="exampleInputPassword1" disabled>
-                          </div>
-                          <div class="form-group">
-                            <label for="exampleInputPassword1">리뷰상품사진</label>
-                            <input type="text" class="form-control" id="exampleInputPassword1" disabled >
-                            <br>
-                          
-                            <button style="background-color: #ffffff; border-color: #ffffff;" type="button" onclick='location.href="/admin/admin_productAsk.html"' class="btn btn-warning">답변하기</button>
-                            <button style="background-color: #ffffff; border-color: #ffffff;" type="button" onclick='location.href="/admin/admin_productAsk.html"' class="btn btn-warning">삭제하기</button>
+    </div>
+  </div>
 
-                        </form>
-                      </div>
-              </div>
-          </div>
-      </div>
-    
 
 </body>
+
 </html>
 <link rel="stylesheet" href="/css/footer.css">
 <div id="footer"></div>
-</div>

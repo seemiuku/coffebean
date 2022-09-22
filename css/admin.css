@@ -7,10 +7,10 @@
 
 
 
-.itemTitleS ul{
+.adminTitleS ul{
     display:inline-block;
 }
-.itemTitleS li{
+.adminTitleS li{
     width: 110px;
     height: 42px;
     display:inline-block;
@@ -18,24 +18,24 @@
     line-height: 50px;
     margin: 10px;
 }
-.itemTitleS a{
+.adminTitleS a{
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
-.itemTitleS a:link{
+.adminTitleS a:link{
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
-.itemTitleS a:visited{
+.adminTitleS a:visited{
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
-.itemTitleS a:hover{
+.adminTitleS a:hover{
     border-bottom-style:ridge;
     color: #7F552E;
     font-weight: bold;
 }
-.itemTitle {
+.adminTitle {
     text-align: center;
 }
 li a {
