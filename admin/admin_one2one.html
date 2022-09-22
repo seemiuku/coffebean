@@ -137,10 +137,10 @@
           </thead>
           <tbody>
             <!-- <c:forEach var="dto" items="${ member_list }"> -->
-            <tr>
+            <tr onclick="location.href='/admin/admin_action/one2oneView.html'">
               <td>${ dto.A_IDX }</td>
               <td>${ dto.A_WRITER }</td>
-              <td><a style="color: #000;" href="/admin/admin_action/one2oneView.html">${ dto.A_TITLE }</a></td>
+              <td>${ dto.A_TITLE }</td>
               <td>${ dto.A_CONTENT }</td>
               <td>
                 <fmt:formatDate value="${ dto.A_REGDATE }" pattern="yyyy-MM-dd" />1111/11/11

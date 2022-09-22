@@ -15,10 +15,11 @@
     /* font-family: 'Times New Roman', Times, serif; */
 }
 .id_box{
+    border: 1px solid #A1A1A1;
     margin: 2px;
     padding: 10px;
     width: 300px;
-    height: 50px;
+    height: 42px;
 }
 p{
     font-size: smaller;
@@ -26,7 +27,7 @@ p{
 .button_box{
     border: 0px;
     width: 300px;
-    height: 55px;
+    height: 43px;
     background-color: #f0ebe0;
 }
 .close_box{

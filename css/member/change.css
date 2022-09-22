@@ -8,18 +8,12 @@
   *{
     font-family: 'OTWelcomeRA';
 }
-h2 {
-    padding-top: 50px;
-    text-align: center;
-    color: #9a6c45;
-}
 #joinForm {
     width: 1000px;
     height: 0 auto;
     text-align: left;
-    margin-top: 30px;
     font-size: 15px;
-    padding-top: 10px;
+    margin-top: 50px;
 }
 #jointxt {
     width: 1000px;
@@ -68,10 +62,14 @@ table {
     border-spacing: 0;
     border-collapse: collapse;
     border-color: #fff;
-    border-bottom: #f0ebe0;
+    border-bottom: solid 1px #f0ebe0;
 }
 td {
     padding: 15px;
+    border-bottom: solid 1px #f0ebe0;
+}
+th {
+    border-bottom: solid 1px #f0ebe0;
 }
 #joinbtn {
     text-align: center;
@@ -112,4 +110,33 @@ select {
     padding-top: 50px;
     text-align: center;
     font-family: 'OTWelcomeRA';
+}
+.select input[type=radio]{
+    display: none;
+}
+.select input[type=radio]+label{
+    margin: 0;
+    display: inline-block;
+    cursor: pointer;
+    height: 30px;
+    width: 90px;
+    border: 1px solid #f0ebe0;
+    line-height: 28px;
+    text-align: center;
+    font-size:13px;
+}
+.select input[type=radio]+label{
+    background-color: #fff;
+    color: black;
+}
+.select input[type=radio]:checked+label{
+    background-color: #9a6c45;
+    color: #fff;
+}
+.joinForm {
+    margin-top: 50px;
+    height: 0 auto;
+    text-align: left;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
 }

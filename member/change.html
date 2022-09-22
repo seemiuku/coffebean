@@ -70,14 +70,12 @@
     <div id="header" class="sticky-top"></div>
 
     <!-- 메인 -->
+    
+  <form action="" class="joinForm" name="joinForm" method="" target="" >
     <h2 class="topic">정보수정</h1>
-  <form action="" id="joinForm" name="joinForm" method="" target="" >
-    <!-- <h3>기본정보</h3> -->
-    <p class="required">
-        <img src="/img/ico_required.gif" alt="필수">필수입력사항
-    </p>
     <div class="ec-base-table typeWrite">
-        <table style="border:'1'" summary>
+        <!-- style="border:'1'" summary -->
+        <table  >
             <!-- <caption>회원 기본정보</caption> -->
             <colgroup>
                 <col style="width:150px;">
@@ -152,9 +150,21 @@
                     </td>
                 </tr>
                 <tr>
+                    <th scope="row" id="nameTitle">
+                        성별
+                    </th>
+                    <td class="displaynone">
+                        <div class="select">
+                            <input type="radio" name="gender" id="woman" value="woman" checked />  
+                            <label for="woman">여자</label>
+                            <input type="radio" name="gender" id="man" value="man" />
+                            <label for="man">남자</label>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
                     <th scope="row">
                         생년월일
-                        <img src="/img/ico_required.gif" alt="필수">
                     </th>
                     <td>
                         <select title="select" name="birthdayY">
@@ -275,6 +285,15 @@
                         <span id="emailMsg"></span>
                     </td>
                 </tr>
+                <tr>
+                    <th scope="row">
+                        프로필사진
+                    </th>
+                    <td>
+                        <input type="file" id="profil" name="profil" >
+                    </td>
+                </tr>
+                
             </tbody>
         </table>
     </div>
