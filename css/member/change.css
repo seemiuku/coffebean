@@ -62,7 +62,7 @@ table {
     border-spacing: 0;
     border-collapse: collapse;
     border-color: #fff;
-    border-bottom: #f0ebe0;
+    border-bottom: solid 1px #f0ebe0;
 }
 td {
     padding: 15px;
