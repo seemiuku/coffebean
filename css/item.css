@@ -189,6 +189,7 @@
 }
 .pagination a {
     color: black;
+    border: 0;
 }
 .my.pagination > .active > a, 
 .my.pagination > .active > a:hover, 
