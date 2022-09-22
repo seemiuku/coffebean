@@ -72,6 +72,9 @@ max-width: 1000px;
 .cartTable1 tr,.cartTable1 td {
     border-bottom: 1px solid rgb(167, 167, 167);
 }
+.cartTable1 th, .cartTable1 td{
+    padding-top: 7px;
+}
 
 .caution span{
     font-size: 14px;
