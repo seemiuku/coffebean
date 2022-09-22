@@ -134,7 +134,8 @@
         </div>
         <div class="adminDiv2" id="tableTitle">
           <div>등록상품 ${ count }개</div>
-
+          <button style="background-color: #ffffff; border-color: #000000;" type="button"
+                  onclick='location.href="/admin/admin_action/productWrite.html"' class="btn btn-warning">상품등록</button>
         </div>
         <table class="admintable">
           <thead>
@@ -149,9 +150,10 @@
               <th>재고수량</th>
             </tr>
           </thead>
+          
           <tbody>
             <!-- <c:forEach var="dto" items="${ member_list }"> -->
-            <tr>
+            <tr onclick="location.href='/admin/admin_action/productView.html'">
               <td>${ dto.P_CODE }</td>
               <td>${ dto.P_CATEGORY }</td>
               <td>
@@ -159,7 +161,7 @@
                   <img src="/img/free-icon-coffee-beans-3219300.png" alt="">
                 </div>
               </td>
-              <td><a style="color: #000;" href="/admin/admin_action/productModify.html">${ dto.P_NAME }</a></td>
+              <td>${ dto.P_NAME }</td>
               <td>${ dto.P_PRICE }</td>
               <td>${ dto.P_STOCK }</td>
               <td>

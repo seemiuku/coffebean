@@ -70,12 +70,9 @@
     <div id="header" class="sticky-top"></div>
 
     <!-- 메인 -->
-    <h2 class="topic">정보수정</h1>
+    
   <form action="" id="joinForm" name="joinForm" method="" target="" >
-    <!-- <h3>기본정보</h3> -->
-    <p class="required">
-        <img src="/img/ico_required.gif" alt="필수">필수입력사항
-    </p>
+    <h2 class="topic">정보수정</h1>
     <div class="ec-base-table typeWrite">
         <table style="border:'1'" summary>
             <!-- <caption>회원 기본정보</caption> -->
@@ -149,6 +146,19 @@
                         <span id="nameContents">
                             <input type="text" name="name" id="name" maxlength="20">
                         </span>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row" id="nameTitle">
+                        성별
+                    </th>
+                    <td class="displaynone">
+                        <div class="select">
+                            <input type="radio" name="gender" id="woman" value="woman" checked />  
+                            <label for="woman">여자</label>
+                            <input type="radio" name="gender" id="man" value="man" />
+                            <label for="man">남자</label>
+                        </div>
                     </td>
                 </tr>
                 <tr>

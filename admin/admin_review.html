@@ -146,9 +146,9 @@
           </thead>
           <tbody>
             <!-- <c:forEach var="dto" items="${ list }" varStatus="status"> -->
-            <tr>
+            <tr onclick="location.href='/admin/admin_action/reviewView.html'" >
               <td>${ dto.R_IDX }</td>
-              <td><a style="color: #000;" href="admin_action/reviewView.html">${ dto.R_TITLE }</a></td>
+              <td><a style="color: #000;">${ dto.R_TITLE }</a></td>
               <td width="17%">
                 <div class="imgbox">
                   <img src="/img/free-icon-coffee-beans-3219300.png" alt="">
