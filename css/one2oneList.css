@@ -60,6 +60,3 @@ thead {
     background-color: #9a6c45;
     color: white;
 }
-.pagination a:hover:not(.active) {
-    /* background-color: #ddd; */
-}
