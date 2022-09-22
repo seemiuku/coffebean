@@ -4,6 +4,9 @@
     font-weight: normal;
     font-style: normal;
 }
+*{
+    font-family: 'OTWelcomeRA';
+}
 td{
     border-bottom: 1px solid #F0EBE0;
     color: #9a6c45;
@@ -29,8 +32,6 @@ select {
 .one2one_title {
     text-align: center;
     margin: 30px;
-    font-family: 'OTWelcomeRA';
-    color: #555555;
 }
 .btn{
     margin: 50px;
@@ -59,12 +60,22 @@ td{
 }
 .choice{
     text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+option {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
 }
 .submit_button{
-    width: 120px;
-    height: 50px;
+    margin-right: 10px;
+    padding: 7px;
+    padding-top: 13px;
+    border: 0px;
+    width: 150px;
+    height: 43px;
     background-color: #9a6c45;
-    color: white;
+    color: #F0EBE0;
 }
 .btn{
     width: 100%;
