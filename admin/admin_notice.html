@@ -121,7 +121,7 @@
           </select>
           <input class="form-control" style="width:200px; height: 30px;   border: 1px solid rgba(0, 0, 0, 0.356);"
             type="text">
-          <input id="searchIcon" style="height: 25px; width: 25px; margin-left: 5px;" type="image"
+          <input id="searchIcon" style="height: 22px; width: 22px; margin-left: 5px;" type="image"
             src="/img/search.png">
         </div>
 
@@ -144,7 +144,7 @@
             <!-- <c:forEach var="dto" items="${ member_list }"> -->
               <tr>
                 <td>${ dto.N_IDX }</td>
-                <td><a href="/admin/admin_action/noticeModify.html">${ dto.N_TITLE }</a></td>
+                <td><a style="color: #000;" href="/admin/admin_action/noticeModify.html">${ dto.N_TITLE }</a></td>
                 <td>${ dto.N_CONTENT }</td>
                 <td>
                   <fmt:formatDate value="${ dto.N_DATE }" pattern="yyyy-MM-dd" />2020/01/01
