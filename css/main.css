@@ -18,7 +18,7 @@
     object-fit:cover;
 }
 .mainBest, .mainNew, .mainAd{
-    margin-top: 70px;
+    margin-top: 100px;
 }
 .mainBestItem{
     padding: 10px;
@@ -60,8 +60,8 @@
     height: 150px;   
 }
 .mainNewItem img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
 }
 .mainBestItem, .mainNewItem {
     text-align: center;
@@ -76,7 +76,6 @@
     line-height: 35px;
     vertical-align: middle;
     border: 1px solid #9A6C45;
-    /* background-color: darkblue; */
 }
 .BestPlus a, .NewPlus a{
     color: #7F552E;
