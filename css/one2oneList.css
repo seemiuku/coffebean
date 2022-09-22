@@ -1,24 +1,26 @@
+*{
+    font-family: 'OTWelcomeRA';
+}
 .all{
     width: 1102px;
     padding-top: 50px;
 }
 .all a {
-    /* color: #7F552E; */
     color: black;
 }
 .all a:hover {
-    /* color: #7F552E; */
-    color: black;
+    color: #7F552E;
+    text-decoration: none;
 }
 th {
-    padding: 10px;
+    padding: 7px;
+    padding-top: 13px;
     color: #7F552E;
     text-align: center;
 }
 td {
-    padding: 10px;
+    padding-top: 13px;
     color: black;
-    font-size: 13px;
 }
 thead {
     border-top: 1px solid #7f552e;
