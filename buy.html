@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/buy.css">
+    <link rel="stylesheet" href="../css/sidebar.css">
     <link rel="stylesheet" href="../css/footer.css">
 
     <!-- Bootstrap CSS -->
@@ -19,7 +20,8 @@
 
     <script>
       $(document).ready(function(){
-        $('#header').load("../header.html");     
+        $('#header').load("../header-sub.html");  
+        $('#sidebar').load("../tool/sidebar.html");    
         $('#footer').load("../footer-sub.html");
       });
     </script>
@@ -76,6 +78,7 @@
 </head>
 <body>
     <div id="header" class="sticky-top"></div>
+    <div id="sidebar"></div>
     <div class="buy">
         <div class="buyTitle">
             <h2>주문/결제</h2>
