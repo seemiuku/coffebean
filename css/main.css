@@ -83,8 +83,6 @@
 }
 
 .BestPlus a:hover, .NewPlus a:hover{
-    /* width: 90px; height: 30px;
-    background-color:  darkcyan; */
     text-decoration: none;
 }
 .carousel-control-prev, .carousel-control-next {
