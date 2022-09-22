@@ -28,6 +28,7 @@
   </script>
 
   <style>
+  
     .btn:active,
     .btn:focus {
       outline: none !important;
@@ -111,14 +112,14 @@
           <select class="form-control form-control-sm"
             style="font-family: 'Courier New', Courier, monospace; height: 30px; width: 70px;  margin-right: 5px; ">
 
-            <option value="all" selected>전체</option>
-            <option value="id">아이디</option>
-            <option value="name">글쓴이</option>
-            <option value="productionCode">상품이름</option>
+            <option  selected>전체</option>
+            <option >아이디</option>
+            <option >글쓴이</option>
+            <option >상품이름</option>
           </select>
           <input class="form-control" style="width:200px; height: 30px;   border: 1px solid rgba(0, 0, 0, 0.356);"
             type="text">
-          <input id="searchIcon" style="height: 25px; width: 25px; margin-left: 5px;" type="image"
+          <input id="searchIcon" style="height: 22px; width: 22px; margin-left: 5px;" type="image"
             src="/img/search.png">
         </div>
         <div class="adminDiv">
@@ -147,7 +148,7 @@
             <!-- <c:forEach var="dto" items="${ list }" varStatus="status"> -->
             <tr>
               <td>${ dto.R_IDX }</td>
-              <td><a href="admin_action/reviewView.html">${ dto.R_TITLE }</a></td>
+              <td><a style="color: #000;" href="admin_action/reviewView.html">${ dto.R_TITLE }</a></td>
               <td width="17%">
                 <div class="imgbox">
                   <img src="/img/free-icon-coffee-beans-3219300.png" alt="">
