@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/item.css">
+    <link rel="stylesheet" href="../css/sidebar.css">
     <link rel="stylesheet" href="../css/footer.css">
 
     <!-- Bootstrap CSS -->
@@ -19,13 +20,15 @@
 
     <script>
       $(document).ready(function(){
-        $('#header').load("../header-sub.html");     
+        $('#header').load("../header-sub.html");   
+        $('#sidebar').load("../tool/sidebar.html");       
         $('#footer').load("../footer-sub.html");
       });
     </script>
 </head>
 <body>
     <div id="header" class="sticky-top"></div>
+    <div id="sidebar"></div>
     <div class="item">
         <div class="itemTop">
             <a href="">
