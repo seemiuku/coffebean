@@ -38,7 +38,57 @@
   <div id="sidebar"></div>
 
   <!-- 메인 -->
- 
+ <div class="all">
+  <h2>공지사항</h2>
+  <form action="" method="">
+    <!-- 화면에는 보이지 않지만 서버에서 필요해서 만들어 둠 지우지마세요 -->
+    <input type="hidden" value="${ dto.notice_idx }" id="notice_idx" name="notice_idx">
+
+    <table class="notice_table">
+
+			<tr>
+				<td>제목</td>
+				<td colspan="3"><input type="text" value="${ dto.notice_title }"
+					id="notice_title" name="notice_title"></td>
+			</tr>
+      <tr>
+				<td>조회수</td>
+				<td><input type="text" value="${ dto.notice_hit }"
+          id="notice_hit" name="notice_hit"></td>
+
+				<td>작성일</td>
+				<td><input type="text" value="${ dto.notice_date }"
+					id="notice_date" name="notice_date"></td>
+			</tr>
+			<tr>
+				<td colspan="4"><textarea value="${ dto.notice_content }" 
+					id="notice_content" name="notice_content">
+
+
+          우리 민족 고유의 명절인 행복한 설날입니다.
+
+
+          지난 한해동안 베풀어주신 고객님들의 따뜻한 관심에 고개 숙여 감사 인사드립니다.
+          새해에는 소망하는 모든 일 다 이루시고 늘 행복하고 웃음 가득한 한해 되시길 바랍니다.
+          저희 커피콩도 새해에는 더 나아진 서비스, 더 합리적인 가격에 더 좋은 퀄리티의 상품을 
+          업데이트 하도록 항상 신경쓰고 노력을 하겠습니다 .
+
+          고객센터 휴무일 관련 안내를 드리겠습니다 .
+          
+          1월29일부터 2월2일까지 고객센터는 휴무이며 연휴기간내 주문은 정상적으로 이용이 가능합니다. 
+          문의사항은 게시판 혹은 카카오상담을 통하여 남겨주시면 연휴 끝난후 순차적으로 답변드리겠습니다 .
+          
+          항상 건강에 유의하시고 가족모두 풍요로운 명절 되시길 바랍니다.
+          
+          감사합니다.
+          
+          새해 복 많이 받으세요 .</textarea></td>
+			</tr>
+    </table>
+    <a href="/notice.html"><input type="button" value="목록보기" class="submit_button"></a>
+
+  </form>
+ </div>
 
   <!-- 푸터 -->
    <div id="footer"></div> 
